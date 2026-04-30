@@ -160,6 +160,7 @@ Depending on invoked functions, the module writes:
 - Input: attacker count, event list, dependency dict
 - Output: attacker_capabilities (list of generated event sequences)
 - Behavior: samples capability lengths, generates sequences, computes outcomes via get_result.
+- You can use multiple statstical distribution which are commented.
 
 13) get_result(bmodel, evidences, event_seq, successfull_attacker_count)
 - Input:
@@ -226,13 +227,6 @@ Verified with project venv and compatible pgmpy version:
   - network_scalability_test: executed and passed in terminal run
   - generate_attacker_capability: executed and failed in terminal run with runtime/index issues (observed errors included np.str_('Logon_PB') and list index out of range)
 
-Observed run_model_builder sample output in test environment:
-- node count around 20
-- edge count around 32
-- posture_value_goal_node around 0.968
-
-Observed execution caveat:
-- model_builder.py has import-time side effects (top-level function calls) that trigger long-running generation when importing the module in test scripts.
 
 ## Practical modification guide
 
@@ -267,8 +261,3 @@ PYTHONPATH="/home/ubuntu/5GSPP/1. Posture Evaluation/Model Builder:/home/ubuntu/
 Generate only combinations utility check:
 
 PYTHONPATH="/home/ubuntu/5GSPP/1. Posture Evaluation/Model Builder" /home/ubuntu/5GSPP/venv_5gspp/bin/python -c "import model_builder as mb; print(mb.return_all_combination_list(['a','b','c']))"
-
-## Notes for GitHub upload
-
-- This document is prepared for direct upload.
-- Keep the compatible pgmpy pin in your project dependency list to avoid import breakages.
