@@ -1,0 +1,159 @@
+{
+  "per_breach": {
+    "B1": {
+      "keywords": {
+        "prec": 0.6,
+        "rec": 1.0,
+        "f1": 0.7499999999999999,
+        "map@k": 0.8055555555555555
+      },
+      "ttps": {
+        "prec": 1.0,
+        "rec": 1.0,
+        "f1": 1.0,
+        "map@k": 1.0
+      },
+      "preconditions": {
+        "prec": 1.0,
+        "rec": 1.0,
+        "f1": 1.0,
+        "matched": 2
+      },
+      "postconditions": {
+        "prec": 1.0,
+        "rec": 1.0,
+        "f1": 1.0,
+        "matched": 1
+      }
+    },
+    "B2": {
+      "keywords": {
+        "prec": 0.75,
+        "rec": 1.0,
+        "f1": 0.8571428571428571,
+        "map@k": 0.9166666666666666
+      },
+      "ttps": {
+        "prec": 0.5,
+        "rec": 1.0,
+        "f1": 0.6666666666666666,
+        "map@k": 1.0
+      },
+      "preconditions": {
+        "prec": 1.0,
+        "rec": 1.0,
+        "f1": 1.0,
+        "matched": 1
+      },
+      "postconditions": {
+        "prec": 1.0,
+        "rec": 1.0,
+        "f1": 1.0,
+        "matched": 1
+      }
+    },
+    "B3": {
+      "keywords": {
+        "prec": 0.6666666666666666,
+        "rec": 1.0,
+        "f1": 0.8,
+        "map@k": 0.8333333333333333
+      },
+      "ttps": {
+        "prec": 1.0,
+        "rec": 1.0,
+        "f1": 1.0,
+        "map@k": 1.0
+      },
+      "preconditions": {
+        "prec": 1.0,
+        "rec": 1.0,
+        "f1": 1.0,
+        "matched": 1
+      },
+      "postconditions": {
+        "prec": 1.0,
+        "rec": 1.0,
+        "f1": 1.0,
+        "matched": 1
+      }
+    },
+    "B4": {
+      "keywords": {
+        "prec": 0.6666666666666666,
+        "rec": 1.0,
+        "f1": 0.8,
+        "map@k": 1.0
+      },
+      "ttps": {
+        "prec": 1.0,
+        "rec": 1.0,
+        "f1": 1.0,
+        "map@k": 1.0
+      },
+      "preconditions": {
+        "prec": 1.0,
+        "rec": 1.0,
+        "f1": 1.0,
+        "matched": 1
+      },
+      "postconditions": {
+        "prec": 1.0,
+        "rec": 1.0,
+        "f1": 1.0,
+        "matched": 1
+      }
+    },
+    "B5": {
+      "keywords": {
+        "prec": 0.6666666666666666,
+        "rec": 1.0,
+        "f1": 0.8,
+        "map@k": 1.0
+      },
+      "ttps": {
+        "prec": 1.0,
+        "rec": 1.0,
+        "f1": 1.0,
+        "map@k": 1.0
+      },
+      "preconditions": {
+        "prec": 1.0,
+        "rec": 1.0,
+        "f1": 1.0,
+        "matched": 1
+      },
+      "postconditions": {
+        "prec": 1.0,
+        "rec": 1.0,
+        "f1": 1.0,
+        "matched": 1
+      }
+    }
+  },
+  "aggregate": {
+    "keywords": {
+      "prec": 0.6666666666666666,
+      "rec": 1.0,
+      "f1": 0.8
+    },
+    "ttps": {
+      "prec": 0.8333333333333334,
+      "rec": 1.0,
+      "f1": 0.9090909090909091
+    },
+    "preconditions": {
+      "prec": 1.0,
+      "rec": 1.0,
+      "f1": 1.0
+    },
+    "postconditions": {
+      "prec": 1.0,
+      "rec": 1.0,
+      "f1": 1.0
+    },
+    "map_keywords": 0.9111111111111111,
+    "map_ttps": 1.0,
+    "evaluated_breaches": 5
+  }
+}

@@ -1,0 +1,714 @@
+===== KUBESCAPE POD:host-scanner-5ndpd =====
+{"level":"info","ts":"2026-04-09T15:05:56Z","msg":"Starting Kubescape cluster node host scanner service","buildVersion":"v1.0.78"}
+{"level":"info","ts":"2026-04-09T15:05:56Z","msg":"Setting up readyz probe"}
+{"level":"info","ts":"2026-04-09T15:05:56Z","msg":"readyz probe is positive"}
+{"level":"info","ts":"2026-04-09T15:05:57Z","msg":"Listening...","port":7888}
+
+===== KUBESCAPE POD:host-scanner-kg2q4 =====
+{"level":"info","ts":"2026-04-09T14:54:21Z","msg":"Starting Kubescape cluster node host scanner service","buildVersion":"v1.0.78"}
+{"level":"info","ts":"2026-04-09T14:54:22Z","msg":"Setting up readyz probe"}
+{"level":"info","ts":"2026-04-09T14:54:22Z","msg":"readyz probe is positive"}
+{"level":"info","ts":"2026-04-09T14:54:22Z","msg":"Listening...","port":7888}
+
+===== KUBESCAPE POD:kubescape-6dd6dc9496-bzwsm =====
+
+===== KUBESCAPE POD:kubescape-exporter-29490630-6hd2p =====
+
+===== KUBESCAPE POD:kubescape-exporter-29490630-7wlch =====
+
+===== KUBESCAPE POD:kubescape-exporter-29490630-cmpjs =====
+
+===== KUBESCAPE POD:kubescape-exporter-29490630-fwp94 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29490630-lqz9d =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594035-7hbxc =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594040-pj4sz =====
+Error from server: Get "https://192.168.61.12:10250/containerLogs/kubescape/kubescape-exporter-29594040-pj4sz/exporter?sinceSeconds=7200&tailLines=600": dial tcp 192.168.61.12:10250: connect: connection refused
+
+===== KUBESCAPE POD:kubescape-exporter-29594040-q4ctc =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594045-bd2jc =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594045-dfzjq =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594045-ghnxs =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594045-nqxb6 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594045-t5fnv =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594045-xtjts =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594050-8qmkn =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594055-4s6jf =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594060-b4gg9 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594065-sc6nv =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594070-2gmqn =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594075-dwg5x =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594080-w78br =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594085-nxj9b =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594090-bk9xh =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594095-fznzb =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594100-r6dw6 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594105-fxr8n =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594110-lth22 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594115-2n8jq =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594120-kpskt =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594125-ssnch =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594130-kqz8z =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594135-rdsbp =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594140-6fn7x =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594145-x788r =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594150-q2nhz =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594155-cfvxq =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594160-h846t =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594165-tjk7m =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594170-9d8vb =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594175-c278l =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594180-rj6m4 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594185-m54ld =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594190-7w9f5 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594195-bw46p =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594200-nfll6 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594205-jh9m7 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594210-knnmb =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594215-kbcxr =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594220-8mk2w =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594225-w8wgp =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594230-wcw2x =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594235-tncvs =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594240-25bf7 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594245-rhkls =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594250-p5k5d =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594255-b6b27 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594260-wjkj4 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594265-ljf2l =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594270-ngv26 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594275-d928c =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594280-qn4hk =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594285-hcqcm =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594290-fm4wq =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594295-lnxrn =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594300-856f5 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594305-p46mz =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594310-cz8s8 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594315-pxr6d =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594320-xgq72 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594325-cv8cg =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594330-p7gj9 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594335-7qzj2 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594340-l9r72 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594345-7wwpc =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594350-n2lkk =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594355-d7ktq =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594360-jrgk6 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594365-bm5cj =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594370-t7wgx =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594375-xpd2j =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594380-k9d68 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594385-bkcl6 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594390-v7vnc =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594395-4sgx6 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594400-7t58j =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594405-4j7rm =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594410-kqz7s =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594415-tj8rd =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594420-mhkcx =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594425-bzvcn =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594430-8t6bb =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594435-g9lxc =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594440-cfxgr =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594445-2v7rq =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594450-7ns8b =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594455-tr5nf =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594460-z2gbs =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594465-flfw4 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594470-pwzfg =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594475-kwhq7 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594480-trtwt =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594485-cg25n =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594490-rrvl2 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594495-zgctn =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594500-26q8x =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594505-t69vl =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594510-vdmcg =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594515-5dq9w =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594520-c98kn =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594525-rr2mt =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594530-r9562 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594535-7zw89 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594540-gslxl =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594545-9w27b =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594550-d7rr8 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594555-ntwgk =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594560-lgw2w =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594565-zq9mr =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594570-25wcx =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594575-jsrsl =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594580-jz6xk =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594585-7nb85 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594590-4zp44 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594595-7lvsw =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594600-z45nj =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594605-zh7m6 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594610-4wnkg =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594615-crbh9 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594620-wl96j =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594625-27tmx =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594630-stnqr =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594635-z78m6 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594640-rjbb2 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594645-fc59c =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594650-lp7bj =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594655-tvlld =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594660-gm6g7 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594665-r7rdb =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594670-kn9jt =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594675-2thz6 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594680-dd8kt =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594685-k9s5j =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594690-tdrrb =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594695-ptsvf =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594700-tfttf =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594705-6l6s2 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594710-jbq4d =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594715-7jpc2 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594720-zbg9n =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594725-nx8tf =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594730-dwbcf =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594735-2ttgz =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594740-fhnmn =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594745-6xpq5 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594750-fxnf4 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594755-zsgmn =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594760-82r52 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594765-ffv77 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594770-l5g7q =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594775-l2wvd =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594780-x7w7h =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594785-t6mbp =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594790-rpk6x =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594795-j575k =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594800-kmkqj =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594805-v6kww =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594810-9nnvw =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594815-rs47l =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594820-d98nq =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594825-6mdnk =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594830-6rngv =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594835-xsnwt =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594840-qp2lk =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594845-hjm2k =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594850-w988f =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594855-nknnq =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594860-j5kmc =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594865-rtfzp =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594870-tft99 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594875-8w9dv =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594880-xx85z =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594885-kzqd7 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594890-cvvhw =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594895-thjbq =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594900-svbfz =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594905-rkzcf =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594910-gvctc =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594915-bx8fj =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594920-d8ng7 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594925-tjct8 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594930-4ps68 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594935-dwzs6 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594940-l925g =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594945-bt54p =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594950-s7dd5 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594955-x9lrl =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594960-rwmfv =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594965-2f6fg =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594970-4tw26 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594975-s5l6m =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594980-872hd =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594985-g4g8n =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594990-fc8mw =====
+
+===== KUBESCAPE POD:kubescape-exporter-29594995-qbc7j =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595000-vnbg6 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595005-v8ps7 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595010-4nqk5 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595015-vrjw5 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595020-z966c =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595025-9hsfn =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595030-vlvf4 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595035-s7gj5 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595040-j5xbw =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595045-fk6q2 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595050-vd2cz =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595055-7p7lj =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595060-wcz8r =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595065-wvnj9 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595070-6bmhm =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595075-jwkqd =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595080-j66sn =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595085-xls27 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595090-fjrgc =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595095-pm6jl =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595100-xtmsv =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595105-nd9jr =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595110-mvf2p =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595115-25v4g =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595120-vtv8r =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595125-2xznn =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595130-szb5r =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595135-26dx5 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595140-kjfcr =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595145-r25f7 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595150-h85l5 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595155-mhbm5 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595160-xnpq6 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595165-kngkj =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595170-p562c =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595175-dmcbl =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595180-68m2r =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595185-thdr2 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595190-8cfjw =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595195-lkcrr =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595200-fqz7m =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595205-xpjwj =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595210-2tc5g =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595215-vgvpp =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595220-8h4xf =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595225-xj6zp =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595230-t2b5j =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595235-z4gjf =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595240-dgqln =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595245-m8xv9 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595250-9sdb5 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595255-6gdgq =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595260-tj5rd =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595265-gvg2m =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595270-4h8dd =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595275-zx5c5 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595280-xjtwt =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595285-4zwmg =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595290-nvtn9 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595295-bvd5d =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595300-j5gk4 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595305-mjxlp =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595310-g6cx6 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595315-nhwh6 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595320-hzjkr =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595325-jgqgt =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595330-d55xf =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595335-swqz4 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595340-rwrcm =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595345-kp7d7 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595350-wqpcj =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595355-m2rdp =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595360-bktth =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595365-8ngmq =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595370-q4h7q =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595375-sz28g =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595380-sswwd =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595385-lsb4p =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595390-8z6nw =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595395-b9n77 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595400-mfdgf =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595405-5lfsb =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595410-r2mwn =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595415-f9j44 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595420-26dsf =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595425-22gcz =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595430-2pwzz =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595435-t4x25 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595440-xmnlk =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595445-tqgkb =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595450-qqmpk =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595455-4lmh7 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595460-5m2wd =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595465-kx4wx =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595470-fgt7v =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595475-ftbc9 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595480-55zbk =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595485-9vgf5 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595490-g4gj9 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595495-xrq9c =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595500-trvxk =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595505-7pgbm =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595510-vbxwt =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595515-s5xr9 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595520-rtkfw =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595525-f89c5 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595530-w95qj =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595535-5lwzq =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595540-szpzz =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595545-wn2np =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595550-lqxb2 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595555-phtdn =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595560-lgbjc =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595565-pfwpr =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595570-rcfq6 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595575-p2z8n =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595580-8scpr =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595585-cjv6b =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595590-2h675 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595595-fffnf =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595600-mbllv =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595605-7rg57 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595610-7sdfw =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595615-hscf5 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595620-qzncc =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595625-6hcrx =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595630-b7tzg =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595635-66d84 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595640-t7s74 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595645-n5cmp =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595650-9gl5p =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595655-twr2h =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595660-4l6w8 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595665-s2dkp =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595670-2lqfz =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595675-5p2jm =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595680-nzz4c =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595685-hm2q6 =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595690-dgs9j =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595695-6cktw =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595700-8vqvk =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595705-sn96t =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595710-j9cgc =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595715-t8rcl =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595720-trg4r =====
+
+===== KUBESCAPE POD:kubescape-exporter-29595725-ckl8n =====

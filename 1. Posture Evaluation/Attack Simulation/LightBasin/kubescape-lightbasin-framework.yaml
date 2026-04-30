@@ -1,0 +1,61 @@
+apiVersion: opa.kubescape.io/v1
+kind: KubescapeFramework
+metadata:
+  name: lightbasin-telecom-framework
+spec:
+  controls:
+    - name: LIGHTBASIN-SA-Token-AutoMount-Disabled
+      rego: |
+        package lightbasin.satoken
+        deny[msg] {
+          input.review.object.kind == "Pod"
+          not input.review.object.spec.automountServiceAccountToken == false
+          msg := "ServiceAccount token automount should be disabled for LightBasin hardening"
+        }
+
+    - name: LIGHTBASIN-Privileged-Container-Blocked
+      rego: |
+        package lightbasin.privileged
+        deny[msg] {
+          c := input.review.object.spec.containers[_]
+          c.securityContext.privileged == true
+          msg := sprintf("Privileged container detected: %s", [c.name])
+        }
+
+    - name: LIGHTBASIN-HostPath-Restricted
+      rego: |
+        package lightbasin.hostpath
+        deny[msg] {
+          v := input.review.object.spec.volumes[_]
+          v.hostPath
+          msg := sprintf("HostPath mount present: %s", [v.hostPath.path])
+        }
+
+    - name: LIGHTBASIN-RunAsNonRoot-Enforced
+      rego: |
+        package lightbasin.nonroot
+        deny[msg] {
+          c := input.review.object.spec.containers[_]
+          not c.securityContext.runAsNonRoot == true
+          msg := sprintf("Container must run as non-root: %s", [c.name])
+        }
+
+    - name: LIGHTBASIN-Wildcard-RBAC-Detection
+      rego: |
+        package lightbasin.rbac
+        deny[msg] {
+          input.review.object.kind == "Role" or input.review.object.kind == "ClusterRole"
+          rule := input.review.object.rules[_]
+          rule.resources[_] == "*"
+          msg := "Wildcard RBAC resources found"
+        }
+
+    - name: LIGHTBASIN-Egress-Policy-Required
+      rego: |
+        package lightbasin.netpol
+        deny[msg] {
+          input.review.object.kind == "Namespace"
+          ns := input.review.object.metadata.name
+          ns == "free5gc"
+          msg := "Ensure default-deny egress network policies are present for free5gc"
+        }

@@ -1,0 +1,120 @@
+{
+  "version": "2.0",
+  "timestamp": "2026-03-31",
+  "methodology": "Semi-Automatic Identification of Pre- and Post-Conditions",
+  "algorithms": {
+    "step_a": {
+      "name": "YAKE (Yet Another Keyword Extractor)",
+      "citation": "Campos et al., 2020, SIGIR",
+      "doi": "https://doi.org/10.1145/3397271.3401528"
+    },
+    "step_b": {
+      "name": "SBERT + MITRE ATT&CK",
+      "citations": [
+        "Reimers & Gurevych, 2019, EMNLP",
+        "Strom et al., 2018, MITRE"
+      ],
+      "dois": [
+        "https://doi.org/10.48550/arXiv.1908.10084",
+        "https://www.mitre.org/publications/technical-papers"
+      ]
+    },
+    "step_c": {
+      "name": "Dependency Parsing + BERT Zero-shot",
+      "citations": [
+        "De Marneffe & Manning, 2008, COLING",
+        "Sainz et al., 2021, EMNLP"
+      ],
+      "dois": [
+        "https://dl.acm.org/doi/10.5555/1693756.1693757",
+        "https://doi.org/10.18653/v1/2021.emnlp-main.204"
+      ]
+    },
+    "step_d": {
+      "name": "Personalized PageRank",
+      "citation": "Brin & Page, 1998",
+      "doi": "https://doi.org/10.1016/S0169-7552(98)00110-X"
+    }
+  },
+  "sample_size": 5,
+  "statistics": {
+    "keywords_per_breach": [
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "ttps_per_breach": [
+      1,
+      3,
+      1,
+      2,
+      2
+    ],
+    "preconditions_per_breach": [
+      4,
+      11,
+      4,
+      8,
+      7
+    ],
+    "postconditions_per_breach": [
+      3,
+      9,
+      3,
+      6,
+      6
+    ],
+    "connections_per_breach": [
+      4,
+      11,
+      4,
+      8,
+      7
+    ],
+    "avg_keyword_confidence": [
+      0.8771333333333333,
+      0.8291333333333333,
+      0.9219999999999999,
+      0.9472666666666667,
+      0.9638666666666666
+    ],
+    "avg_ttp_similarity": [
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "avg_precondition_confidence": [
+      0.7915,
+      0.7725454545454545,
+      0.7915,
+      0.780625,
+      0.7724285714285715
+    ],
+    "avg_postcondition_confidence": [
+      0.8446666666666667,
+      0.8077777777777777,
+      0.8446666666666667,
+      0.8091666666666666,
+      0.7623333333333333
+    ]
+  },
+  "insights": [
+    "INSIGHT 1 [YAKE]: Top recurring keywords across 5 breaches: user account, attack, remote ssh, ssh, attacker executed bypass",
+    "INSIGHT 2 [SBERT TTP Mapping]: Most prevalent TTPs in dataset: T15498 (4 breaches), T1563.002 (3 breaches), T1187 (1 breaches)",
+    "INSIGHT 3 [Condition Quality]: Identified conditions have high confidence (Pre: 78.2%, Post: 81.4%)",
+    "INSIGHT 4 [PageRank Ranking]: Average 6.8 causal pre\u2192post chains per breach (34 total), enabling attack flow analysis",
+    "INSIGHT 5 [Algorithm Efficiency]: YAKE keyword extraction effective - ~15 keywords compress to ~1.8 TTPs (compression ratio: 8.3x)"
+  ],
+  "results_summary": {
+    "total_breaches_analyzed": 5,
+    "total_keywords_extracted": 75,
+    "total_ttps_mapped": 9,
+    "total_preconditions": 34,
+    "total_postconditions": 27,
+    "total_connections": 34
+  }
+}

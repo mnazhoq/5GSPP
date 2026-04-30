@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-03-12T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram name="Reviewer-Fixed 5G Pipeline" id="reviewer-fixed-5g-pipeline">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- ══════════════════════════════════════════════════
+             PANEL ① — Collecting and Parsing Logs
+        ══════════════════════════════════════════════════ -->
+        <mxCell id="p1_bg" value="" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="480" height="290" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1_title" value="① Collecting and Parsing Logs" style="text;html=1;align=center;fontStyle=1;fontSize=13;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="22" width="480" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1_nflabel" value="Raw free5GC Logs" style="text;html=1;align=center;fontStyle=1;fontSize=11;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="50" width="480" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1_nf" value="2022-11-10T03:57:204892Z [INFO][NRF][MGMT] Create NF Profile&#xa;2022-11-10T03:58:471345Z [INFO][SMF][PFCP] PFCP Session Deletion ...&#xa;2022-11-10T04:02:452000Z [INFO][SMF][PFCP] Setup Association ...&#xa;2022-11-10T04:02:461000Z [INFO][AMF][NGAP] NG Setup procedure ..." style="text;html=1;align=left;fontFamily=Courier New;fontSize=9;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="30" y="68" width="460" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1_syslabel" value="Raw System Logs (RFC 5424)" style="text;html=1;align=center;fontStyle=1;fontSize=11;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="144" width="480" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1_sys" value="2022-11-10T03:11:12Z auth.info k8s-core-master sshd[1597298]:&#xa;  Accepted publickey for vagrant from 10.0.2.2 port 36094&#xa;2022-11-10T03:40:31Z auth.info k8s-core-master sshd[1597298]:&#xa;  Session opened for user vagrant from 10.0.2.2" style="text;html=1;align=left;fontFamily=Courier New;fontSize=9;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="30" y="162" width="460" height="58" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1_k8slabel" value="Raw Kubernetes Logs (Events API)" style="text;html=1;align=center;fontStyle=1;fontSize=11;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="226" width="480" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1_k8s" value="2022-11-10T03:52:32.104Z  pod free5gc-upf-0 Created  [free5gc]&#xa;2022-11-10T03:52:32.891Z  container upf Started        [free5gc]" style="text;html=1;align=left;fontFamily=Courier New;fontSize=9;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="30" y="244" width="460" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1_note" value="Note: syslog date corrected from Nov 11 to Nov 10 (typo in original). sshd at T03:11 and NRF at T03:57 are 46 min apart, same day. The sshd event (admin login) causally precedes NF provisioning. Cross-source link is operator session context — NOT the same time window. This must be stated explicitly in the paper." style="text;html=1;align=left;fontSize=9;fontColor=#7D4E00;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="286" width="460" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- ══════════════════════════════════════════════════
+             PANEL ①b — NEW: Normalisation + Compatibility Layer
+             (answers reviewer issue 2; explains reviewer issue 1)
+        ══════════════════════════════════════════════════ -->
+        <mxCell id="p1b_bg" value="" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1.5;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="20" y="316" width="480" height="370" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1b_title" value="①b  Normalisation + Compatibility Layer  [NEW — added for reviewer]" style="text;html=1;align=center;fontStyle=1;fontSize=12;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="318" width="480" height="22" as="geometry"/>
+        </mxCell>
+
+        <!-- CEF schema table header -->
+        <mxCell id="p1b_cef_hdr" value="Common Event Format (CEF) — output of each source parser" style="text;html=1;align=center;fontStyle=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="30" y="342" width="460" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1b_cef_cols" value="CEF field | free5GC mapping | Kubernetes mapping | Syslog mapping" style="text;html=1;align=center;fontStyle=1;fontSize=9;fillColor=#e8f5e9;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="30" y="362" width="460" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1b_r1" value="ts | TIMESTAMP field | metadata.creationTimestamp | RFC5424 TIMESTAMP" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#f5f5f5;strokeColor=#ccc;" vertex="1" parent="1">
+          <mxGeometry x="30" y="380" width="460" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1b_r2" value="source | &quot;5gnf&quot; | &quot;k8s&quot; | &quot;syslog&quot;" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#fff;strokeColor=#ccc;" vertex="1" parent="1">
+          <mxGeometry x="30" y="398" width="460" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1b_r3" value="severity | INFO/WARN/ERROR → 1-5 | Normal→2 / Warning→3 | facility.severity → 1-5" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#f5f5f5;strokeColor=#ccc;" vertex="1" parent="1">
+          <mxGeometry x="30" y="416" width="460" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1b_r4" value="actor | component (NRF/SMF/...) | involvedObject.name | username / src_ip (regex)" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#fff;strokeColor=#ccc;" vertex="1" parent="1">
+          <mxGeometry x="30" y="434" width="460" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1b_r5" value="target | module (PFCP/MGMT/...) | namespace / node | hostname / process" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#f5f5f5;strokeColor=#ccc;" vertex="1" parent="1">
+          <mxGeometry x="30" y="452" width="460" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1b_r6" value="session_key | transaction_id or SUPI | pod name + namespace | username + src_ip + hostname" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="30" y="470" width="460" height="16" as="geometry"/>
+        </mxCell>
+
+        <!-- Correlation rules -->
+        <mxCell id="p1b_rules_hdr" value="Correlation rules — how events from different sources are linked" style="text;html=1;align=center;fontStyle=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="494" width="460" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1b_rule1" value="Rule 1 — Time window (W=60 s):  events from ANY source within same sliding window are candidates for correlation." style="text;html=1;align=left;fontSize=9;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="514" width="460" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1b_rule2" value="Rule 2 — Session key (no time limit, bounded by session TTL):  events sharing the same session_key are part of one logical session regardless of timestamp gap. This is why the T03:11:12Z (auth) and T03:40:31Z (session open) syslog lines — both with user=vagrant, src_ip=10.0.2.2 — map to the single event 'Access server'." style="text;html=1;align=left;fontSize=9;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="540" width="460" height="54" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1b_rule3" value="Rule 3 — NF transaction ID / SUPI:  free5GC events sharing a transaction_id or SUPI are linked regardless of component (SMF, UPF, AMF)." style="text;html=1;align=left;fontSize=9;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="596" width="460" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1b_code" value="Source code / pseudocode for all three rules must be provided in the paper (or public repository) to satisfy the reviewer's replicability requirement." style="text;html=1;align=left;fontSize=9;fontColor=#6d3600;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1.5;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="630" width="460" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1b_algo" value="Algorithm (pseudocode):&#xa;for each event e in sorted(all_logs):&#xa;    cef = parse_to_CEF(e)          # source-specific parser&#xa;    key = extract_session_key(cef)  # Rule 2&#xa;    window = get_window(cef.ts)     # Rule 1&#xa;    if key in open_sessions:&#xa;        open_sessions[key].add(cef) # session chain&#xa;    elif any event in window shares key:&#xa;        open_sessions[key] = [cef]  # new session&#xa;    else:&#xa;        windows[window].add(cef)    # time-window only" style="text;html=1;align=left;fontFamily=Courier New;fontSize=8;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="656" width="460" height="26" as="geometry"/>
+        </mxCell>
+
+        <!-- ① → ①b arrow -->
+        <mxCell id="arr_1_1b" value="" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeColor=#9673a6;strokeWidth=1.5;" edge="1" source="p1_bg" target="p1b_bg" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ══════════════════════════════════════════════════
+             PANEL ② — Filtering and Trimming Logs
+        ══════════════════════════════════════════════════ -->
+        <mxCell id="p2_bg" value="" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="560" y="20" width="620" height="280" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_title" value="② Filtering and Trimming Logs" style="text;html=1;align=center;fontStyle=1;fontSize=13;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="22" width="620" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_hdr" value="Timestamp | Log-Level | Component | Module | Message" style="text;html=1;align=center;fontStyle=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="572" y="50" width="596" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_r1" value="2022-11-10T03:57:204892Z | INFO | NRF | MGMT | Create NF Profile" style="text;html=1;align=left;fontFamily=Courier New;fontSize=9;fillColor=#f5f5f5;strokeColor=#999;" vertex="1" parent="1">
+          <mxGeometry x="572" y="70" width="596" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_r2" value="2022-11-10T03:58:471345Z | INFO | SMF | PFCP | PFCP Session Deletion" style="text;html=1;align=left;fontFamily=Courier New;fontSize=9;fillColor=#fff;strokeColor=#999;" vertex="1" parent="1">
+          <mxGeometry x="572" y="88" width="596" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_r3" value="2022-11-10T04:02:223000Z | INFO | UDM | Nudm_UEAU | ConfirmAuthDataReq" style="text;html=1;align=left;fontFamily=Courier New;fontSize=9;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="572" y="106" width="596" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_r4" value="2022-11-10T03:11:12Z        | INFO | System  | auth.info | Accepted publickey" style="text;html=1;align=left;fontFamily=Courier New;fontSize=9;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="572" y="124" width="596" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_r4b" value="2022-11-10T03:40:31Z        | INFO | System  | auth.info | Session opened for vagrant  [session_key: vagrant/10.0.2.2]" style="text;html=1;align=left;fontFamily=Courier New;fontSize=9;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="572" y="142" width="596" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_r5" value="2022-11-10T03:52:32.104Z    | INFO | K8s     | Lifecycle | pod free5gc-upf-0 Created" style="text;html=1;align=left;fontFamily=Courier New;fontSize=9;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="572" y="160" width="596" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_r6" value="2022-11-10T03:52:32.891Z    | INFO | K8s     | Lifecycle | container upf Started" style="text;html=1;align=left;fontFamily=Courier New;fontSize=9;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="572" y="178" width="596" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_note" value="Yellow rows: both syslog lines retained with session_key column added. Correlation rule (Rule 2) links them in Panel ③ — NOT by timestamp proximity." style="text;html=1;align=left;fontSize=9;fontColor=#7D4E00;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="572" y="200" width="596" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- ①b → ② arrow -->
+        <mxCell id="arr_1b_2" value="" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.3;entryX=0;entryY=0.5;strokeColor=#9673a6;strokeWidth=1.5;" edge="1" source="p1b_bg" target="p2_bg" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ══════════════════════════════════════════════════
+             PANEL ③ — Combining and Ordering Logs
+        ══════════════════════════════════════════════════ -->
+        <mxCell id="p3_bg" value="" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="560" y="316" width="400" height="370" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_title" value="③ Combining and Ordering Logs" style="text;html=1;align=center;fontStyle=1;fontSize=13;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="318" width="400" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_hdr" value="Timestamp | Message | Source | Session key" style="text;html=1;align=center;fontStyle=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="570" y="342" width="380" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_r1" value="T03:11:12Z | Accepted public key | System | vagrant/10.0.2.2 *" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="570" y="360" width="380" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_r2" value="T03:40:31Z | Session opened vagrant | System | vagrant/10.0.2.2 *" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="570" y="378" width="380" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_sk_note" value="* same session key → linked by Rule 2 (not same time window)" style="text;html=1;align=left;fontSize=9;fontColor=#7D4E00;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="396" width="380" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_r3" value="T03:52:32.104Z | Created pod free5gc-upf-0 | K8s | pod:free5gc-upf-0" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="570" y="416" width="380" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_r4" value="T03:52:32.891Z | Started container UPF | K8s | pod:free5gc-upf-0" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="570" y="434" width="380" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_r5" value="T03:57:204892Z | Create NF Profile | free5GC | txn:nrf-001" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#f5f5f5;strokeColor=#999;" vertex="1" parent="1">
+          <mxGeometry x="570" y="454" width="380" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_r6" value="T03:58:471345Z | PFCP Session Deletion | free5GC | txn:smf-pfcp-003" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#fff;strokeColor=#999;" vertex="1" parent="1">
+          <mxGeometry x="570" y="472" width="380" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_r7" value="T04:02:223000Z | ConfirmAuthDataReq | free5GC | txn:udm-auth-007" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#f5f5f5;strokeColor=#999;" vertex="1" parent="1">
+          <mxGeometry x="570" y="490" width="380" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_r8" value="T04:02:452000Z | Setup Association | free5GC | txn:smf-pfcp-003" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="570" y="508" width="380" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_r9" value="T04:02:461000Z | NG Setup successful | free5GC | txn:amf-ngap-001" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="570" y="526" width="380" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_fix" value="Session key column added throughout. Events linked by session key, not just timestamp. Source corrections retained from previous fix." style="text;html=1;align=left;fontSize=9;fontColor=#A32D2D;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="548" width="380" height="28" as="geometry"/>
+        </mxCell>
+
+        <!-- ② → ③ -->
+        <mxCell id="arr_2_3" value="" style="edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.8;entryX=0.5;entryY=0;strokeColor=#6c8ebf;strokeWidth=1;" edge="1" source="p2_bg" target="p3_bg" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ══════════════════════════════════════════════════
+             PANEL ④ — Grouping Logs and Naming Events
+        ══════════════════════════════════════════════════ -->
+        <mxCell id="p4_bg" value="" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="990" y="316" width="440" height="240" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4_title" value="④ Grouping Logs and Naming Events" style="text;html=1;align=center;fontStyle=1;fontSize=13;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="990" y="318" width="440" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4_hdr" value="Message / session key | Event name" style="text;html=1;align=center;fontStyle=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="342" width="420" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4_r1" value="Session key vagrant/10.0.2.2 (auth + session open, Rule 2) | Access server" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="360" width="420" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4_r1b" value="  [2 log lines, 40-min apart, same session key — Rule 2 applies]" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="378" width="420" height="14" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4_r2" value="[SMF] PFCP Session Deletion (txn:smf-pfcp-003) | PFCP session release" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="396" width="420" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4_r3" value="[UDM] ConfirmAuthDataRequest (txn:udm-auth-007) | UDM auth confirm" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="414" width="420" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4_r4" value="pod:free5gc-upf-0 Created (Rule 1 + Rule 3) | Provision UPF pod" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="432" width="420" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4_r5" value="container upf Started (Rule 1, same window) | UPF container ready" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="450" width="420" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4_r6" value="[NRF] Create NF Profile (txn:nrf-001) | Register NF (NRF)" style="text;html=1;align=left;fontSize=9;fontFamily=Courier New;fillColor=#f5f5f5;strokeColor=#999;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="468" width="420" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4_fix" value="Rule applied (Rule 1/2/3) shown for every row — reviewers can now replicate the grouping logic." style="text;html=1;align=left;fontSize=9;fontColor=#A32D2D;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="490" width="420" height="24" as="geometry"/>
+        </mxCell>
+
+        <!-- ③ → ④ -->
+        <mxCell id="arr_3_4" value="" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.4;entryX=0;entryY=0.4;strokeColor=#6c8ebf;strokeWidth=1;" edge="1" source="p3_bg" target="p4_bg" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ══════════════════════════════════════════════════
+             PANEL ⑤ — Event Sequences
+        ══════════════════════════════════════════════════ -->
+        <mxCell id="p5_bg" value="" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="990" y="576" width="440" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="p5_title" value="⑤ Generating Event Sequences for Bayesian Network" style="text;html=1;align=center;fontStyle=1;fontSize=12;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="990" y="578" width="440" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="p5_seq1" value="[Access server, Provision UPF pod, Register NF, UDM auth confirm, PFCP session release]" style="text;html=1;align=left;fontFamily=Courier New;fontSize=9;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="604" width="420" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="p5_seq2" value="[Provision UPF pod, Connect to NRF, PFCP session release]" style="text;html=1;align=left;fontFamily=Courier New;fontSize=9;fillColor=#f5f5f5;strokeColor=#999;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="628" width="420" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="p5_fix" value="3GPP-correct order; ellipsis removed; 'Write to Files' removed; 'Access server' now correctly represents a 2-event session chain." style="text;html=1;align=left;fontSize=9;fontColor=#A32D2D;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="648" width="420" height="22" as="geometry"/>
+        </mxCell>
+
+        <!-- ④ → ⑤ -->
+        <mxCell id="arr_4_5" value="" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeColor=#6c8ebf;strokeWidth=1;" edge="1" source="p4_bg" target="p5_bg" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ══════════════════════════════════════════════════
+             PANEL ⑥ — Event Model (Bayesian Network)
+        ══════════════════════════════════════════════════ -->
+        <mxCell id="p6_bg" value="" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="316" width="380" height="370" as="geometry"/>
+        </mxCell>
+        <mxCell id="p6_title" value="⑥ Event Model (Bayesian Network)" style="text;html=1;align=center;fontStyle=1;fontSize=13;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="318" width="380" height="22" as="geometry"/>
+        </mxCell>
+
+        <!-- BN nodes -->
+        <mxCell id="bn_cred" value="Input credentials&#xa;P = 0.95 (prior)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="356" width="160" height="46" as="geometry"/>
+        </mxCell>
+        <mxCell id="bn_access" value="Access server&#xa;(session chain: auth + open)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1565" y="428" width="170" height="46" as="geometry"/>
+        </mxCell>
+        <mxCell id="arr_cred_acc" value="0.85" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;fontColor=#A32D2D;fontStyle=1;strokeColor=#A32D2D;strokeWidth=1.5;" edge="1" source="bn_cred" target="bn_access" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bn_nrf" value="NRF Handle&#xa;NF Discovery" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="504" width="130" height="46" as="geometry"/>
+        </mxCell>
+        <mxCell id="arr_acc_nrf" value="0.7" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#555;" edge="1" source="bn_access" target="bn_nrf" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bn_pfcp" value="PFCP session release" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#A32D2D;" vertex="1" parent="1">
+          <mxGeometry x="1548" y="504" width="160" height="46" as="geometry"/>
+        </mxCell>
+        <mxCell id="arr_acc_pfcp" value="1.0" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;strokeColor=#555;" edge="1" source="bn_access" target="bn_pfcp" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bn_cnrf" value="Connect to NRF" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1468" y="582" width="130" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="arr_pfcp_cnrf" value="1.0" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;exitX=0;exitY=1;entryX=0.5;entryY=0;strokeColor=#555;" edge="1" source="bn_pfcp" target="bn_cnrf" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bn_udm" value="UDM Handle&#xa;AuthConfirm" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#A32D2D;" vertex="1" parent="1">
+          <mxGeometry x="1668" y="582" width="140" height="46" as="geometry"/>
+        </mxCell>
+        <mxCell id="arr_pfcp_udm" value="0.9" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;fontColor=#A32D2D;fontStyle=1;exitX=1;exitY=1;entryX=0.5;entryY=0;strokeColor=#A32D2D;strokeWidth=1.5;" edge="1" source="bn_pfcp" target="bn_udm" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bn_upf" value="Connect to UPF" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1568" y="658" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="arr_cnrf_upf" value="0.3" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;exitX=0.5;exitY=1;entryX=0;entryY=0.5;strokeColor=#555;" edge="1" source="bn_cnrf" target="bn_upf" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arr_udm_upf" value="0.9" style="edgeStyle=orthogonalEdgeStyle;fontSize=9;exitX=0.5;exitY=1;entryX=1;entryY=0.5;strokeColor=#555;" edge="1" source="bn_udm" target="bn_upf" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bn_wf" value="'Write to Files' removed&#xa;(no causal basis)" style="text;html=1;align=center;fontSize=9;fontColor=#A32D2D;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1468" y="716" width="380" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="bn_access_note" value="'Access server' node now explicitly represents the 2-event session chain&#xa;(T03:11:12 + T03:40:31, linked by session key, not time window)." style="text;html=1;align=center;fontSize=9;fontColor=#7D4E00;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1468" y="750" width="380" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- ⑤ → ⑥ -->
+        <mxCell id="arr_5_6" value="" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#6c8ebf;strokeWidth=1;" edge="1" source="p5_bg" target="p6_bg" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ══════════════════════════════════════════════════
+             LEGEND
+        ══════════════════════════════════════════════════ -->
+        <mxCell id="legend" value="Legend:   Red outline = corrected from original   |   Yellow = 40-min gap resolved by session key (Rule 2)   |   Purple panel = new normalisation layer added to address reviewer   |   All other elements preserved from original figure" style="text;html=1;align=left;fontSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1.5;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="700" width="520" height="28" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

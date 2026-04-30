@@ -1,0 +1,104 @@
+{
+  "results": [
+    {
+      "breach_id": "B1",
+      "control_breach": "Password brute-force attack compromised user account",
+      "step_a_keywords": [
+        {"term": "password", "type": "credential", "confidence": 0.92},
+        {"term": "brute-force", "type": "action", "confidence": 0.88},
+        {"term": "user account", "type": "entity", "confidence": 0.85},
+        {"term": "compromise", "type": "result", "confidence": 0.81},
+        {"term": "ssh", "type": "tool", "confidence": 0.62}
+      ],
+      "step_b_ttps": [
+        {"ttp_id": "T1110", "similarity": 0.92, "name": "Brute Force"}
+      ],
+      "step_c_preconditions": [
+        {"description": "weak passwords enabled", "confidence": 0.79, "related_ttps": ["T1110"]},
+        {"description": "no MFA configured", "confidence": 0.74, "related_ttps": ["T1110"]}
+      ],
+      "step_c_postconditions": [
+        {"description": "user account compromised", "confidence": 0.88, "related_ttps": ["T1110"]}
+      ],
+      "step_d_connections": {}
+    },
+    {
+      "breach_id": "B2",
+      "control_breach": "Malware deployment through infected email attachment",
+      "step_a_keywords": [
+        {"term": "malware", "type": "malicious", "confidence": 0.94},
+        {"term": "email", "type": "vector", "confidence": 0.89},
+        {"term": "attachment", "type": "artifact", "confidence": 0.83},
+        {"term": "phishing", "type": "action", "confidence": 0.78}
+      ],
+      "step_b_ttps": [
+        {"ttp_id": "T1566", "similarity": 0.91, "name": "Phishing"},
+        {"ttp_id": "T1204", "similarity": 0.72, "name": "User Execution"}
+      ],
+      "step_c_preconditions": [
+        {"description": "user opened malicious attachment", "confidence": 0.81, "related_ttps": ["T1566", "T1204"]}
+      ],
+      "step_c_postconditions": [
+        {"description": "malware persistence established", "confidence": 0.76, "related_ttps": ["T1547"]}
+      ],
+      "step_d_connections": {}
+    },
+    {
+      "breach_id": "B3",
+      "control_breach": "Remote SSH vulnerability exploited for shell access",
+      "step_a_keywords": [
+        {"term": "ssh", "type": "tool", "confidence": 0.95},
+        {"term": "remote", "type": "location", "confidence": 0.82},
+        {"term": "exploit", "type": "action", "confidence": 0.9}
+      ],
+      "step_b_ttps": [
+        {"ttp_id": "T1210", "similarity": 0.88, "name": "Exploitation of Remote Services"}
+      ],
+      "step_c_preconditions": [
+        {"description": "vulnerable SSH service exposed", "confidence": 0.85, "related_ttps": ["T1210"]}
+      ],
+      "step_c_postconditions": [
+        {"description": "remote shell obtained", "confidence": 0.9, "related_ttps": ["T1210"]}
+      ],
+      "step_d_connections": {}
+    },
+    {
+      "breach_id": "B4",
+      "control_breach": "Session hijacking via stolen token led to remote access",
+      "step_a_keywords": [
+        {"term": "session hijacking", "type": "action", "confidence": 0.86},
+        {"term": "token", "type": "artifact", "confidence": 0.8},
+        {"term": "remote access", "type": "result", "confidence": 0.78}
+      ],
+      "step_b_ttps": [
+        {"ttp_id": "T1531", "similarity": 0.74, "name": "Token Theft"}
+      ],
+      "step_c_preconditions": [
+        {"description": "stolen session token", "confidence": 0.77, "related_ttps": ["T1531"]}
+      ],
+      "step_c_postconditions": [
+        {"description": "unauthorized remote access", "confidence": 0.79, "related_ttps": ["T1531"]}
+      ],
+      "step_d_connections": {}
+    },
+    {
+      "breach_id": "B5",
+      "control_breach": "Administrator credentials used for lateral movement",
+      "step_a_keywords": [
+        {"term": "administrator", "type": "entity", "confidence": 0.93},
+        {"term": "lateral movement", "type": "action", "confidence": 0.88},
+        {"term": "valid credential", "type": "credential", "confidence": 0.85}
+      ],
+      "step_b_ttps": [
+        {"ttp_id": "T1078", "similarity": 0.9, "name": "Valid Accounts"}
+      ],
+      "step_c_preconditions": [
+        {"description": "administrator credentials available", "confidence": 0.9, "related_ttps": ["T1078"]}
+      ],
+      "step_c_postconditions": [
+        {"description": "lateral movement observed", "confidence": 0.86, "related_ttps": ["T1078"]}
+      ],
+      "step_d_connections": {}
+    }
+  ]
+}

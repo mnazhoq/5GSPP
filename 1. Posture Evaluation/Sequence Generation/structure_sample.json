@@ -1,0 +1,8 @@
+{
+	"Input_Credentials": [["Authentication", "end"],[0.9, 0.1]],
+	"Authentication": [["SystemUseNotPB", "Access_Server", "end"],[0.3, 0.5, 0.2]],
+	"SystemUseNotPB": [["Access_Server", "end"],[0.9, 0.1]],
+	"Logon_PB": [["Bypass_Authentication", "end"],[0.9, 0.1]],
+	"Remote_access_PB": [["Bypass_Authentication", "end"],[0.9, 0.1]],
+	"Bypass_Authentication": [["Access_Server", "end"],[0.8, 0.2]]
+}

@@ -1,0 +1,119 @@
+[2026-04-09T14:50:08Z] Starting defensive LightBasin emulation
+[2026-04-09T14:50:08Z] Output file: /home/ubuntu/attacker-vm/APT implementation/LightBasin/lightbasin-emulation-20260409-145008.log
+[2026-04-09T14:50:08Z] Step 1: Cluster and 5G reconnaissance simulation
+NAME              STATUS   AGE
+default           Active   117d
+elastic-stack     Active   115d
+elastic-system    Active   115d
+falco             Active   115d
+free5gc           Active   117d
+kube-node-lease   Active   117d
+kube-public       Active   117d
+kube-system       Active   117d
+kubescape         Active   115d
+logging           Active   113d
+trivy-system      Active   113d
+NAME                                           READY   STATUS        RESTARTS      AGE    IP                NODE         NOMINATED NODE   READINESS GATES
+caldera-proxy-5d66b8cc4f-tf7rk                 1/1     Running       1 (72d ago)   75d    192.168.61.11     k8s-node-1   <none>           <none>
+free5gc-free5gc-amf-amf-66c9bd568-lg8kc        1/1     Running       1 (72d ago)   116d   192.168.109.111   k8s-node-1   <none>           <none>
+free5gc-free5gc-ausf-ausf-74b8f64bb4-ckn9r     1/1     Running       0             28h    192.168.109.79    k8s-node-1   <none>           <none>
+free5gc-free5gc-ausf-ausf-74b8f64bb4-l6kvk     1/1     Terminating   1 (42h ago)   116d   192.168.140.97    k8s-node-2   <none>           <none>
+free5gc-free5gc-nrf-nrf-76f6d8d9c8-fsstf       1/1     Running       1 (72d ago)   88d    192.168.109.114   k8s-node-1   <none>           <none>
+free5gc-free5gc-nssf-nssf-5c6c8779bf-929jk     1/1     Terminating   1 (42h ago)   116d   192.168.140.123   k8s-node-2   <none>           <none>
+free5gc-free5gc-nssf-nssf-5c6c8779bf-zqhhd     0/1     Pending       0             28h    <none>            <none>       <none>           <none>
+free5gc-free5gc-pcf-pcf-6b566894fb-69pd9       1/1     Running       0             28h    192.168.109.84    k8s-node-1   <none>           <none>
+free5gc-free5gc-pcf-pcf-6b566894fb-7rbj7       1/1     Terminating   2 (42h ago)   116d   192.168.140.74    k8s-node-2   <none>           <none>
+free5gc-free5gc-smf-smf-5545c8d4bc-q4sgw       1/1     Running       1 (72d ago)   116d   192.168.109.95    k8s-node-1   <none>           <none>
+free5gc-free5gc-udm-udm-7d8c49654f-dfrrm       0/1     Pending       0             28h    <none>            <none>       <none>           <none>
+free5gc-free5gc-udm-udm-7d8c49654f-jbmdt       1/1     Terminating   1 (42h ago)   75d    192.168.140.120   k8s-node-2   <none>           <none>
+free5gc-free5gc-udr-udr-8fdd9875d-rnlt9        1/1     Running       1 (72d ago)   75d    192.168.109.121   k8s-node-1   <none>           <none>
+free5gc-free5gc-upf-upf-7f6cc6757c-xzj6j       1/1     Running       1 (72d ago)   116d   192.168.109.71    k8s-node-1   <none>           <none>
+free5gc-free5gc-webui-webui-67f8b8d98d-2l4lp   1/1     Running       1 (72d ago)   89d    192.168.109.66    k8s-node-1   <none>           <none>
+mongodb-0                                      1/1     Running       2 (42h ago)   116d   192.168.109.112   k8s-node-1   <none>           <none>
+ueransim-gnb-cc7f68857-xd9c9                   1/1     Running       3 (72d ago)   116d   192.168.109.65    k8s-node-1   <none>           <none>
+ueransim-ue-c9cd45468-tcp4r                    1/1     Running       4 (72d ago)   116d   192.168.109.106   k8s-node-1   <none>           <none>
+NAME            TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+amf-namf        ClusterIP   10.103.131.138   <none>        80/TCP           116d
+ausf-nausf      ClusterIP   10.111.1.94      <none>        80/TCP           116d
+caldera-proxy   ClusterIP   10.102.185.89    <none>        8888/TCP         116d
+gnb-service     ClusterIP   10.108.254.62    <none>        4997/UDP         117d
+mongodb         ClusterIP   10.97.109.186    <none>        27017/TCP        116d
+nrf-nnrf        ClusterIP   10.104.44.31     <none>        8000/TCP         116d
+nssf-nnssf      ClusterIP   10.107.253.196   <none>        80/TCP           116d
+pcf-npcf        ClusterIP   10.111.92.124    <none>        80/TCP           116d
+smf-nsmf        ClusterIP   10.107.157.135   <none>        80/TCP           116d
+udm-nudm        ClusterIP   10.106.128.138   <none>        80/TCP           116d
+udr-nudr        ClusterIP   10.96.63.83      <none>        80/TCP           116d
+webui-service   NodePort    10.100.147.63    <none>        5000:30500/TCP   116d
+[2026-04-09T14:50:39Z] Step 2: API permission and token exposure checks (read-only)
+Resources                                       Non-Resource URLs   Resource Names   Verbs
+*.*                                             []                  []               [*]
+                                                [*]                 []               [*]
+selfsubjectreviews.authentication.k8s.io        []                  []               [create]
+selfsubjectaccessreviews.authorization.k8s.io   []                  []               [create]
+selfsubjectrulesreviews.authorization.k8s.io    []                  []               [create]
+                                                [/api/*]            []               [get]
+                                                [/api]              []               [get]
+                                                [/apis/*]           []               [get]
+                                                [/apis]             []               [get]
+                                                [/healthz]          []               [get]
+                                                [/healthz]          []               [get]
+                                                [/livez]            []               [get]
+                                                [/livez]            []               [get]
+                                                [/openapi/*]        []               [get]
+                                                [/openapi]          []               [get]
+                                                [/readyz]           []               [get]
+                                                [/readyz]           []               [get]
+                                                [/version/]         []               [get]
+                                                [/version/]         []               [get]
+                                                [/version]          []               [get]
+                                                [/version]          []               [get]
+total 0
+lrwxrwxrwx    1 root     root            13 Apr  7 20:34 ca.crt -> ..data/ca.crt
+lrwxrwxrwx    1 root     root            16 Apr  7 20:34 namespace -> ..data/namespace
+lrwxrwxrwx    1 root     root            12 Apr  7 20:34 token -> ..data/token
+[2026-04-09T14:51:06Z] Step 3: Cross-pod execution simulation
+uid=0(root) gid=0(root) groups=1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel),11(floppy),20(dialout),26(tape),27(video)
+Linux k8s-node-1 5.4.0-189-generic #209-Ubuntu SMP Fri Jun 7 14:05:13 UTC 2024 x86_64 Linux
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UNKNOWN qlen 1000
+    link/ether 08:00:27:cb:1a:1d brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic eth0
+       valid_lft 85272sec preferred_lft 85272sec
+    inet6 fd17:625c:f037:2:a00:27ff:fecb:1a1d/64 scope global dynamic noprefixroute flags 100 
+       valid_lft 86377sec preferred_lft 14377sec
+    inet6 fe80::a00:27ff:fecb:1a1d/64 scope link 
+       valid_lft forever preferred_lft forever
+3: eth1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP qlen 1000
+    link/ether 08:00:27:8a:06:7e brd ff:ff:ff:ff:ff:ff
+    inet 192.168.61.11/24 brd 192.168.61.255 scope global eth1
+       valid_lft forever preferred_lft forever
+    inet6 fe80::a00:27ff:fe8a:67e/64 scope link 
+       valid_lft forever preferred_lft forever
+caldera-proxy-5d66b8cc4f-tf7rk
+free5gc-free5gc-amf-amf-66c9bd568-lg8kc
+free5gc-free5gc-ausf-ausf-74b8f64bb4-ckn9r
+free5gc-free5gc-ausf-ausf-74b8f64bb4-l6kvk
+free5gc-free5gc-nrf-nrf-76f6d8d9c8-fsstf
+free5gc-free5gc-nssf-nssf-5c6c8779bf-929jk
+free5gc-free5gc-nssf-nssf-5c6c8779bf-zqhhd
+free5gc-free5gc-pcf-pcf-6b566894fb-69pd9
+free5gc-free5gc-pcf-pcf-6b566894fb-7rbj7
+free5gc-free5gc-smf-smf-5545c8d4bc-q4sgw
+free5gc-free5gc-udm-udm-7d8c49654f-dfrrm
+free5gc-free5gc-udm-udm-7d8c49654f-jbmdt
+free5gc-free5gc-udr-udr-8fdd9875d-rnlt9
+free5gc-free5gc-upf-upf-7f6cc6757c-xzj6j
+free5gc-free5gc-webui-webui-67f8b8d98d-2l4lp
+mongodb-0
+ueransim-gnb-cc7f68857-xd9c9
+ueransim-ue-c9cd45468-tcp4r
+[2026-04-09T14:51:28Z] Step 4: Collection and staging behavior simulation
+-rw-r--r--    1 root     root         318 Apr  9 14:52 /tmp/lightbasin-demo.tgz
+[2026-04-09T14:51:40Z] Step 5: Controlled egress probe simulation
+[2026-04-09T14:51:53Z] Defensive LightBasin emulation completed

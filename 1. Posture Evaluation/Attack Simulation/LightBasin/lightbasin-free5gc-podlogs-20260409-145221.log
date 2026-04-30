@@ -1,0 +1,977 @@
+===== POD:caldera-proxy-5d66b8cc4f-tf7rk =====
+
+===== POD:free5gc-free5gc-amf-amf-66c9bd568-lg8kc =====
+Defaulted container "amf" out of: amf, wait-nrf (init)
+2026-04-07T20:43:55Z[36m [INFO][AMF][App] [0mamf
+2026-04-07T20:43:55Z[36m [INFO][AMF][App] [0mAMF version:  
+	free5GC version: v3.0.6
+	build time:      2021-11-16T15:25:18Z
+	commit hash:     b3e99f97
+	commit time:     2021-09-24T09:44:32Z
+	go version:      go1.14.4 linux/amd64
+2026-04-07T20:43:55Z[36m [INFO][AMF][Init] [0mAMF Log level is set to [info] level
+2026-04-07T20:43:55Z[36m [INFO][LIB][NAS] [0mset log level : info
+2026-04-07T20:43:55Z[36m [INFO][LIB][NAS] [0mset report call : false
+2026-04-07T20:43:55Z[36m [INFO][LIB][NGAP] [0mset log level : info
+2026-04-07T20:43:55Z[36m [INFO][LIB][NGAP] [0mset report call : false
+2026-04-07T20:43:55Z[36m [INFO][LIB][FSM] [0mset log level : info
+2026-04-07T20:43:55Z[36m [INFO][LIB][FSM] [0mset report call : false
+2026-04-07T20:43:55Z[36m [INFO][LIB][Aper] [0mset log level : info
+2026-04-07T20:43:55Z[36m [INFO][LIB][Aper] [0mset report call : false
+2026-04-07T20:43:55Z[36m [INFO][LIB][Path] [0mset log level : info
+2026-04-07T20:43:55Z[36m [INFO][LIB][Path] [0mset report call : false
+2026-04-07T20:43:55Z[36m [INFO][LIB][OAPI] [0mset log level : info
+2026-04-07T20:43:55Z[36m [INFO][LIB][OAPI] [0mset report call : false
+2026-04-07T20:43:55Z[36m [INFO][AMF][CFG] [0mconfig version [1.0.2]
+2026-04-07T20:43:55Z[36m [INFO][AMF][Init] [0mServer started
+2026-04-07T20:43:56Z[36m [INFO][AMF][Util] [0mamfconfig Info: Version[1.0.2] Description[AMF initial local configuration]
+2026-04-07T20:43:56Z[36m [INFO][AMF][NGAP] [0mListen on 10.100.50.249:38412
+
+===== POD:free5gc-free5gc-ausf-ausf-74b8f64bb4-ckn9r =====
+Defaulted container "ausf" out of: ausf, wait-nrf (init)
+ausf
+2026-04-08T10:09:56Z[36m [INFO][AUSF][App] [0mAUSF version:  
+	free5GC version: v3.0.6
+	build time:      2021-11-16T15:25:37Z
+	commit hash:     55f03975
+	commit time:     2021-09-09T01:37:56Z
+	go version:      go1.14.4 linux/amd64
+2026-04-08T10:09:56Z[36m [INFO][AUSF][Init] [0mAUSF Log level is set to [info] level
+2026-04-08T10:09:56Z[36m [INFO][LIB][Path] [0mset log level : info
+2026-04-08T10:09:56Z[36m [INFO][LIB][Path] [0mset report call : false
+2026-04-08T10:09:56Z[36m [INFO][LIB][OAPI] [0mset log level : info
+2026-04-08T10:09:56Z[36m [INFO][LIB][OAPI] [0mset report call : false
+2026-04-08T10:09:56Z[36m [INFO][AUSF][CFG] [0mconfig version [1.0.0]
+2026-04-08T10:09:56Z[36m [INFO][AUSF][Init] [0mServer started
+2026-04-08T10:09:56Z[36m [INFO][AUSF][Init] [0mausfconfig Info: Version[1.0.0] Description[AUSF initial local configuration]
+ausf context =  &{{{0 0} {<nil>} map[] 0} {{0 0} {<nil>} map[] 0} 6d119ace-4e3a-4c30-a76f-257ee745d236 ausfGroup001 80 ausf-nausf 0.0.0.0 http://ausf-nausf:80 http http://nrf-nnrf:8000 map[nausf-auth:{6d119ace-4e3a-4c30-a76f-257ee745d236 nausf-auth 0xc000451e60 http REGISTERED   0xc000451e40  [] <nil> [] [] <nil> 0 0 0 <nil> <nil> }] [{208 93} {123 45}]  0xc00048ec80}
+
+===== POD:free5gc-free5gc-ausf-ausf-74b8f64bb4-l6kvk =====
+Defaulted container "ausf" out of: ausf, wait-nrf (init)
+Error from server: Get "https://192.168.61.12:10250/containerLogs/free5gc/free5gc-free5gc-ausf-ausf-74b8f64bb4-l6kvk/ausf?tailLines=200": dial tcp 192.168.61.12:10250: connect: connection refused
+
+===== POD:free5gc-free5gc-nrf-nrf-76f6d8d9c8-fsstf =====
+Defaulted container "nrf" out of: nrf, wait-mongo (init)
+2026-04-09T14:51:15Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:16Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:17Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:18Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:19Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:20Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:20Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:21Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:22Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:23Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:24Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:25Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:26Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:27Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:28Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:29Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:30Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:30Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:31Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:32Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:33Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:34Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:35Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:36Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:37Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:38Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:39Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:40Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:40Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:41Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:42Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:43Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:44Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:45Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:46Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:47Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:48Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:49Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:50Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:50Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:51Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:52Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:53Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:54Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:55Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:56Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:57Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:58Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:51:59Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:00Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:00Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:01Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:02Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:03Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:04Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:05Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:06Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:07Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:08Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:09Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:10Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:10Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:11Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:12Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:13Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:14Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:15Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:16Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:17Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:18Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:19Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:20Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:20Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:21Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:22Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:23Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:24Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:25Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:26Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:27Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:28Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:29Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:30Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:30Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:31Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:32Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:33Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:34Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:35Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:36Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:37Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:38Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:39Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:40Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:40Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:41Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:42Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:43Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:44Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:45Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:46Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:47Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:48Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:49Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:50Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:50Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:51Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:52Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:53Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:54Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:55Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:56Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:57Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:58Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:52:59Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:00Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:00Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:01Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:02Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:03Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:04Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:05Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:06Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:07Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:08Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:09Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:10Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:10Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:11Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:12Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:13Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:14Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:15Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:16Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:17Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:18Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:19Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:20Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:20Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:21Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:22Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:23Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:24Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:25Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:26Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:27Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:28Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:29Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:30Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:30Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:31Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:32Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:33Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:34Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:35Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:36Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:37Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:38Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:39Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:40Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:40Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:41Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:42Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:43Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:44Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:45Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:46Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:47Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:48Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:49Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:50Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:50Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:51Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:52Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:53Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:54Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:55Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:56Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:57Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:58Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:53:59Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:54:00Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:54:00Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:54:01Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:54:02Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:54:03Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:54:04Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:54:05Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:54:06Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:54:07Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:54:08Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:54:09Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:54:10Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:54:10Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:54:11Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:54:12Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:54:13Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:54:14Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:54:15Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+2026-04-09T14:54:16Z[36m [INFO][NRF][GIN] [0m| 200 |       10.0.2.15 | GET     | / |
+
+===== POD:free5gc-free5gc-nssf-nssf-5c6c8779bf-929jk =====
+Defaulted container "nssf" out of: nssf, wait-nrf (init)
+Error from server: Get "https://192.168.61.12:10250/containerLogs/free5gc/free5gc-free5gc-nssf-nssf-5c6c8779bf-929jk/nssf?tailLines=200": dial tcp 192.168.61.12:10250: connect: connection refused
+
+===== POD:free5gc-free5gc-nssf-nssf-5c6c8779bf-zqhhd =====
+Defaulted container "nssf" out of: nssf, wait-nrf (init)
+
+===== POD:free5gc-free5gc-pcf-pcf-6b566894fb-69pd9 =====
+Defaulted container "pcf" out of: pcf, wait-nrf (init)
+pcf
+2026-04-08T10:09:41Z[36m [INFO][PCF][App] [0mPCF version:  
+	free5GC version: v3.0.6
+	build time:      2021-11-16T15:25:58Z
+	commit hash:     853ca3ff
+	commit time:     2021-07-30T09:03:12Z
+	go version:      go1.14.4 linux/amd64
+2026-04-08T10:09:41Z[36m [INFO][PCF][Init] [0mPCF Log level is set to [info] level
+2026-04-08T10:09:41Z[36m [INFO][LIB][Path] [0mset log level : info
+2026-04-08T10:09:41Z[36m [INFO][LIB][Path] [0mset report call : false
+2026-04-08T10:09:41Z[36m [INFO][LIB][OAPI] [0mset log level : info
+2026-04-08T10:09:41Z[36m [INFO][LIB][OAPI] [0mset report call : false
+2026-04-08T10:09:41Z[36m [INFO][PCF][CFG] [0mconfig version [1.0.0]
+2026-04-08T10:09:41Z[36m [INFO][PCF][Init] [0mServer started
+2026-04-08T10:09:41Z[36m [INFO][PCF][Util] [0mpcfconfig Info: Version[1.0.0] Description[PCF initial local configuration]
+
+===== POD:free5gc-free5gc-pcf-pcf-6b566894fb-7rbj7 =====
+Defaulted container "pcf" out of: pcf, wait-nrf (init)
+Error from server: Get "https://192.168.61.12:10250/containerLogs/free5gc/free5gc-free5gc-pcf-pcf-6b566894fb-7rbj7/pcf?tailLines=200": dial tcp 192.168.61.12:10250: connect: connection refused
+
+===== POD:free5gc-free5gc-smf-smf-5545c8d4bc-q4sgw =====
+Defaulted container "smf" out of: smf, wait-nrf (init)
+smf
+2026-04-07T20:43:53Z[36m [INFO][SMF][App] [0mSMF version:  
+	free5GC version: v3.0.6
+	build time:      2021-11-16T15:26:02Z
+	commit hash:     46644f0a
+	commit time:     2021-09-13T13:23:12Z
+	go version:      go1.14.4 linux/amd64
+2026-04-07T20:43:53Z[36m [INFO][SMF][Init] [0mSMF Log level is set to [info] level
+2026-04-07T20:43:53Z[36m [INFO][LIB][NAS] [0mset log level : info
+2026-04-07T20:43:53Z[36m [INFO][LIB][NAS] [0mset report call : false
+2026-04-07T20:43:53Z[36m [INFO][LIB][NGAP] [0mset log level : info
+2026-04-07T20:43:53Z[36m [INFO][LIB][NGAP] [0mset report call : false
+2026-04-07T20:43:53Z[36m [INFO][LIB][Aper] [0mset log level : info
+2026-04-07T20:43:53Z[36m [INFO][LIB][Aper] [0mset report call : false
+2026-04-07T20:43:53Z[36m [INFO][LIB][Path] [0mset log level : info
+2026-04-07T20:43:53Z[36m [INFO][LIB][Path] [0mset report call : false
+2026-04-07T20:43:53Z[36m [INFO][LIB][OAPI] [0mset log level : info
+2026-04-07T20:43:53Z[36m [INFO][LIB][OAPI] [0mset report call : false
+2026-04-07T20:43:53Z[36m [INFO][LIB][PFCP] [0mset log level : info
+2026-04-07T20:43:53Z[36m [INFO][LIB][PFCP] [0mset report call : false
+2026-04-07T20:43:53Z[36m [INFO][SMF][CFG] [0mSMF config version [1.0.2]
+2026-04-07T20:43:53Z[36m [INFO][SMF][CFG] [0mUE-Routing config version [1.0.1]
+2026-04-07T20:43:53Z[36m [INFO][SMF][CTX] [0msmfconfig Info: Version[1.0.2] Description[SMF initial local configuration]
+2026-04-07T20:43:53Z[36m [INFO][SMF][CTX] [0mEndpoints: [10.100.50.233]
+2026-04-07T20:43:53Z[36m [INFO][SMF][Init] [0mServer started
+2026-04-07T20:43:57Z[36m [INFO][SMF][Init] [0mSMF Registration to NRF {ce0e7933-0e79-4f2f-b118-955786774141 SMF REGISTERED 0 0xc0002eb8a0 0xc0002eb8e0 [] []   [smf-nsmf] [] <nil> [] [] <nil> 0 0 0 area1 <nil> <nil> <nil> <nil> 0xc0002f0940 <nil> <nil> <nil> <nil> <nil> map[] <nil> false 0xc0002eb720 false false []}
+2026-04-07T20:43:57Z[36m [INFO][SMF][PFCP] [0mListen on 10.100.50.244:8805
+2026-04-07T20:43:57Z[36m [INFO][SMF][App] [0mSend PFCP Association Request to UPF[10.100.50.241]
+2026-04-07T20:43:57Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [1]
+2026-04-07T20:43:58Z[36m [INFO][SMF][PFCP] [0mIn HandlePfcpAssociationSetupResponse
+2026-04-07T20:43:58Z[36m [INFO][SMF][PFCP] [0mHandle PFCP Association Setup Response with NodeID[10.100.50.241]
+2026-04-07T20:43:58Z[36m [INFO][SMF][PFCP] [0mUPF(10.100.50.241)[internet] setup association
+
+===== POD:free5gc-free5gc-udm-udm-7d8c49654f-dfrrm =====
+Defaulted container "udm" out of: udm, wait-nrf (init)
+
+===== POD:free5gc-free5gc-udm-udm-7d8c49654f-jbmdt =====
+Defaulted container "udm" out of: udm, wait-nrf (init)
+Error from server: Get "https://192.168.61.12:10250/containerLogs/free5gc/free5gc-free5gc-udm-udm-7d8c49654f-jbmdt/udm?tailLines=200": dial tcp 192.168.61.12:10250: connect: connection refused
+
+===== POD:free5gc-free5gc-udr-udr-8fdd9875d-rnlt9 =====
+Defaulted container "udr" out of: udr, wait-nrf (init)
+2026-04-07T20:43:59Z[36m [INFO][UDR][App] [0mudr
+2026-04-07T20:43:59Z[36m [INFO][UDR][App] [0mUDR version:  
+	free5GC version: v3.0.6
+	build time:      2021-11-16T15:26:11Z
+	commit hash:     54559c06
+	commit time:     2021-07-30T09:08:58Z
+	go version:      go1.14.4 linux/amd64
+2026-04-07T20:43:59Z[36m [INFO][UDR][Init] [0mUDR Log level is set to [info] level
+2026-04-07T20:43:59Z[36m [INFO][LIB][Path] [0mset log level : info
+2026-04-07T20:43:59Z[36m [INFO][LIB][Path] [0mset report call : false
+2026-04-07T20:43:59Z[36m [INFO][LIB][OAPI] [0mset log level : info
+2026-04-07T20:43:59Z[36m [INFO][LIB][OAPI] [0mset report call : false
+2026-04-07T20:43:59Z[36m [INFO][LIB][MonDB] [0mset log level : info
+2026-04-07T20:43:59Z[36m [INFO][LIB][MonDB] [0mset report call : false
+2026-04-07T20:43:59Z[36m [INFO][UDR][CFG] [0mconfig version [1.0.0]
+2026-04-07T20:43:59Z[36m [INFO][UDR][Init] [0mUDR Config Info: Version[1.0.0] Description[UDR initial local configuration]
+2026-04-07T20:43:59Z[36m [INFO][UDR][Init] [0mServer started
+2026-04-07T20:43:59Z[36m [INFO][UDR][Util] [0mudrconfig Info: Version[1.0.0] Description[UDR initial local configuration]
+
+===== POD:free5gc-free5gc-upf-upf-7f6cc6757c-xzj6j =====
+2026-04-07T20:40:02Z[36m [INFO][UPF][Util] [0mConfig: /free5gc/config/..2026_04_07_20_34_29.554768673/upfcfg.yaml
+2026-04-07T20:40:02Z[36m [INFO][UPF][Util] [0mUPF config version [1.0.0]
+2026-04-07T20:40:02Z[36m [INFO][UPF][Util] [0mSet log level: info
+2026-04-07T20:40:02Z[36m [INFO][UPF][Util] [0mDNN routes added, main routing table:
+2026-04-07T20:40:02Z[36m [INFO][UPF][Util] [0mDstIp               Gateway        Iface     Priority RtProto   Type
+2026-04-07T20:40:02Z[36m [INFO][UPF][Util] [0m169.254.1.1 /32     0.0.0.0        eth0      0        boot      unicast
+2026-04-07T20:40:02Z[36m [INFO][UPF][Util] [0m10.100.50.240 /29   0.0.0.0        n4        0        kernel    unicast
+2026-04-07T20:40:02Z[36m [INFO][UPF][Util] [0m10.100.50.232 /29   0.0.0.0        n3        0        kernel    unicast
+2026-04-07T20:40:02Z[36m [INFO][UPF][Util] [0m10.1.0.0 /17        0.0.0.0        upfgtp    0        static    unicast
+2026-04-07T20:40:02Z[36m [INFO][UPF][Util] [0m10.0.2.0 /24        0.0.0.0        n6        0        kernel    unicast
+2026-04-07T20:40:02Z[36m [INFO][UPF][Util] [0m0.0.0.0 /0          169.254.1.1    eth0      0        boot      unicast
+2026-04-07T20:40:02Z[36m [INFO][UPF][Util] [0m0.0.0.0 /0          10.100.50.238  n3        0        boot      unicast
+2026-04-07T20:40:02Z[36m [INFO][UPF][Util] [0m0.0.0.0 /0          10.0.2.2       n6        0        boot      unicast
+2026-04-07T20:40:02Z[36m [INFO][UPF][Util] [0m0.0.0.0 /0          10.100.50.246  n4        0        boot      unicast
+2026-04-07T20:43:57Z[36m [INFO][UPF][Util] [0m[PFCP] Handle PFCP association setup request
+2026-04-07T20:43:57Z[36m [INFO][UPF][Util] [0m[PFCP] Association Setup Response
+
+===== POD:free5gc-free5gc-webui-webui-67f8b8d98d-2l4lp =====
+Defaulted container "webui" out of: webui, wait-mongo (init)
+2026-04-09T14:51:22Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:23Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:24Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:25Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:26Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:27Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:28Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:29Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:30Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:30Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:31Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:32Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:33Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:34Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:35Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:36Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:37Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:38Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:39Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:40Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:40Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:41Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:42Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:43Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:44Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:45Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:46Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:47Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:48Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:49Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:50Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:50Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:51Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:52Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:53Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:54Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:55Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:56Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:57Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:58Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:51:59Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:00Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:00Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:01Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:02Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:03Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:04Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:05Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:06Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:07Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:08Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:09Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:10Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:10Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:11Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:12Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:13Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:14Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:15Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:16Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:17Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:18Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:19Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:20Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:20Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:21Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:22Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:23Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:24Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:25Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:26Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:27Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:28Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:29Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:30Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:30Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:31Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:32Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:33Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:34Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:35Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:36Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:37Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:38Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:39Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:40Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:40Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:41Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:42Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:43Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:44Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:45Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:46Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:47Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:48Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:49Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:50Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:50Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:51Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:52Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:53Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:54Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:55Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:56Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:57Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:58Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:52:59Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:00Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:00Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:01Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:02Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:03Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:04Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:05Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:06Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:07Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:08Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:09Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:10Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:10Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:11Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:12Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:13Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:14Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:15Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:16Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:17Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:18Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:19Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:20Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:20Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:21Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:22Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:23Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:24Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:25Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:26Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:27Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:28Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:29Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:30Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:30Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:31Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:32Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:33Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:34Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:35Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:36Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:37Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:38Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:39Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:40Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:41Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:41Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:42Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:43Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:44Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:45Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:46Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:47Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:48Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:49Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:50Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:50Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:51Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:52Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:53Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:54Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:55Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:56Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:57Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:58Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:53:59Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:00Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:00Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:01Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:02Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:03Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:04Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:05Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:06Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:07Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:08Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:09Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:10Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:11Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:11Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:12Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:13Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:14Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:15Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:16Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:17Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:18Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:19Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:20Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:20Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:21Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:22Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+2026-04-09T14:54:23Z[36m [INFO][WebUI][GIN] [0m| 200 |       10.0.2.15 | GET     | / | (/go/pkg/mod/github.com/free5gc/logger_util@v1.0.0/logger_util.go:76 github.com/free5gc/logger_util.ginToLogrus.func1)
+
+===== POD:mongodb-0 =====
+{"t":{"$date":"2026-04-09T14:46:30.728+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:35622","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"d3aa2f28-f461-4cee-b6d2-b12eb4db483a"}},"connectionId":30300,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:46:30.738+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:35634","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"274a4337-0880-4333-82e4-d28164e4b15d"}},"connectionId":30301,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:46:30.740+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30300","msg":"Connection ended","attr":{"remote":"10.0.2.15:35622","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"d3aa2f28-f461-4cee-b6d2-b12eb4db483a"}},"connectionId":30300,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:46:30.742+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30301","msg":"Connection ended","attr":{"remote":"10.0.2.15:35634","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"274a4337-0880-4333-82e4-d28164e4b15d"}},"connectionId":30301,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:46:40.743+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:33604","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"f38120d9-6011-4ff7-a60e-92bb5ebf9b89"}},"connectionId":30302,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:46:40.745+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:33610","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"04b482c1-766a-44e0-b8df-2fd2b909828f"}},"connectionId":30303,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:46:40.748+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30302","msg":"Connection ended","attr":{"remote":"10.0.2.15:33604","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"f38120d9-6011-4ff7-a60e-92bb5ebf9b89"}},"connectionId":30302,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:46:40.750+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30303","msg":"Connection ended","attr":{"remote":"10.0.2.15:33610","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"04b482c1-766a-44e0-b8df-2fd2b909828f"}},"connectionId":30303,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:46:50.734+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:55888","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"e28f118a-36b5-423e-80a4-cf07e017cfa5"}},"connectionId":30304,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:46:50.737+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:55890","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"429a3efa-4987-4098-a082-c339efe6d37d"}},"connectionId":30305,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:46:50.749+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30304","msg":"Connection ended","attr":{"remote":"10.0.2.15:55888","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"e28f118a-36b5-423e-80a4-cf07e017cfa5"}},"connectionId":30304,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:46:50.750+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30305","msg":"Connection ended","attr":{"remote":"10.0.2.15:55890","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"429a3efa-4987-4098-a082-c339efe6d37d"}},"connectionId":30305,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:47:00.765+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:48030","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"ca1c4d73-5beb-4397-85b5-ed423ec09e52"}},"connectionId":30306,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:47:00.786+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:48038","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"9f55cc3c-dfd4-43ea-89ba-fcf381b7bbc9"}},"connectionId":30307,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:47:00.788+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30306","msg":"Connection ended","attr":{"remote":"10.0.2.15:48030","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"ca1c4d73-5beb-4397-85b5-ed423ec09e52"}},"connectionId":30306,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:47:00.887+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30307","msg":"Connection ended","attr":{"remote":"10.0.2.15:48038","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"9f55cc3c-dfd4-43ea-89ba-fcf381b7bbc9"}},"connectionId":30307,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:47:10.789+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:35776","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"b80b40c0-7f33-49ac-8001-144e6475dfc7"}},"connectionId":30308,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:47:10.797+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:35774","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"65f3c28d-49a7-4461-809a-5297f4f53ee7"}},"connectionId":30309,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:47:10.804+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30308","msg":"Connection ended","attr":{"remote":"10.0.2.15:35776","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"b80b40c0-7f33-49ac-8001-144e6475dfc7"}},"connectionId":30308,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:47:10.819+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30309","msg":"Connection ended","attr":{"remote":"10.0.2.15:35774","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"65f3c28d-49a7-4461-809a-5297f4f53ee7"}},"connectionId":30309,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:47:18.324+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1775746038,"ts_usec":324603,"thread":"1:0x7f304a6c66c0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","log_id":1000000,"category_id":7,"verbose_level":"INFO","verbose_level_id":0,"msg":"saving checkpoint snapshot min: 2555, snapshot max: 2555 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 252240"}}}
+{"t":{"$date":"2026-04-09T14:47:20.733+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:33722","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"7256d200-973d-4c19-bfb3-0fd63a47af8e"}},"connectionId":30310,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:47:20.738+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:33724","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"ba117531-2432-4001-9bf7-4fed0cbfe5ae"}},"connectionId":30311,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:47:20.748+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30310","msg":"Connection ended","attr":{"remote":"10.0.2.15:33722","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"7256d200-973d-4c19-bfb3-0fd63a47af8e"}},"connectionId":30310,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:47:20.752+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30311","msg":"Connection ended","attr":{"remote":"10.0.2.15:33724","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"ba117531-2432-4001-9bf7-4fed0cbfe5ae"}},"connectionId":30311,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:47:30.729+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:37698","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2e6b26cb-d019-4dcd-8769-d2d59239712a"}},"connectionId":30312,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:47:30.732+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:37704","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"1f20d500-71df-4df7-a7d6-b552a6cca6e9"}},"connectionId":30313,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:47:30.734+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30313","msg":"Connection ended","attr":{"remote":"10.0.2.15:37704","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"1f20d500-71df-4df7-a7d6-b552a6cca6e9"}},"connectionId":30313,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:47:30.742+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30312","msg":"Connection ended","attr":{"remote":"10.0.2.15:37698","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2e6b26cb-d019-4dcd-8769-d2d59239712a"}},"connectionId":30312,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:47:40.729+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:37722","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"becf2e9b-3db7-4f96-b8a6-5b7214978415"}},"connectionId":30314,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:47:40.761+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:37732","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"32ba86c5-5fb1-44ed-9a9d-397cd03799c4"}},"connectionId":30315,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:47:40.773+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30314","msg":"Connection ended","attr":{"remote":"10.0.2.15:37722","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"becf2e9b-3db7-4f96-b8a6-5b7214978415"}},"connectionId":30314,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:47:40.787+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30315","msg":"Connection ended","attr":{"remote":"10.0.2.15:37732","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"32ba86c5-5fb1-44ed-9a9d-397cd03799c4"}},"connectionId":30315,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:47:50.735+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:54232","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"703b407d-77b6-497f-ba0f-f1928270b045"}},"connectionId":30316,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:47:50.737+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:54248","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"db3e9e18-a9d6-4aaa-83f7-d8004656ff61"}},"connectionId":30317,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:47:50.742+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30317","msg":"Connection ended","attr":{"remote":"10.0.2.15:54248","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"db3e9e18-a9d6-4aaa-83f7-d8004656ff61"}},"connectionId":30317,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:47:50.748+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30316","msg":"Connection ended","attr":{"remote":"10.0.2.15:54232","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"703b407d-77b6-497f-ba0f-f1928270b045"}},"connectionId":30316,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:48:00.729+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:44168","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"256ce0eb-cd73-4df9-a554-5611315f1551"}},"connectionId":30318,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:48:00.731+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:44172","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"113c0d0d-bd0d-4099-a068-aad6b5a1be15"}},"connectionId":30319,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:48:00.733+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30319","msg":"Connection ended","attr":{"remote":"10.0.2.15:44172","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"113c0d0d-bd0d-4099-a068-aad6b5a1be15"}},"connectionId":30319,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:48:00.734+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30318","msg":"Connection ended","attr":{"remote":"10.0.2.15:44168","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"256ce0eb-cd73-4df9-a554-5611315f1551"}},"connectionId":30318,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:48:10.740+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:44670","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"bf1584f8-fd15-48a7-aa38-ad0d9fba74a2"}},"connectionId":30320,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:48:10.900+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:44680","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"5b632e4f-6309-41ca-b346-3773fc38935a"}},"connectionId":30321,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:48:10.904+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30320","msg":"Connection ended","attr":{"remote":"10.0.2.15:44670","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"bf1584f8-fd15-48a7-aa38-ad0d9fba74a2"}},"connectionId":30320,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:48:10.914+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30321","msg":"Connection ended","attr":{"remote":"10.0.2.15:44680","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"5b632e4f-6309-41ca-b346-3773fc38935a"}},"connectionId":30321,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:48:18.586+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1775746098,"ts_usec":556913,"thread":"1:0x7f304a6c66c0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","log_id":1000000,"category_id":7,"verbose_level":"INFO","verbose_level_id":0,"msg":"saving checkpoint snapshot min: 2556, snapshot max: 2556 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 252240"}}}
+{"t":{"$date":"2026-04-09T14:48:20.801+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:37222","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"ffc94622-98c2-48f0-89c0-677a3c129cbe"}},"connectionId":30322,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:48:20.808+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:37220","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"00b35567-e5ae-4a39-816d-237e78968b06"}},"connectionId":30323,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:48:20.818+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30323","msg":"Connection ended","attr":{"remote":"10.0.2.15:37220","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"00b35567-e5ae-4a39-816d-237e78968b06"}},"connectionId":30323,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:48:20.842+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30322","msg":"Connection ended","attr":{"remote":"10.0.2.15:37222","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"ffc94622-98c2-48f0-89c0-677a3c129cbe"}},"connectionId":30322,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:48:30.766+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:54940","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"eaf38ed0-7be3-40ca-8779-3fc1794e7342"}},"connectionId":30324,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:48:30.773+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:54942","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"16df12a0-74a1-4dbe-a312-15ac57288a31"}},"connectionId":30325,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:48:30.827+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30324","msg":"Connection ended","attr":{"remote":"10.0.2.15:54940","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"eaf38ed0-7be3-40ca-8779-3fc1794e7342"}},"connectionId":30324,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:48:30.880+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30325","msg":"Connection ended","attr":{"remote":"10.0.2.15:54942","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"16df12a0-74a1-4dbe-a312-15ac57288a31"}},"connectionId":30325,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:48:40.745+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:55422","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"48f8890e-655d-462b-9c43-91694a9983b7"}},"connectionId":30326,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:48:40.748+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:55432","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"1a2925f1-94de-4ee4-85e6-a430c76e625e"}},"connectionId":30327,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:48:40.751+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30327","msg":"Connection ended","attr":{"remote":"10.0.2.15:55432","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"1a2925f1-94de-4ee4-85e6-a430c76e625e"}},"connectionId":30327,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:48:40.753+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30326","msg":"Connection ended","attr":{"remote":"10.0.2.15:55422","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"48f8890e-655d-462b-9c43-91694a9983b7"}},"connectionId":30326,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:48:50.812+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:39232","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"6739cccf-6acd-4df4-91ab-cb201276adcc"}},"connectionId":30328,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:48:50.815+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:39240","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"0f5c874c-d40a-4d0a-bd0f-396087f4ee70"}},"connectionId":30329,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:48:50.821+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30328","msg":"Connection ended","attr":{"remote":"10.0.2.15:39232","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"6739cccf-6acd-4df4-91ab-cb201276adcc"}},"connectionId":30328,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:48:50.826+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30329","msg":"Connection ended","attr":{"remote":"10.0.2.15:39240","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"0f5c874c-d40a-4d0a-bd0f-396087f4ee70"}},"connectionId":30329,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:49:00.740+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:40502","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2565d19d-15fe-4b91-8678-dd285aef1edf"}},"connectionId":30330,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:49:00.742+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30330","msg":"Connection ended","attr":{"remote":"10.0.2.15:40502","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2565d19d-15fe-4b91-8678-dd285aef1edf"}},"connectionId":30330,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:49:00.765+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:40514","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"1bc0c9d1-aaac-4cb5-a652-ef3d253de97d"}},"connectionId":30331,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:49:00.780+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30331","msg":"Connection ended","attr":{"remote":"10.0.2.15:40514","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"1bc0c9d1-aaac-4cb5-a652-ef3d253de97d"}},"connectionId":30331,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:49:10.730+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:43284","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"f5d1a67b-0a81-4069-8633-5903bfe42456"}},"connectionId":30332,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:49:10.732+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:43298","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"87e71a54-6a98-4162-a1bb-e5a0417b0cae"}},"connectionId":30333,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:49:10.733+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30332","msg":"Connection ended","attr":{"remote":"10.0.2.15:43284","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"f5d1a67b-0a81-4069-8633-5903bfe42456"}},"connectionId":30332,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:49:10.736+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30333","msg":"Connection ended","attr":{"remote":"10.0.2.15:43298","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"87e71a54-6a98-4162-a1bb-e5a0417b0cae"}},"connectionId":30333,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:49:18.907+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1775746158,"ts_usec":898860,"thread":"1:0x7f304a6c66c0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","log_id":1000000,"category_id":7,"verbose_level":"INFO","verbose_level_id":0,"msg":"saving checkpoint snapshot min: 2557, snapshot max: 2557 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 252240"}}}
+{"t":{"$date":"2026-04-09T14:49:20.729+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:36780","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"e3c65c45-52df-42ab-8cc9-9f799ec40a7c"}},"connectionId":30334,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:49:20.736+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:36786","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"fc9f1c83-e2b5-4605-b613-6b740ba04d77"}},"connectionId":30335,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:49:20.740+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30334","msg":"Connection ended","attr":{"remote":"10.0.2.15:36780","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"e3c65c45-52df-42ab-8cc9-9f799ec40a7c"}},"connectionId":30334,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:49:20.742+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30335","msg":"Connection ended","attr":{"remote":"10.0.2.15:36786","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"fc9f1c83-e2b5-4605-b613-6b740ba04d77"}},"connectionId":30335,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:49:30.730+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:52906","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"cbae440d-f9ac-49dc-9c50-a8920d3eb410"}},"connectionId":30336,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:49:30.751+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30336","msg":"Connection ended","attr":{"remote":"10.0.2.15:52906","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"cbae440d-f9ac-49dc-9c50-a8920d3eb410"}},"connectionId":30336,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:49:30.755+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:52908","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"efccdfef-bdb1-4000-891a-910cffbae2fc"}},"connectionId":30337,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:49:30.759+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30337","msg":"Connection ended","attr":{"remote":"10.0.2.15:52908","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"efccdfef-bdb1-4000-891a-910cffbae2fc"}},"connectionId":30337,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:49:40.756+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:60174","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"8aeae65a-21dd-4844-9d23-ed223d894eb5"}},"connectionId":30338,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:49:40.762+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:60184","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"20be1cef-c487-412f-a2f7-17ffdb697611"}},"connectionId":30339,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:49:40.769+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30339","msg":"Connection ended","attr":{"remote":"10.0.2.15:60184","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"20be1cef-c487-412f-a2f7-17ffdb697611"}},"connectionId":30339,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:49:40.772+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30338","msg":"Connection ended","attr":{"remote":"10.0.2.15:60174","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"8aeae65a-21dd-4844-9d23-ed223d894eb5"}},"connectionId":30338,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:49:50.761+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:60062","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"406988da-3ed6-446f-ae98-354c845da5b5"}},"connectionId":30340,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:49:50.774+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:60072","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"d1404305-b7fd-4589-ae5f-0c1253fe055a"}},"connectionId":30341,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:49:50.799+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30340","msg":"Connection ended","attr":{"remote":"10.0.2.15:60062","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"406988da-3ed6-446f-ae98-354c845da5b5"}},"connectionId":30340,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:49:50.888+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30341","msg":"Connection ended","attr":{"remote":"10.0.2.15:60072","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"d1404305-b7fd-4589-ae5f-0c1253fe055a"}},"connectionId":30341,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:50:00.751+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:48220","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"6041f1bd-6624-4a1e-9b99-1bffc119ee83"}},"connectionId":30342,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:50:00.755+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:48232","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"e6083a9f-5e77-4bbb-a9e4-4b412370c317"}},"connectionId":30343,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:50:00.812+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30343","msg":"Connection ended","attr":{"remote":"10.0.2.15:48232","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"e6083a9f-5e77-4bbb-a9e4-4b412370c317"}},"connectionId":30343,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:50:00.824+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30342","msg":"Connection ended","attr":{"remote":"10.0.2.15:48220","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"6041f1bd-6624-4a1e-9b99-1bffc119ee83"}},"connectionId":30342,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:50:10.731+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:40226","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"5f03e9aa-877d-40c5-86a5-d22f1548ba6b"}},"connectionId":30344,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:50:10.734+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:40236","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"e1743705-4ae7-4e3c-af2f-aadb687c6b30"}},"connectionId":30345,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:50:10.740+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30344","msg":"Connection ended","attr":{"remote":"10.0.2.15:40226","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"5f03e9aa-877d-40c5-86a5-d22f1548ba6b"}},"connectionId":30344,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:50:10.745+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30345","msg":"Connection ended","attr":{"remote":"10.0.2.15:40236","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"e1743705-4ae7-4e3c-af2f-aadb687c6b30"}},"connectionId":30345,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:50:19.193+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1775746219,"ts_usec":192468,"thread":"1:0x7f304a6c66c0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","log_id":1000000,"category_id":7,"verbose_level":"INFO","verbose_level_id":0,"msg":"saving checkpoint snapshot min: 2558, snapshot max: 2558 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 252240"}}}
+{"t":{"$date":"2026-04-09T14:50:20.746+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:41240","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"6f53f835-d6ff-443c-af98-79f0d11e1da3"}},"connectionId":30346,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:50:20.752+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:41246","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"72f467f5-9ef8-4a6a-b777-30135fddee8a"}},"connectionId":30347,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:50:20.756+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30347","msg":"Connection ended","attr":{"remote":"10.0.2.15:41246","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"72f467f5-9ef8-4a6a-b777-30135fddee8a"}},"connectionId":30347,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:50:20.841+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30346","msg":"Connection ended","attr":{"remote":"10.0.2.15:41240","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"6f53f835-d6ff-443c-af98-79f0d11e1da3"}},"connectionId":30346,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:50:30.738+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:47668","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"c79f86f8-5984-4ff1-814c-b00e71d8b4ed"}},"connectionId":30348,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:50:30.752+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:47680","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"e83fe44a-7eab-48cc-9e62-2a0539ac1ed7"}},"connectionId":30349,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:50:30.762+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30348","msg":"Connection ended","attr":{"remote":"10.0.2.15:47668","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"c79f86f8-5984-4ff1-814c-b00e71d8b4ed"}},"connectionId":30348,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:50:30.781+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30349","msg":"Connection ended","attr":{"remote":"10.0.2.15:47680","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"e83fe44a-7eab-48cc-9e62-2a0539ac1ed7"}},"connectionId":30349,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:50:40.768+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:59092","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2482029f-8d26-4d92-94f7-df7f7950cf69"}},"connectionId":30350,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:50:40.771+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:59106","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"ee6bbad7-f3ef-4bd4-8a1f-27de7c05e01c"}},"connectionId":30351,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:50:40.773+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30350","msg":"Connection ended","attr":{"remote":"10.0.2.15:59092","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2482029f-8d26-4d92-94f7-df7f7950cf69"}},"connectionId":30350,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:50:40.863+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30351","msg":"Connection ended","attr":{"remote":"10.0.2.15:59106","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"ee6bbad7-f3ef-4bd4-8a1f-27de7c05e01c"}},"connectionId":30351,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:50:50.729+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:38540","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"df38497c-2089-4945-b445-728ccd756f4c"}},"connectionId":30352,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:50:50.740+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:38546","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"7f44441c-7a55-4a4f-90f5-0097741aa892"}},"connectionId":30353,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:50:50.743+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30352","msg":"Connection ended","attr":{"remote":"10.0.2.15:38540","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"df38497c-2089-4945-b445-728ccd756f4c"}},"connectionId":30352,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:50:50.752+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30353","msg":"Connection ended","attr":{"remote":"10.0.2.15:38546","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"7f44441c-7a55-4a4f-90f5-0097741aa892"}},"connectionId":30353,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:51:00.758+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:42472","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"7973c97d-ded0-447a-a70c-81752f459c35"}},"connectionId":30354,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:51:00.778+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30354","msg":"Connection ended","attr":{"remote":"10.0.2.15:42472","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"7973c97d-ded0-447a-a70c-81752f459c35"}},"connectionId":30354,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:51:00.780+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:42486","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"10f74a6c-29d1-4445-be20-ae1526c094e6"}},"connectionId":30355,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:51:00.789+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30355","msg":"Connection ended","attr":{"remote":"10.0.2.15:42486","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"10f74a6c-29d1-4445-be20-ae1526c094e6"}},"connectionId":30355,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:51:10.728+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:59788","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"76db239d-02b7-4fd2-ac5c-96764bf0c959"}},"connectionId":30356,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:51:10.756+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:59786","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"a65a68f5-0bc4-4922-b270-11245bca8cb0"}},"connectionId":30357,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:51:10.758+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30356","msg":"Connection ended","attr":{"remote":"10.0.2.15:59788","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"76db239d-02b7-4fd2-ac5c-96764bf0c959"}},"connectionId":30356,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:51:10.761+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30357","msg":"Connection ended","attr":{"remote":"10.0.2.15:59786","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"a65a68f5-0bc4-4922-b270-11245bca8cb0"}},"connectionId":30357,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:51:20.321+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1775746280,"ts_usec":321280,"thread":"1:0x7f304a6c66c0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","log_id":1000000,"category_id":7,"verbose_level":"INFO","verbose_level_id":0,"msg":"saving checkpoint snapshot min: 2559, snapshot max: 2559 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 252240"}}}
+{"t":{"$date":"2026-04-09T14:51:20.733+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:45538","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"e0109cc9-abc5-4b6a-9ace-3aa05504b453"}},"connectionId":30358,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:51:20.736+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:45540","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"3fb3c9af-7f9c-4631-9bc0-cb863ea43c62"}},"connectionId":30359,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:51:20.741+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30359","msg":"Connection ended","attr":{"remote":"10.0.2.15:45540","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"3fb3c9af-7f9c-4631-9bc0-cb863ea43c62"}},"connectionId":30359,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:51:20.742+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30358","msg":"Connection ended","attr":{"remote":"10.0.2.15:45538","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"e0109cc9-abc5-4b6a-9ace-3aa05504b453"}},"connectionId":30358,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:51:30.727+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:36372","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"27267573-d2b5-4239-ba37-a18740482f0e"}},"connectionId":30360,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:51:30.737+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:36374","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2a2948ff-7224-4af2-8abb-fcab757e7a19"}},"connectionId":30361,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:51:30.737+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30360","msg":"Connection ended","attr":{"remote":"10.0.2.15:36372","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"27267573-d2b5-4239-ba37-a18740482f0e"}},"connectionId":30360,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:51:30.744+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30361","msg":"Connection ended","attr":{"remote":"10.0.2.15:36374","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2a2948ff-7224-4af2-8abb-fcab757e7a19"}},"connectionId":30361,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:51:40.749+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:37406","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"970ae9b0-8758-40b2-ab8c-bea76d92f895"}},"connectionId":30362,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:51:40.786+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:37410","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"7e08f65f-4869-4700-a7fc-25f49298e868"}},"connectionId":30363,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:51:40.789+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30362","msg":"Connection ended","attr":{"remote":"10.0.2.15:37406","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"970ae9b0-8758-40b2-ab8c-bea76d92f895"}},"connectionId":30362,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:51:40.822+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30363","msg":"Connection ended","attr":{"remote":"10.0.2.15:37410","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"7e08f65f-4869-4700-a7fc-25f49298e868"}},"connectionId":30363,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:51:50.733+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:34908","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"32303edd-14e8-4e18-9887-73145c810e58"}},"connectionId":30364,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:51:50.751+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:34912","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"55295f73-0386-4a1a-9df2-b3404cea224b"}},"connectionId":30365,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:51:50.764+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30365","msg":"Connection ended","attr":{"remote":"10.0.2.15:34912","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"55295f73-0386-4a1a-9df2-b3404cea224b"}},"connectionId":30365,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:51:50.828+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30364","msg":"Connection ended","attr":{"remote":"10.0.2.15:34908","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"32303edd-14e8-4e18-9887-73145c810e58"}},"connectionId":30364,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:52:00.744+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:60754","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"da2b130a-f1ac-4e40-a588-0d90f7951bc8"}},"connectionId":30366,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:52:00.754+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30366","msg":"Connection ended","attr":{"remote":"10.0.2.15:60754","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"da2b130a-f1ac-4e40-a588-0d90f7951bc8"}},"connectionId":30366,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:52:00.759+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:60770","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"6bcf8b33-5ae0-4ac0-bf86-139197548493"}},"connectionId":30367,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:52:00.777+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30367","msg":"Connection ended","attr":{"remote":"10.0.2.15:60770","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"6bcf8b33-5ae0-4ac0-bf86-139197548493"}},"connectionId":30367,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:52:10.727+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:32988","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"d5ab683d-0627-4ebb-9087-6f511c5884af"}},"connectionId":30368,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:52:10.739+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:32998","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"42b74baa-240e-49b3-b6ca-270f0c8220aa"}},"connectionId":30369,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:52:10.744+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30368","msg":"Connection ended","attr":{"remote":"10.0.2.15:32988","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"d5ab683d-0627-4ebb-9087-6f511c5884af"}},"connectionId":30368,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:52:10.748+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30369","msg":"Connection ended","attr":{"remote":"10.0.2.15:32998","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"42b74baa-240e-49b3-b6ca-270f0c8220aa"}},"connectionId":30369,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:52:20.528+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1775746340,"ts_usec":528547,"thread":"1:0x7f304a6c66c0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","log_id":1000000,"category_id":7,"verbose_level":"INFO","verbose_level_id":0,"msg":"saving checkpoint snapshot min: 2560, snapshot max: 2560 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 252240"}}}
+{"t":{"$date":"2026-04-09T14:52:20.752+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:45804","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"3fa3d99c-d9f9-49d2-bebf-bc3559b1d250"}},"connectionId":30370,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:52:20.867+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:45820","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"c2e6c686-3f7f-475f-a17e-a44b5c1b4003"}},"connectionId":30371,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:52:20.885+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30371","msg":"Connection ended","attr":{"remote":"10.0.2.15:45820","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"c2e6c686-3f7f-475f-a17e-a44b5c1b4003"}},"connectionId":30371,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:52:20.888+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30370","msg":"Connection ended","attr":{"remote":"10.0.2.15:45804","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"3fa3d99c-d9f9-49d2-bebf-bc3559b1d250"}},"connectionId":30370,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:52:30.992+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:60046","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"c0d3d0da-c557-4a62-922f-7594966b63ea"}},"connectionId":30372,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:52:31.024+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:60044","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"a9067b0a-0ffc-4257-af00-43671f24545b"}},"connectionId":30373,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:52:31.025+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30372","msg":"Connection ended","attr":{"remote":"10.0.2.15:60046","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"c0d3d0da-c557-4a62-922f-7594966b63ea"}},"connectionId":30372,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:52:31.044+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30373","msg":"Connection ended","attr":{"remote":"10.0.2.15:60044","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"a9067b0a-0ffc-4257-af00-43671f24545b"}},"connectionId":30373,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:52:40.732+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:59442","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"814cfc37-2b30-44af-bcbc-1a93ef6b3f29"}},"connectionId":30374,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:52:40.740+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30374","msg":"Connection ended","attr":{"remote":"10.0.2.15:59442","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"814cfc37-2b30-44af-bcbc-1a93ef6b3f29"}},"connectionId":30374,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:52:40.752+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:59454","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"9f414707-7459-46d7-9823-9b0cd86da05b"}},"connectionId":30375,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:52:40.753+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30375","msg":"Connection ended","attr":{"remote":"10.0.2.15:59454","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"9f414707-7459-46d7-9823-9b0cd86da05b"}},"connectionId":30375,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:52:50.760+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:53378","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"5afebf56-2185-433c-81a2-4d6504e3db77"}},"connectionId":30376,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:52:50.762+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:53394","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"5431cfc2-e1d6-49aa-9da5-054dda711700"}},"connectionId":30377,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:52:50.782+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30376","msg":"Connection ended","attr":{"remote":"10.0.2.15:53378","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"5afebf56-2185-433c-81a2-4d6504e3db77"}},"connectionId":30376,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:52:50.791+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30377","msg":"Connection ended","attr":{"remote":"10.0.2.15:53394","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"5431cfc2-e1d6-49aa-9da5-054dda711700"}},"connectionId":30377,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:53:00.728+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:44596","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"0b64d62c-26a8-4cf9-b1e1-58c0e0b6eeb1"}},"connectionId":30378,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:53:00.729+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:44610","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"ac69c785-2afe-4a2b-80cf-901a09e2f164"}},"connectionId":30379,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:53:00.738+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30379","msg":"Connection ended","attr":{"remote":"10.0.2.15:44610","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"ac69c785-2afe-4a2b-80cf-901a09e2f164"}},"connectionId":30379,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:53:00.741+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30378","msg":"Connection ended","attr":{"remote":"10.0.2.15:44596","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"0b64d62c-26a8-4cf9-b1e1-58c0e0b6eeb1"}},"connectionId":30378,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:53:10.758+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:50648","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"7f826195-8b83-4a57-8ce2-feb75fd2481f"}},"connectionId":30380,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:53:10.789+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:50650","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"7d55c8b7-7329-4eb1-8995-26f586dfd2c1"}},"connectionId":30381,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:53:10.986+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30380","msg":"Connection ended","attr":{"remote":"10.0.2.15:50648","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"7f826195-8b83-4a57-8ce2-feb75fd2481f"}},"connectionId":30380,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:53:11.036+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30381","msg":"Connection ended","attr":{"remote":"10.0.2.15:50650","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"7d55c8b7-7329-4eb1-8995-26f586dfd2c1"}},"connectionId":30381,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:53:20.764+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:58820","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"ceddaa28-64df-4f38-be95-c84da2234f99"}},"connectionId":30382,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:53:20.795+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:58836","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"097ee296-2393-4758-aa95-464d5f763c1f"}},"connectionId":30383,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:53:20.799+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30382","msg":"Connection ended","attr":{"remote":"10.0.2.15:58820","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"ceddaa28-64df-4f38-be95-c84da2234f99"}},"connectionId":30382,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:53:20.800+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30383","msg":"Connection ended","attr":{"remote":"10.0.2.15:58836","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"097ee296-2393-4758-aa95-464d5f763c1f"}},"connectionId":30383,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:53:20.833+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1775746400,"ts_usec":832985,"thread":"1:0x7f304a6c66c0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","log_id":1000000,"category_id":7,"verbose_level":"INFO","verbose_level_id":0,"msg":"saving checkpoint snapshot min: 2561, snapshot max: 2561 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 252240"}}}
+{"t":{"$date":"2026-04-09T14:53:30.736+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:45532","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2d63a00a-0dad-4e0d-9aac-0ef536c1dc4f"}},"connectionId":30384,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:53:30.746+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:45546","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"04efdca9-c1e2-412b-a23a-1287bf5bd896"}},"connectionId":30385,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:53:30.749+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30384","msg":"Connection ended","attr":{"remote":"10.0.2.15:45532","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2d63a00a-0dad-4e0d-9aac-0ef536c1dc4f"}},"connectionId":30384,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:53:30.750+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30385","msg":"Connection ended","attr":{"remote":"10.0.2.15:45546","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"04efdca9-c1e2-412b-a23a-1287bf5bd896"}},"connectionId":30385,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:53:40.910+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:54132","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"62e40b69-fc0b-4b59-9b79-0d252c69b0fb"}},"connectionId":30386,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:53:41.205+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:54138","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"3b75ee57-2560-4d73-b2a5-9d2c9d63e1e2"}},"connectionId":30387,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:53:41.589+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30386","msg":"Connection ended","attr":{"remote":"10.0.2.15:54132","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"62e40b69-fc0b-4b59-9b79-0d252c69b0fb"}},"connectionId":30386,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:53:41.636+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30387","msg":"Connection ended","attr":{"remote":"10.0.2.15:54138","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"3b75ee57-2560-4d73-b2a5-9d2c9d63e1e2"}},"connectionId":30387,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:53:50.740+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:46200","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"3f0fd8e7-5736-4df0-873f-8209b78a8512"}},"connectionId":30388,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:53:50.749+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:46206","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"1a47ded2-e12a-4eef-bfdd-a020d62f2b82"}},"connectionId":30389,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:53:50.763+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30389","msg":"Connection ended","attr":{"remote":"10.0.2.15:46206","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"1a47ded2-e12a-4eef-bfdd-a020d62f2b82"}},"connectionId":30389,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:53:50.768+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30388","msg":"Connection ended","attr":{"remote":"10.0.2.15:46200","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"3f0fd8e7-5736-4df0-873f-8209b78a8512"}},"connectionId":30388,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:54:00.795+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:41210","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"dae78bde-cd15-4a15-8b7d-7e397f45b4c0"}},"connectionId":30390,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:54:00.799+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:41216","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"7bce6ed4-478c-47c4-988a-281226ff152b"}},"connectionId":30391,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:54:00.805+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30391","msg":"Connection ended","attr":{"remote":"10.0.2.15:41216","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"7bce6ed4-478c-47c4-988a-281226ff152b"}},"connectionId":30391,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:54:00.808+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30390","msg":"Connection ended","attr":{"remote":"10.0.2.15:41210","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"dae78bde-cd15-4a15-8b7d-7e397f45b4c0"}},"connectionId":30390,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:54:10.829+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:50962","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"4116f6ac-4cc7-430c-9649-7239ca16d83b"}},"connectionId":30392,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:54:10.842+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:50978","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"e6d2281f-2b87-491d-a60e-fc3732ed74c3"}},"connectionId":30393,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:54:10.866+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30392","msg":"Connection ended","attr":{"remote":"10.0.2.15:50962","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"4116f6ac-4cc7-430c-9649-7239ca16d83b"}},"connectionId":30392,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:54:10.872+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30393","msg":"Connection ended","attr":{"remote":"10.0.2.15:50978","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"e6d2281f-2b87-491d-a60e-fc3732ed74c3"}},"connectionId":30393,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:54:20.727+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:42474","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"1daea2ed-e196-445c-87b6-70bdb5d96806"}},"connectionId":30394,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:54:20.751+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"10.0.2.15:42476","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"d4cf6f00-10f4-40ad-a251-8d1dd3649014"}},"connectionId":30395,"connectionCount":17}}
+{"t":{"$date":"2026-04-09T14:54:20.758+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30395","msg":"Connection ended","attr":{"remote":"10.0.2.15:42476","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"d4cf6f00-10f4-40ad-a251-8d1dd3649014"}},"connectionId":30395,"connectionCount":16}}
+{"t":{"$date":"2026-04-09T14:54:20.765+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30394","msg":"Connection ended","attr":{"remote":"10.0.2.15:42474","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"1daea2ed-e196-445c-87b6-70bdb5d96806"}},"connectionId":30394,"connectionCount":15}}
+{"t":{"$date":"2026-04-09T14:54:21.019+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1775746461,"ts_usec":19418,"thread":"1:0x7f304a6c66c0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","log_id":1000000,"category_id":7,"verbose_level":"INFO","verbose_level_id":0,"msg":"saving checkpoint snapshot min: 2562, snapshot max: 2562 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 252240"}}}
+
+===== POD:ueransim-gnb-cc7f68857-xd9c9 =====
+UERANSIM v3.1.3
+[2026-04-07 20:41:12.912] [sctp] [info] Trying to establish SCTP connection... (10.100.50.249:38412)
+[2026-04-07 20:41:22.816] [sctp] [error] Connecting to 10.100.50.249:38412 failed. SCTP could not connect: Connection refused
+
+===== POD:ueransim-ue-c9cd45468-tcp4r =====
+[2026-04-09 14:19:39.139] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:19:49.584] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:20:00.027] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:20:10.494] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:20:21.035] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:20:31.492] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:20:41.941] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:20:52.396] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:21:02.909] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:21:13.349] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:21:23.802] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:21:34.293] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:21:44.744] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:21:55.210] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:22:05.665] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:22:16.112] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:22:26.569] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:22:37.052] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:22:47.548] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:22:58.019] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:23:08.464] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:23:18.916] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:23:29.371] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:23:39.835] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:23:50.320] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:24:00.784] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:24:11.253] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:24:21.714] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:24:32.173] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:24:42.641] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:24:53.082] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:25:03.574] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:25:14.035] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:25:24.484] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:25:34.943] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:25:45.404] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:25:55.851] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:26:06.323] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:26:16.776] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:26:27.227] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:26:37.674] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:26:48.138] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:26:58.581] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:27:09.061] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:27:19.513] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:27:29.959] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:27:40.405] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:27:50.866] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:28:01.344] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:28:11.805] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:28:22.256] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:28:32.706] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:28:43.164] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:28:53.612] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:29:04.069] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:29:14.528] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:29:24.972] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:29:35.432] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:29:45.877] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:29:56.377] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:30:06.873] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:30:17.344] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:30:27.877] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:30:38.388] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:30:48.864] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:30:59.333] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:31:09.808] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:31:20.255] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:31:30.723] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:31:41.210] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:31:51.685] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:32:02.147] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:32:12.588] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:32:23.033] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:32:33.488] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:32:43.959] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:32:54.445] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:33:04.896] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:33:15.345] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:33:25.868] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:33:36.341] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:33:46.827] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:33:57.327] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:34:07.789] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:34:18.268] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:34:28.735] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:34:39.191] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:34:49.656] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:35:00.128] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:35:10.577] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:35:21.033] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:35:31.482] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:35:41.940] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:35:52.388] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:36:02.832] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:36:13.304] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:36:23.745] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:36:34.211] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:36:44.651] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:36:55.107] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:37:05.568] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:37:16.017] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:37:26.489] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:37:36.977] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:37:47.416] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:37:57.944] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:38:08.424] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:38:18.864] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:38:29.337] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:38:39.788] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:38:50.249] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:39:00.704] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:39:11.176] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:39:21.616] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:39:32.049] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:39:42.516] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:39:52.989] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:40:03.495] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:40:13.937] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:40:24.478] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:40:34.992] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:40:45.626] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:40:56.116] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:41:06.630] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:41:17.129] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:41:27.845] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:41:38.366] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:41:48.941] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:41:59.432] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:42:09.949] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:42:20.416] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:42:30.911] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:42:41.401] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:42:51.886] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:43:02.363] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:43:12.820] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:43:23.290] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:43:33.802] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:43:44.286] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:43:54.743] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:44:05.191] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:44:15.659] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:44:26.117] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:44:36.583] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:44:47.097] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:44:57.547] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:45:08.009] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:45:18.460] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:45:28.931] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:45:39.392] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:45:49.868] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:46:00.393] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:46:10.856] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:46:21.313] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:46:31.760] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:46:42.211] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:46:52.716] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:47:03.183] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:47:13.648] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:47:24.100] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:47:34.621] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:47:45.139] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:47:55.615] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:48:06.150] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:48:16.596] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:48:27.148] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:48:37.618] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:48:48.132] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:48:58.594] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:49:09.084] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:49:19.548] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:49:30.098] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:49:40.599] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:49:51.114] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:50:01.601] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:50:12.132] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:50:22.625] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:50:33.115] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:50:43.652] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:50:54.237] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:51:04.691] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:51:15.183] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:51:25.669] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:51:36.166] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:51:46.634] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:51:57.157] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:52:07.626] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:52:18.104] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:52:28.607] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:52:39.162] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:52:49.615] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:53:00.076] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:53:10.578] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:53:20.756] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:53:31.251] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:53:41.941] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:53:52.388] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:54:02.978] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:54:13.453] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+[2026-04-09 14:54:23.935] [mr] [error] PLMN search failed [RLS-SETUP-TIMEOUT]
+

@@ -1,0 +1,5 @@
+vs_method,wilcoxon_stat,p_value,significant,mean_delta,ci_95_lo,ci_95_hi
+Single: 5gnf,15.0,0.0312,True,0.2046,0.1746,0.2346
+Single: k8s,15.0,0.0312,True,0.2867,0.2567,0.3167
+Single: syslog,15.0,0.0312,True,0.3236,0.2936,0.3536
+Single: netflow,15.0,0.0312,True,0.2428,0.2128,0.2728

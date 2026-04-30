@@ -1,0 +1,42 @@
+apiVersion: projectcalico.org/v3
+kind: GlobalNetworkPolicy
+metadata:
+  name: lightbasin-free5gc-default-deny-egress
+spec:
+  selector: projectcalico.org/namespace == 'free5gc'
+  types:
+    - Egress
+  egress:
+    - action: Allow
+      protocol: UDP
+      destination:
+        nets:
+          - 10.0.2.3/32
+        ports:
+          - 53
+    - action: Allow
+      protocol: TCP
+      destination:
+        selector: projectcalico.org/namespace == 'free5gc'
+    - action: Deny
+
+---
+apiVersion: projectcalico.org/v3
+kind: GlobalNetworkPolicy
+metadata:
+  name: lightbasin-detect-cross-namespace-free5gc
+spec:
+  selector: projectcalico.org/namespace == 'free5gc'
+  types:
+    - Ingress
+    - Egress
+  ingress:
+    - action: Allow
+      source:
+        selector: projectcalico.org/namespace == 'free5gc'
+    - action: Deny
+  egress:
+    - action: Allow
+      destination:
+        selector: projectcalico.org/namespace == 'free5gc'
+    - action: Deny

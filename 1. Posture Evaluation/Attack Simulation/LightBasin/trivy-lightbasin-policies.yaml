@@ -1,0 +1,61 @@
+# LightBasin hardening policy suggestions for Trivy Operator / Gatekeeper pipeline
+# This file is intended as policy-as-code input to your existing Trivy + policy workflow.
+
+apiVersion: v1
+kind: List
+items:
+  - apiVersion: constraints.gatekeeper.sh/v1beta1
+    kind: K8sPSPPrivilegedContainer
+    metadata:
+      name: lightbasin-no-privileged
+    spec:
+      match:
+        kinds:
+          - apiGroups: [""]
+            kinds: ["Pod"]
+      parameters:
+        message: "LightBasin defense: privileged containers are not allowed"
+
+  - apiVersion: constraints.gatekeeper.sh/v1beta1
+    kind: K8sPSPHostNetworkPorts
+    metadata:
+      name: lightbasin-restrict-hostnetwork
+    spec:
+      match:
+        kinds:
+          - apiGroups: [""]
+            kinds: ["Pod"]
+      parameters:
+        hostNetwork: false
+        min: 0
+        max: 0
+        message: "LightBasin defense: hostNetwork and host ports should be restricted"
+
+  - apiVersion: constraints.gatekeeper.sh/v1beta1
+    kind: K8sRequiredLabels
+    metadata:
+      name: lightbasin-required-security-labels
+    spec:
+      match:
+        kinds:
+          - apiGroups: [""]
+            kinds: ["Pod"]
+      parameters:
+        labels: ["app", "security-tier", "owner"]
+        message: "LightBasin defense: required security labels are missing"
+
+  - apiVersion: constraints.gatekeeper.sh/v1beta1
+    kind: K8sAllowedRepos
+    metadata:
+      name: lightbasin-allowed-repos
+    spec:
+      match:
+        kinds:
+          - apiGroups: [""]
+            kinds: ["Pod"]
+      parameters:
+        repos:
+          - "docker.io/free5gc/"
+          - "ghcr.io/"
+          - "registry.k8s.io/"
+        message: "LightBasin defense: image repo is not in approved list"

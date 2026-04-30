@@ -1,0 +1,1146 @@
+=== KUBESCAPE PODS ===
+NAME                                 READY   STATUS             RESTARTS          AGE
+host-scanner-5ndpd                   1/1     Running            10 (7m16s ago)    15h
+host-scanner-kg2q4                   1/1     Running            1 (19m ago)       15h
+kubescape-6dd6dc9496-bzwsm           1/1     Running            6 (42h ago)       115d
+kubescape-exporter-29490630-6hd2p    0/1     Error              0                 73d
+kubescape-exporter-29490630-7wlch    0/1     Error              0                 73d
+kubescape-exporter-29490630-cmpjs    0/1     Error              0                 73d
+kubescape-exporter-29490630-fwp94    0/1     Error              0                 73d
+kubescape-exporter-29490630-lqz9d    0/1     Error              0                 73d
+kubescape-exporter-29594035-7hbxc    0/1     Completed          0                 29h
+kubescape-exporter-29594040-pj4sz    0/1     Terminating        0                 29h
+kubescape-exporter-29594040-q4ctc    0/1     Pending            0                 29h
+kubescape-exporter-29594045-bd2jc    0/1     Error              0                 29h
+kubescape-exporter-29594045-dfzjq    0/1     Error              0                 29h
+kubescape-exporter-29594045-ghnxs    0/1     Error              0                 29h
+kubescape-exporter-29594045-nqxb6    0/1     Error              0                 29h
+kubescape-exporter-29594045-t5fnv    0/1     Error              0                 29h
+kubescape-exporter-29594045-xtjts    0/1     Pending            0                 29h
+kubescape-exporter-29594050-8qmkn    0/1     Pending            0                 29h
+kubescape-exporter-29594055-4s6jf    0/1     Pending            0                 28h
+kubescape-exporter-29594060-b4gg9    0/1     Pending            0                 28h
+kubescape-exporter-29594065-sc6nv    0/1     Pending            0                 28h
+kubescape-exporter-29594070-2gmqn    0/1     Pending            0                 28h
+kubescape-exporter-29594075-dwg5x    0/1     Pending            0                 28h
+kubescape-exporter-29594080-w78br    0/1     Pending            0                 28h
+kubescape-exporter-29594085-nxj9b    0/1     Pending            0                 28h
+kubescape-exporter-29594090-bk9xh    0/1     Pending            0                 28h
+kubescape-exporter-29594095-fznzb    0/1     Pending            0                 28h
+kubescape-exporter-29594100-r6dw6    0/1     Pending            0                 28h
+kubescape-exporter-29594105-fxr8n    0/1     Pending            0                 28h
+kubescape-exporter-29594110-lth22    0/1     Pending            0                 28h
+kubescape-exporter-29594115-2n8jq    0/1     Pending            0                 27h
+kubescape-exporter-29594120-kpskt    0/1     Pending            0                 27h
+kubescape-exporter-29594125-ssnch    0/1     Pending            0                 27h
+kubescape-exporter-29594130-kqz8z    0/1     Pending            0                 27h
+kubescape-exporter-29594135-rdsbp    0/1     Pending            0                 27h
+kubescape-exporter-29594140-6fn7x    0/1     Pending            0                 27h
+kubescape-exporter-29594145-x788r    0/1     Pending            0                 27h
+kubescape-exporter-29594150-q2nhz    0/1     Pending            0                 27h
+kubescape-exporter-29594155-cfvxq    0/1     Pending            0                 27h
+kubescape-exporter-29594160-h846t    0/1     Pending            0                 27h
+kubescape-exporter-29594165-tjk7m    0/1     Pending            0                 27h
+kubescape-exporter-29594170-9d8vb    0/1     Pending            0                 27h
+kubescape-exporter-29594175-c278l    0/1     Pending            0                 26h
+kubescape-exporter-29594180-rj6m4    0/1     Pending            0                 26h
+kubescape-exporter-29594185-m54ld    0/1     Pending            0                 26h
+kubescape-exporter-29594190-7w9f5    0/1     Pending            0                 26h
+kubescape-exporter-29594195-bw46p    0/1     Pending            0                 26h
+kubescape-exporter-29594200-nfll6    0/1     Pending            0                 26h
+kubescape-exporter-29594205-jh9m7    0/1     Pending            0                 26h
+kubescape-exporter-29594210-knnmb    0/1     Pending            0                 26h
+kubescape-exporter-29594215-kbcxr    0/1     Pending            0                 26h
+kubescape-exporter-29594220-8mk2w    0/1     Pending            0                 26h
+kubescape-exporter-29594225-w8wgp    0/1     Pending            0                 26h
+kubescape-exporter-29594230-wcw2x    0/1     Pending            0                 26h
+kubescape-exporter-29594235-tncvs    0/1     Pending            0                 25h
+kubescape-exporter-29594240-25bf7    0/1     Pending            0                 25h
+kubescape-exporter-29594245-rhkls    0/1     Pending            0                 25h
+kubescape-exporter-29594250-p5k5d    0/1     Pending            0                 25h
+kubescape-exporter-29594255-b6b27    0/1     Pending            0                 25h
+kubescape-exporter-29594260-wjkj4    0/1     Pending            0                 25h
+kubescape-exporter-29594265-ljf2l    0/1     Pending            0                 25h
+kubescape-exporter-29594270-ngv26    0/1     Pending            0                 25h
+kubescape-exporter-29594275-d928c    0/1     Pending            0                 25h
+kubescape-exporter-29594280-qn4hk    0/1     Pending            0                 25h
+kubescape-exporter-29594285-hcqcm    0/1     Pending            0                 25h
+kubescape-exporter-29594290-fm4wq    0/1     Pending            0                 25h
+kubescape-exporter-29594295-lnxrn    0/1     Pending            0                 24h
+kubescape-exporter-29594300-856f5    0/1     Pending            0                 24h
+kubescape-exporter-29594305-p46mz    0/1     Pending            0                 24h
+kubescape-exporter-29594310-cz8s8    0/1     Pending            0                 24h
+kubescape-exporter-29594315-pxr6d    0/1     Pending            0                 24h
+kubescape-exporter-29594320-xgq72    0/1     Pending            0                 24h
+kubescape-exporter-29594325-cv8cg    0/1     Pending            0                 24h
+kubescape-exporter-29594330-p7gj9    0/1     Pending            0                 24h
+kubescape-exporter-29594335-7qzj2    0/1     Pending            0                 24h
+kubescape-exporter-29594340-l9r72    0/1     Pending            0                 24h
+kubescape-exporter-29594345-7wwpc    0/1     Pending            0                 24h
+kubescape-exporter-29594350-n2lkk    0/1     Pending            0                 24h
+kubescape-exporter-29594355-d7ktq    0/1     Pending            0                 23h
+kubescape-exporter-29594360-jrgk6    0/1     Pending            0                 23h
+kubescape-exporter-29594365-bm5cj    0/1     Pending            0                 23h
+kubescape-exporter-29594370-t7wgx    0/1     Pending            0                 23h
+kubescape-exporter-29594375-xpd2j    0/1     Pending            0                 23h
+kubescape-exporter-29594380-k9d68    0/1     Pending            0                 23h
+kubescape-exporter-29594385-bkcl6    0/1     Pending            0                 23h
+kubescape-exporter-29594390-v7vnc    0/1     Pending            0                 23h
+kubescape-exporter-29594395-4sgx6    0/1     Pending            0                 23h
+kubescape-exporter-29594400-7t58j    0/1     Pending            0                 23h
+kubescape-exporter-29594405-4j7rm    0/1     Pending            0                 23h
+kubescape-exporter-29594410-kqz7s    0/1     Pending            0                 23h
+kubescape-exporter-29594415-tj8rd    0/1     Pending            0                 22h
+kubescape-exporter-29594420-mhkcx    0/1     Pending            0                 22h
+kubescape-exporter-29594425-bzvcn    0/1     Pending            0                 22h
+kubescape-exporter-29594430-8t6bb    0/1     Pending            0                 22h
+kubescape-exporter-29594435-g9lxc    0/1     Pending            0                 22h
+kubescape-exporter-29594440-cfxgr    0/1     Pending            0                 22h
+kubescape-exporter-29594445-2v7rq    0/1     Pending            0                 22h
+kubescape-exporter-29594450-7ns8b    0/1     Pending            0                 22h
+kubescape-exporter-29594455-tr5nf    0/1     Pending            0                 22h
+kubescape-exporter-29594460-z2gbs    0/1     Pending            0                 22h
+kubescape-exporter-29594465-flfw4    0/1     Pending            0                 22h
+kubescape-exporter-29594470-pwzfg    0/1     Pending            0                 22h
+kubescape-exporter-29594475-kwhq7    0/1     Pending            0                 21h
+kubescape-exporter-29594480-trtwt    0/1     Pending            0                 21h
+kubescape-exporter-29594485-cg25n    0/1     Pending            0                 21h
+kubescape-exporter-29594490-rrvl2    0/1     Pending            0                 21h
+kubescape-exporter-29594495-zgctn    0/1     Pending            0                 21h
+kubescape-exporter-29594500-26q8x    0/1     Pending            0                 21h
+kubescape-exporter-29594505-t69vl    0/1     Pending            0                 21h
+kubescape-exporter-29594510-vdmcg    0/1     Pending            0                 21h
+kubescape-exporter-29594515-5dq9w    0/1     Pending            0                 21h
+kubescape-exporter-29594520-c98kn    0/1     Pending            0                 21h
+kubescape-exporter-29594525-rr2mt    0/1     Pending            0                 21h
+kubescape-exporter-29594530-r9562    0/1     Pending            0                 21h
+kubescape-exporter-29594535-7zw89    0/1     Pending            0                 20h
+kubescape-exporter-29594540-gslxl    0/1     Pending            0                 20h
+kubescape-exporter-29594545-9w27b    0/1     Pending            0                 20h
+kubescape-exporter-29594550-d7rr8    0/1     Pending            0                 20h
+kubescape-exporter-29594555-ntwgk    0/1     Pending            0                 20h
+kubescape-exporter-29594560-lgw2w    0/1     Pending            0                 20h
+kubescape-exporter-29594565-zq9mr    0/1     Pending            0                 20h
+kubescape-exporter-29594570-25wcx    0/1     Pending            0                 20h
+kubescape-exporter-29594575-jsrsl    0/1     Pending            0                 20h
+kubescape-exporter-29594580-jz6xk    0/1     Pending            0                 20h
+kubescape-exporter-29594585-7nb85    0/1     Pending            0                 20h
+kubescape-exporter-29594590-4zp44    0/1     Pending            0                 20h
+kubescape-exporter-29594595-7lvsw    0/1     Pending            0                 19h
+kubescape-exporter-29594600-z45nj    0/1     Pending            0                 19h
+kubescape-exporter-29594605-zh7m6    0/1     Pending            0                 19h
+kubescape-exporter-29594610-4wnkg    0/1     Pending            0                 19h
+kubescape-exporter-29594615-crbh9    0/1     Pending            0                 19h
+kubescape-exporter-29594620-wl96j    0/1     Pending            0                 19h
+kubescape-exporter-29594625-27tmx    0/1     Pending            0                 19h
+kubescape-exporter-29594630-stnqr    0/1     Pending            0                 19h
+kubescape-exporter-29594635-z78m6    0/1     Pending            0                 19h
+kubescape-exporter-29594640-rjbb2    0/1     Pending            0                 19h
+kubescape-exporter-29594645-fc59c    0/1     Pending            0                 19h
+kubescape-exporter-29594650-lp7bj    0/1     Pending            0                 19h
+kubescape-exporter-29594655-tvlld    0/1     Pending            0                 18h
+kubescape-exporter-29594660-gm6g7    0/1     Pending            0                 18h
+kubescape-exporter-29594665-r7rdb    0/1     Pending            0                 18h
+kubescape-exporter-29594670-kn9jt    0/1     Pending            0                 18h
+kubescape-exporter-29594675-2thz6    0/1     Pending            0                 18h
+kubescape-exporter-29594680-dd8kt    0/1     Pending            0                 18h
+kubescape-exporter-29594685-k9s5j    0/1     Pending            0                 18h
+kubescape-exporter-29594690-tdrrb    0/1     Pending            0                 18h
+kubescape-exporter-29594695-ptsvf    0/1     Pending            0                 18h
+kubescape-exporter-29594700-tfttf    0/1     Pending            0                 18h
+kubescape-exporter-29594705-6l6s2    0/1     Pending            0                 18h
+kubescape-exporter-29594710-jbq4d    0/1     Pending            0                 18h
+kubescape-exporter-29594715-7jpc2    0/1     Pending            0                 17h
+kubescape-exporter-29594720-zbg9n    0/1     Pending            0                 17h
+kubescape-exporter-29594725-nx8tf    0/1     Pending            0                 17h
+kubescape-exporter-29594730-dwbcf    0/1     Pending            0                 17h
+kubescape-exporter-29594735-2ttgz    0/1     Pending            0                 17h
+kubescape-exporter-29594740-fhnmn    0/1     Pending            0                 17h
+kubescape-exporter-29594745-6xpq5    0/1     Pending            0                 17h
+kubescape-exporter-29594750-fxnf4    0/1     Pending            0                 17h
+kubescape-exporter-29594755-zsgmn    0/1     Pending            0                 17h
+kubescape-exporter-29594760-82r52    0/1     Pending            0                 17h
+kubescape-exporter-29594765-ffv77    0/1     Pending            0                 17h
+kubescape-exporter-29594770-l5g7q    0/1     Pending            0                 17h
+kubescape-exporter-29594775-l2wvd    0/1     Pending            0                 16h
+kubescape-exporter-29594780-x7w7h    0/1     Pending            0                 16h
+kubescape-exporter-29594785-t6mbp    0/1     Pending            0                 16h
+kubescape-exporter-29594790-rpk6x    0/1     Pending            0                 16h
+kubescape-exporter-29594795-j575k    0/1     Pending            0                 16h
+kubescape-exporter-29594800-kmkqj    0/1     Pending            0                 16h
+kubescape-exporter-29594805-v6kww    0/1     Pending            0                 16h
+kubescape-exporter-29594810-9nnvw    0/1     Pending            0                 16h
+kubescape-exporter-29594815-rs47l    0/1     Pending            0                 16h
+kubescape-exporter-29594820-d98nq    0/1     Pending            0                 16h
+kubescape-exporter-29594825-6mdnk    0/1     Pending            0                 16h
+kubescape-exporter-29594830-6rngv    0/1     Pending            0                 16h
+kubescape-exporter-29594835-xsnwt    0/1     Pending            0                 15h
+kubescape-exporter-29594840-qp2lk    0/1     Pending            0                 15h
+kubescape-exporter-29594845-hjm2k    0/1     Pending            0                 15h
+kubescape-exporter-29594850-w988f    0/1     Pending            0                 15h
+kubescape-exporter-29594855-nknnq    0/1     Pending            0                 15h
+kubescape-exporter-29594860-j5kmc    0/1     Pending            0                 15h
+kubescape-exporter-29594865-rtfzp    0/1     Pending            0                 15h
+kubescape-exporter-29594870-tft99    0/1     Pending            0                 15h
+kubescape-exporter-29594875-8w9dv    0/1     Pending            0                 15h
+kubescape-exporter-29594880-xx85z    0/1     Pending            0                 15h
+kubescape-exporter-29594885-kzqd7    0/1     Pending            0                 15h
+kubescape-exporter-29594890-cvvhw    0/1     Pending            0                 15h
+kubescape-exporter-29594895-thjbq    0/1     Pending            0                 14h
+kubescape-exporter-29594900-svbfz    0/1     Pending            0                 14h
+kubescape-exporter-29594905-rkzcf    0/1     Pending            0                 14h
+kubescape-exporter-29594910-gvctc    0/1     Pending            0                 14h
+kubescape-exporter-29594915-bx8fj    0/1     Pending            0                 14h
+kubescape-exporter-29594920-d8ng7    0/1     Pending            0                 14h
+kubescape-exporter-29594925-tjct8    0/1     Pending            0                 14h
+kubescape-exporter-29594930-4ps68    0/1     Pending            0                 14h
+kubescape-exporter-29594935-dwzs6    0/1     Pending            0                 14h
+kubescape-exporter-29594940-l925g    0/1     Pending            0                 14h
+kubescape-exporter-29594945-bt54p    0/1     Pending            0                 14h
+kubescape-exporter-29594950-s7dd5    0/1     Pending            0                 14h
+kubescape-exporter-29594955-x9lrl    0/1     Pending            0                 13h
+kubescape-exporter-29594960-rwmfv    0/1     Pending            0                 13h
+kubescape-exporter-29594965-2f6fg    0/1     Pending            0                 13h
+kubescape-exporter-29594970-4tw26    0/1     Pending            0                 13h
+kubescape-exporter-29594975-s5l6m    0/1     Pending            0                 13h
+kubescape-exporter-29594980-872hd    0/1     Pending            0                 13h
+kubescape-exporter-29594985-g4g8n    0/1     Pending            0                 13h
+kubescape-exporter-29594990-fc8mw    0/1     Pending            0                 13h
+kubescape-exporter-29594995-qbc7j    0/1     Pending            0                 13h
+kubescape-exporter-29595000-vnbg6    0/1     Pending            0                 13h
+kubescape-exporter-29595005-v8ps7    0/1     Pending            0                 13h
+kubescape-exporter-29595010-4nqk5    0/1     Pending            0                 13h
+kubescape-exporter-29595015-vrjw5    0/1     Pending            0                 12h
+kubescape-exporter-29595020-z966c    0/1     Pending            0                 12h
+kubescape-exporter-29595025-9hsfn    0/1     Pending            0                 12h
+kubescape-exporter-29595030-vlvf4    0/1     Pending            0                 12h
+kubescape-exporter-29595035-s7gj5    0/1     Pending            0                 12h
+kubescape-exporter-29595040-j5xbw    0/1     Pending            0                 12h
+kubescape-exporter-29595045-fk6q2    0/1     Pending            0                 12h
+kubescape-exporter-29595050-vd2cz    0/1     Pending            0                 12h
+kubescape-exporter-29595055-7p7lj    0/1     Pending            0                 12h
+kubescape-exporter-29595060-wcz8r    0/1     Pending            0                 12h
+kubescape-exporter-29595065-wvnj9    0/1     Pending            0                 12h
+kubescape-exporter-29595070-6bmhm    0/1     Pending            0                 12h
+kubescape-exporter-29595075-jwkqd    0/1     Pending            0                 11h
+kubescape-exporter-29595080-j66sn    0/1     Pending            0                 11h
+kubescape-exporter-29595085-xls27    0/1     Pending            0                 11h
+kubescape-exporter-29595090-fjrgc    0/1     Pending            0                 11h
+kubescape-exporter-29595095-pm6jl    0/1     Pending            0                 11h
+kubescape-exporter-29595100-xtmsv    0/1     Pending            0                 11h
+kubescape-exporter-29595105-nd9jr    0/1     Pending            0                 11h
+kubescape-exporter-29595110-mvf2p    0/1     Pending            0                 11h
+kubescape-exporter-29595115-25v4g    0/1     Pending            0                 11h
+kubescape-exporter-29595120-vtv8r    0/1     Pending            0                 11h
+kubescape-exporter-29595125-2xznn    0/1     Pending            0                 11h
+kubescape-exporter-29595130-szb5r    0/1     Pending            0                 11h
+kubescape-exporter-29595135-26dx5    0/1     Pending            0                 10h
+kubescape-exporter-29595140-kjfcr    0/1     Pending            0                 10h
+kubescape-exporter-29595145-r25f7    0/1     Pending            0                 10h
+kubescape-exporter-29595150-h85l5    0/1     Pending            0                 10h
+kubescape-exporter-29595155-mhbm5    0/1     Pending            0                 10h
+kubescape-exporter-29595160-xnpq6    0/1     Pending            0                 10h
+kubescape-exporter-29595165-kngkj    0/1     Pending            0                 10h
+kubescape-exporter-29595170-p562c    0/1     Pending            0                 10h
+kubescape-exporter-29595175-dmcbl    0/1     Pending            0                 10h
+kubescape-exporter-29595180-68m2r    0/1     Pending            0                 10h
+kubescape-exporter-29595185-thdr2    0/1     Pending            0                 10h
+kubescape-exporter-29595190-8cfjw    0/1     Pending            0                 10h
+kubescape-exporter-29595195-lkcrr    0/1     Pending            0                 9h
+kubescape-exporter-29595200-fqz7m    0/1     Pending            0                 9h
+kubescape-exporter-29595205-xpjwj    0/1     Pending            0                 9h
+kubescape-exporter-29595210-2tc5g    0/1     Pending            0                 9h
+kubescape-exporter-29595215-vgvpp    0/1     Pending            0                 9h
+kubescape-exporter-29595220-8h4xf    0/1     Pending            0                 9h
+kubescape-exporter-29595225-xj6zp    0/1     Pending            0                 9h
+kubescape-exporter-29595230-t2b5j    0/1     Pending            0                 9h
+kubescape-exporter-29595235-z4gjf    0/1     Pending            0                 9h
+kubescape-exporter-29595240-dgqln    0/1     Pending            0                 9h
+kubescape-exporter-29595245-m8xv9    0/1     Pending            0                 9h
+kubescape-exporter-29595250-9sdb5    0/1     Pending            0                 9h
+kubescape-exporter-29595255-6gdgq    0/1     Pending            0                 8h
+kubescape-exporter-29595260-tj5rd    0/1     Pending            0                 8h
+kubescape-exporter-29595265-gvg2m    0/1     Pending            0                 8h
+kubescape-exporter-29595270-4h8dd    0/1     Pending            0                 8h
+kubescape-exporter-29595275-zx5c5    0/1     Pending            0                 8h
+kubescape-exporter-29595280-xjtwt    0/1     Pending            0                 8h
+kubescape-exporter-29595285-4zwmg    0/1     Pending            0                 8h
+kubescape-exporter-29595290-nvtn9    0/1     Pending            0                 8h
+kubescape-exporter-29595295-bvd5d    0/1     Pending            0                 8h
+kubescape-exporter-29595300-j5gk4    0/1     Pending            0                 8h
+kubescape-exporter-29595305-mjxlp    0/1     Pending            0                 8h
+kubescape-exporter-29595310-g6cx6    0/1     Pending            0                 8h
+kubescape-exporter-29595315-nhwh6    0/1     Pending            0                 7h58m
+kubescape-exporter-29595320-hzjkr    0/1     Pending            0                 7h53m
+kubescape-exporter-29595325-jgqgt    0/1     Pending            0                 7h48m
+kubescape-exporter-29595330-d55xf    0/1     Pending            0                 7h43m
+kubescape-exporter-29595335-swqz4    0/1     Pending            0                 7h38m
+kubescape-exporter-29595340-rwrcm    0/1     Pending            0                 7h33m
+kubescape-exporter-29595345-kp7d7    0/1     Pending            0                 7h28m
+kubescape-exporter-29595350-wqpcj    0/1     Pending            0                 7h23m
+kubescape-exporter-29595355-m2rdp    0/1     Pending            0                 7h18m
+kubescape-exporter-29595360-bktth    0/1     Pending            0                 7h13m
+kubescape-exporter-29595365-8ngmq    0/1     Pending            0                 7h8m
+kubescape-exporter-29595370-q4h7q    0/1     Pending            0                 7h3m
+kubescape-exporter-29595375-sz28g    0/1     Pending            0                 6h58m
+kubescape-exporter-29595380-sswwd    0/1     Pending            0                 6h53m
+kubescape-exporter-29595385-lsb4p    0/1     Pending            0                 6h48m
+kubescape-exporter-29595390-8z6nw    0/1     Pending            0                 6h43m
+kubescape-exporter-29595395-b9n77    0/1     Pending            0                 6h38m
+kubescape-exporter-29595400-mfdgf    0/1     Pending            0                 6h33m
+kubescape-exporter-29595405-5lfsb    0/1     Pending            0                 6h28m
+kubescape-exporter-29595410-r2mwn    0/1     Pending            0                 6h23m
+kubescape-exporter-29595415-f9j44    0/1     Pending            0                 6h18m
+kubescape-exporter-29595420-26dsf    0/1     Pending            0                 6h13m
+kubescape-exporter-29595425-22gcz    0/1     Pending            0                 6h8m
+kubescape-exporter-29595430-2pwzz    0/1     Pending            0                 6h3m
+kubescape-exporter-29595435-t4x25    0/1     Pending            0                 5h58m
+kubescape-exporter-29595440-xmnlk    0/1     Pending            0                 5h53m
+kubescape-exporter-29595445-tqgkb    0/1     Pending            0                 5h48m
+kubescape-exporter-29595450-qqmpk    0/1     Pending            0                 5h43m
+kubescape-exporter-29595455-4lmh7    0/1     Pending            0                 5h38m
+kubescape-exporter-29595460-5m2wd    0/1     Pending            0                 5h33m
+kubescape-exporter-29595465-kx4wx    0/1     Pending            0                 5h28m
+kubescape-exporter-29595470-fgt7v    0/1     Pending            0                 5h23m
+kubescape-exporter-29595475-ftbc9    0/1     Pending            0                 5h18m
+kubescape-exporter-29595480-55zbk    0/1     Pending            0                 5h13m
+kubescape-exporter-29595485-9vgf5    0/1     Pending            0                 5h8m
+kubescape-exporter-29595490-g4gj9    0/1     Pending            0                 5h3m
+kubescape-exporter-29595495-xrq9c    0/1     Pending            0                 4h58m
+kubescape-exporter-29595500-trvxk    0/1     Pending            0                 4h53m
+kubescape-exporter-29595505-7pgbm    0/1     Pending            0                 4h48m
+kubescape-exporter-29595510-vbxwt    0/1     Pending            0                 4h43m
+kubescape-exporter-29595515-s5xr9    0/1     Pending            0                 4h38m
+kubescape-exporter-29595520-rtkfw    0/1     Pending            0                 4h33m
+kubescape-exporter-29595525-f89c5    0/1     Pending            0                 4h28m
+kubescape-exporter-29595530-w95qj    0/1     Pending            0                 4h23m
+kubescape-exporter-29595535-5lwzq    0/1     Pending            0                 4h18m
+kubescape-exporter-29595540-szpzz    0/1     Pending            0                 4h13m
+kubescape-exporter-29595545-wn2np    0/1     Pending            0                 4h8m
+kubescape-exporter-29595550-lqxb2    0/1     Pending            0                 4h3m
+kubescape-exporter-29595555-phtdn    0/1     Pending            0                 3h58m
+kubescape-exporter-29595560-lgbjc    0/1     Pending            0                 3h53m
+kubescape-exporter-29595565-pfwpr    0/1     Pending            0                 3h48m
+kubescape-exporter-29595570-rcfq6    0/1     Pending            0                 3h43m
+kubescape-exporter-29595575-p2z8n    0/1     Pending            0                 3h38m
+kubescape-exporter-29595580-8scpr    0/1     Pending            0                 3h33m
+kubescape-exporter-29595585-cjv6b    0/1     Pending            0                 3h28m
+kubescape-exporter-29595590-2h675    0/1     Pending            0                 3h23m
+kubescape-exporter-29595595-fffnf    0/1     Pending            0                 3h18m
+kubescape-exporter-29595600-mbllv    0/1     Pending            0                 3h13m
+kubescape-exporter-29595605-7rg57    0/1     Pending            0                 3h8m
+kubescape-exporter-29595610-7sdfw    0/1     Pending            0                 3h3m
+kubescape-exporter-29595615-hscf5    0/1     Pending            0                 178m
+kubescape-exporter-29595620-qzncc    0/1     Pending            0                 173m
+kubescape-exporter-29595625-6hcrx    0/1     Pending            0                 168m
+kubescape-exporter-29595630-b7tzg    0/1     Pending            0                 163m
+kubescape-exporter-29595635-66d84    0/1     Pending            0                 158m
+kubescape-exporter-29595640-t7s74    0/1     Pending            0                 153m
+kubescape-exporter-29595645-n5cmp    0/1     Pending            0                 148m
+kubescape-exporter-29595650-9gl5p    0/1     Pending            0                 143m
+kubescape-exporter-29595655-twr2h    0/1     Pending            0                 138m
+kubescape-exporter-29595660-4l6w8    0/1     Pending            0                 133m
+kubescape-exporter-29595665-s2dkp    0/1     Pending            0                 128m
+kubescape-exporter-29595670-2lqfz    0/1     Pending            0                 123m
+kubescape-exporter-29595675-5p2jm    0/1     Pending            0                 118m
+kubescape-exporter-29595680-nzz4c    0/1     Pending            0                 113m
+kubescape-exporter-29595685-hm2q6    0/1     Pending            0                 108m
+kubescape-exporter-29595690-dgs9j    0/1     Pending            0                 103m
+kubescape-exporter-29595695-6cktw    0/1     Pending            0                 98m
+kubescape-exporter-29595700-8vqvk    0/1     Pending            0                 93m
+kubescape-exporter-29595705-sn96t    0/1     Pending            0                 88m
+kubescape-exporter-29595710-j9cgc    0/1     Pending            0                 83m
+kubescape-exporter-29595715-t8rcl    0/1     Pending            0                 78m
+kubescape-exporter-29595720-trg4r    0/1     Pending            0                 73m
+kubescape-exporter-29595725-ckl8n    0/1     Pending            0                 68m
+kubescape-exporter-29595730-28r7g    0/1     Pending            0                 63m
+kubescape-exporter-29595735-wbn76    0/1     Pending            0                 58m
+kubescape-exporter-29595740-2n28f    0/1     Pending            0                 53m
+kubescape-exporter-29595745-pr6js    0/1     Pending            0                 48m
+kubescape-exporter-29595750-l9s8r    0/1     Pending            0                 43m
+kubescape-exporter-29595755-knrdh    0/1     Pending            0                 38m
+kubescape-exporter-29595760-l76ch    0/1     Pending            0                 33m
+kubescape-exporter-29595765-bb4zs    0/1     Pending            0                 28m
+kubescape-exporter-29595770-jpxs9    0/1     Pending            0                 23m
+kubescape-exporter-29595775-w8jdb    0/1     Pending            0                 18m
+kubescape-exporter-29595780-mvn26    0/1     Pending            0                 13m
+kubescape-exporter-29595785-j5pgf    0/1     Pending            0                 8m2s
+kubescape-exporter-29595790-l9f87    0/1     Pending            0                 3m2s
+kubescape-scheduler-29592010-q58jh   0/1     Error              0                 42h
+kubescape-scheduler-29592010-v42pr   0/1     Completed          0                 42h
+kubescape-scheduler-29594890-j64nm   0/1     Completed          0                 15h
+kubevuln-58b477c895-25bfr            0/1     Pending            0                 29h
+kubevuln-58b477c895-6t8qs            1/1     Terminating        11 (42h ago)      115d
+kubevuln-scheduler-29593225-cfhfl    0/1     Completed          0                 42h
+kubevuln-scheduler-29593225-jss44    0/1     Error              0                 42h
+kubevuln-scheduler-29594665-nvgnz    0/1     Completed          0                 18h
+node-agent-rgpch                     0/1     Running            12809 (29h ago)   72d
+node-agent-z5lxn                     0/1     CrashLoopBackOff   3371 (69s ago)    87d
+operator-f6c44799f-76m9l             1/1     Running            8 (42h ago)       115d
+
+===== host-scanner-5ndpd =====
+{"level":"info","ts":"2026-04-09T15:05:56Z","msg":"Starting Kubescape cluster node host scanner service","buildVersion":"v1.0.78"}
+{"level":"info","ts":"2026-04-09T15:05:56Z","msg":"Setting up readyz probe"}
+{"level":"info","ts":"2026-04-09T15:05:56Z","msg":"readyz probe is positive"}
+{"level":"info","ts":"2026-04-09T15:05:57Z","msg":"Listening...","port":7888}
+
+===== host-scanner-kg2q4 =====
+{"level":"info","ts":"2026-04-09T14:54:21Z","msg":"Starting Kubescape cluster node host scanner service","buildVersion":"v1.0.78"}
+{"level":"info","ts":"2026-04-09T14:54:22Z","msg":"Setting up readyz probe"}
+{"level":"info","ts":"2026-04-09T14:54:22Z","msg":"readyz probe is positive"}
+{"level":"info","ts":"2026-04-09T14:54:22Z","msg":"Listening...","port":7888}
+
+===== kubescape-6dd6dc9496-bzwsm =====
+│          │                    Resource Summary                   │        124       │      344      │        74.63%       │
+╰──────────┴───────────────────────────────────────────────────────┴──────────────────┴───────────────┴─────────────────────╯
+
+🚨 * failed to get cloud provider, cluster: cluster
+🚨 ** Control type is manual-review
+🚨 *** Control configurations are empty (docs: https://kubescape.io/docs/frameworks-and-controls/configuring-controls)
+{"level":"info","ts":"2026-04-08T00:15:08Z","msg":"Scan results saved","filename":"results/d9420ead-1276-4e6e-95a5-e932f80ccf96.json"}
+
+Overall compliance-score (100- Excellent, 0- All failed): 75
+{"level":"info","ts":"2026-04-08T00:15:08Z","msg":"done scanning","ID":"d9420ead-1276-4e6e-95a5-e932f80ccf96"}
+{"level":"info","ts":"2026-04-09T00:10:27Z","msg":"REST API received scan request","body":"{\"targetNames\":[\"all\",\"security\"],\"targetType\":\"Framework\"}"}
+{"level":"info","ts":"2026-04-09T00:10:27Z","msg":"requesting scan","scanID":"3e03bab4-8263-475c-9241-f80d1396a0c1","api":"v1/scan"}
+{"level":"info","ts":"2026-04-09T00:10:27Z","msg":"triggering scan","scanID":"3e03bab4-8263-475c-9241-f80d1396a0c1"}
+{"level":"info","ts":"2026-04-09T00:10:27Z","msg":"scan triggered","ID":"3e03bab4-8263-475c-9241-f80d1396a0c1"}
+{"level":"info","ts":"2026-04-09T00:10:27Z","msg":"Kubescape scanner initializing..."}
+{"level":"info","ts":"2026-04-09T00:10:29Z","msg":"Installing host scanner"}
+{"level":"error","ts":"2026-04-09T00:12:10Z","msg":"failed to init host scanner","error":"failed to validate host-scanner pods status: host-scanner pods number (2) differ than nodes number (3) after deadline exceeded. Kubescape will take data only from the pods below: map[host-scanner-5ndpd:k8s-master host-scanner-kg2q4:k8s-node-1]"}
+{"level":"info","ts":"2026-04-09T00:12:14Z","msg":"Initialized scanner"}
+{"level":"info","ts":"2026-04-09T00:12:14Z","msg":"Loading policies..."}
+{"level":"info","ts":"2026-04-09T00:12:14Z","msg":"Loaded policies"}
+{"level":"info","ts":"2026-04-09T00:12:14Z","msg":"Loading exceptions..."}
+{"level":"info","ts":"2026-04-09T00:12:14Z","msg":"Loaded exceptions"}
+{"level":"info","ts":"2026-04-09T00:12:14Z","msg":"Loading account configurations..."}
+{"level":"info","ts":"2026-04-09T00:12:14Z","msg":"Loaded account configurations"}
+{"level":"info","ts":"2026-04-09T00:12:14Z","msg":"Accessing Kubernetes objects..."}
+{"level":"warn","ts":"2026-04-09T00:12:18Z","msg":"failed to pull resource","resource":"networking.istio.io/v1beta1/Gateways","error":"failed to get resource: networking.istio.io/v1beta1, Resource=Gateways, labelSelector: , fieldSelector: , reason: Gateways.networking.istio.io is forbidden: User \"system:serviceaccount:kubescape:kubescape\" cannot list resource \"Gateways\" in API group \"networking.istio.io\" at the cluster scope"}
+{"level":"warn","ts":"2026-04-09T00:12:19Z","msg":"failed to pull resource","resource":"cilium.io/v2/CiliumNetworkPolicy","error":"failed to get resource: cilium.io/v2, Resource=CiliumNetworkPolicy, labelSelector: , fieldSelector: , reason: CiliumNetworkPolicy.cilium.io is forbidden: User \"system:serviceaccount:kubescape:kubescape\" cannot list resource \"CiliumNetworkPolicy\" in API group \"cilium.io\" at the cluster scope"}
+{"level":"warn","ts":"2026-04-09T00:12:19Z","msg":"failed to pull resource","resource":"networking.istio.io/v1beta1/VirtualService","error":"failed to get resource: networking.istio.io/v1beta1, Resource=VirtualService, labelSelector: , fieldSelector: , reason: VirtualService.networking.istio.io is forbidden: User \"system:serviceaccount:kubescape:kubescape\" cannot list resource \"VirtualService\" in API group \"networking.istio.io\" at the cluster scope"}
+{"level":"warn","ts":"2026-04-09T00:12:20Z","msg":"failed to pull resource","resource":"networking.istio.io/v1/VirtualService","error":"failed to get resource: networking.istio.io/v1, Resource=VirtualService, labelSelector: , fieldSelector: , reason: VirtualService.networking.istio.io is forbidden: User \"system:serviceaccount:kubescape:kubescape\" cannot list resource \"VirtualService\" in API group \"networking.istio.io\" at the cluster scope"}
+{"level":"warn","ts":"2026-04-09T00:12:20Z","msg":"failed to pull resource","resource":"networking.istio.io/v1/Gateways","error":"failed to get resource: networking.istio.io/v1, Resource=Gateways, labelSelector: , fieldSelector: , reason: Gateways.networking.istio.io is forbidden: User \"system:serviceaccount:kubescape:kubescape\" cannot list resource \"Gateways\" in API group \"networking.istio.io\" at the cluster scope"}
+{"level":"info","ts":"2026-04-09T00:12:21Z","msg":"Accessed Kubernetes objects"}
+{"level":"info","ts":"2026-04-09T00:12:21Z","msg":"Requesting Host scanner data"}
+{"level":"info","ts":"2026-04-09T00:12:21Z","msg":"Requested Host scanner data"}
+{"level":"info","ts":"2026-04-09T00:12:21Z","msg":"Scanning","Cluster":"cluster"}
+{"level":"info","ts":"2026-04-09T00:13:59Z","msg":"Done scanning","Cluster":"cluster"}
+{"level":"info","ts":"2026-04-09T00:14:07Z","msg":"Done aggregating results"}
+
+──────────────────────────────────────────────────
+
+Frameworks scanned: security (compliance score: 74.96), DevOpsBest (compliance score: 64.03), NSA (compliance score: 61.06), AllControls (compliance score: 64.99), cis-v1.12.0 (compliance score: 85.17), ArmoBest (compliance score: 63.91), cis-v1.10.0 (compliance score: 84.94), MITRE (compliance score: 71.00), SOC2 (compliance score: 76.12)
+
+╭─────────────────┬─────╮
+│        Controls │ 211 │
+│          Passed │ 134 │
+│          Failed │ 66  │
+│ Action Required │ 11  │
+╰─────────────────┴─────╯
+
+Failed resources by severity:
+
+╭──────────┬─────╮
+│ Critical │ 0   │
+│     High │ 185 │
+│   Medium │ 543 │
+│      Low │ 180 │
+╰──────────┴─────╯
+
+Run with '--verbose'/'-v' to see control failures for each resource.
+
+╭──────────┬───────────────────────────────────────────────────────┬──────────────────┬───────────────┬─────────────────────╮
+│ Severity │ Control name                                          │ Failed resources │ All Resources │ Compliance score    │
+├──────────┼───────────────────────────────────────────────────────┼──────────────────┼───────────────┼─────────────────────┤
+│   High   │ Cryptographic key management - misplaced secrets (... │         3        │       85      │         96%         │
+│   High   │ List Kubernetes secrets                               │         3        │       23      │         87%         │
+│   High   │ Host PID/IPC privileges                               │         1        │       43      │         98%         │
+│   High   │ CIS-5.2.5 Minimize the admission of containers wis... │         2        │       43      │         95%         │
+│   High   │ Writable hostPath mount                               │         4        │       43      │         91%         │
+│   High   │ Insecure capabilities                                 │         3        │       43      │         93%         │
+│   High   │ HostPath mount                                        │         5        │       43      │         88%         │
+│   High   │ Privileged container                                  │         2        │       43      │         95%         │
+│   High   │ RBAC enabled                                          │         0        │       0       │ Action Required *** │
+│   High   │ CIS-4.2.1 Minimize the admission of privileged con... │         8        │       9       │         11%         │
+│   High   │ CIS-5.2.11 Minimize the admission of Windows HostP... │         8        │       9       │         11%         │
+│   High   │ CIS-5.7.3 Apply Security Context to Your Pods and ... │        43        │       43      │          0%         │
+│   High   │ Verify image signature                                │         0        │       43      │  Action Required ** │
+│   High   │ Check if signature exists                             │        31        │       43      │         28%         │
+│   High   │ CIS-5.1.7 Avoid use of system:masters group           │         0        │       0       │  Action Required *  │
+│   High   │ Workload with secret access                           │         1        │       62      │         98%         │
+│   High   │ External facing                                       │         2        │       69      │         97%         │
+│   High   │ Workload with credential access                       │         2        │       43      │         95%         │
+│   High   │ ServiceAccount token mounted                          │        40        │       43      │          7%         │
+│   High   │ Ensure CPU limits are set                             │        14        │       43      │         67%         │
+│   High   │ Ensure memory limits are set                          │        13        │       43      │         70%         │
+│   High   │ CIS-5.5.1 Configure Image Provenance using ImagePo... │         0        │       0       │  Action Required *  │
+│  Medium  │ Prevent containers from allowing command execution    │         1        │       23      │         96%         │
+│  Medium  │ Roles with delete capabilities                        │         3        │       23      │         87%         │
+│  Medium  │ Non-root containers                                   │        43        │       43      │          0%         │
+│  Medium  │ Allow privilege escalation                            │        37        │       43      │         14%         │
+│  Medium  │ Ingress and Egress blocked                            │        43        │       43      │          0%         │
+│  Medium  │ Delete Kubernetes events                              │         1        │       23      │         96%         │
+│  Medium  │ Automatic mapping of service account                  │        46        │       58      │         21%         │
+│  Medium  │ CoreDNS poisoning                                     │         1        │       23      │         96%         │
+│  Medium  │ Access container service account                      │         7        │       7       │          0%         │
+│  Medium  │ Cluster internal networking                           │         6        │       7       │         14%         │
+│  Medium  │ Linux hardening                                       │        37        │       43      │         14%         │
+│  Medium  │ Configured liveness probe                             │        36        │       43      │         16%         │
+│  Medium  │ CIS-5.3.1 Ensure Kubernetes Secrets are encrypted ... │         0        │       0       │ Action Required *** │
+│  Medium  │ CIS-2.1.1 Enable audit Logs                           │         0        │       0       │ Action Required *** │
+│  Medium  │ Container runtime socket mounted                      │         1        │       43      │         98%         │
+│  Medium  │ CIS-5.1.4 Minimize Container Registries to only th... │         0        │       43      │  Action Required ** │
+│  Medium  │ CIS-4.1.2 Minimize access to secrets                  │         3        │       23      │         87%         │
+│  Medium  │ CIS-4.1.4 Minimize access to create pods              │         1        │       23      │         96%         │
+│  Medium  │ CIS-4.1.5 Ensure that default service accounts are... │         7        │       14      │         50%         │
+│  Medium  │ CIS-4.1.6 Ensure that Service Account Tokens are o... │        46        │       58      │         21%         │
+│  Medium  │ CIS-5.2.1 Ensure that the cluster has at least one... │         6        │       7       │         14%         │
+│  Medium  │ CIS-4.2.5 Minimize the admission of containers wit... │         8        │       9       │         11%         │
+│  Medium  │ CIS-5.2.7 Minimize the admission of root container... │         8        │       9       │         11%         │
+│  Medium  │ CIS-5.2.8 Minimize the admission of containers wit... │         8        │       9       │         11%         │
+│  Medium  │ CIS-5.2.9 Minimize the admission of containers wit... │         8        │       9       │         11%         │
+│  Medium  │ CIS-5.2.10 Minimize the admission of containers wi... │         8        │       9       │         11%         │
+│  Medium  │ CIS-5.2.12 Minimize the admission of HostPath volu... │         8        │       9       │         11%         │
+│  Medium  │ CIS-5.2.13 Minimize the admission of containers wh... │         8        │       9       │         11%         │
+│  Medium  │ CIS-4.3.2 Ensure that all Namespaces have Network ... │         6        │       7       │         14%         │
+│  Medium  │ CIS-4.5.1 Create administrative boundaries between... │         6        │       7       │         14%         │
+│  Medium  │ CIS-5.7.2 Ensure that the seccomp profile is set t... │        42        │       43      │          2%         │
+│  Medium  │ CIS-4.5.2 The default namespace should not be used    │        53        │      206      │         74%         │
+│  Medium  │ Workload with configMap access                        │         6        │       85      │         93%         │
+│  Medium  │ Firewall (CC6.1,CC6.6,CC7.2)                          │        43        │       85      │         49%         │
+│  Medium  │ Workload with cluster takeover roles                  │         3        │       43      │         93%         │
+│  Medium  │ CIS-5.2.3 Minimize the admission of containers wis... │         1        │       43      │         98%         │
+│  Medium  │ CIS-5.1.10 Minimize access to the proxy sub-resour... │         1        │       23      │         96%         │
+│  Medium  │ CIS-5.1.12 Minimize access to webhook configuratio... │         1        │       23      │         96%         │
+│  Medium  │ CIS-3.1.1 Client certificate authentication should... │         0        │       0       │  Action Required *  │
+│  Medium  │ CIS-3.1.2 Service account token authentication sho... │         0        │       0       │  Action Required *  │
+│  Medium  │ CIS-3.1.3 Bootstrap token authentication should no... │         0        │       0       │  Action Required *  │
+│    Low   │ Immutable container filesystem                        │        37        │       43      │         14%         │
+│    Low   │ Configured readiness probe                            │        35        │       43      │         19%         │
+│    Low   │ Kubernetes CronJob                                    │         1        │       1       │          0%         │
+│    Low   │ Validate admission controller (validating)            │         2        │       2       │          0%         │
+│    Low   │ Network mapping                                       │         6        │       7       │         14%         │
+│    Low   │ Pods in default namespace                             │        16        │       43      │         63%         │
+│    Low   │ PSP enabled                                           │         0        │       0       │ Action Required *** │
+│    Low   │ Naked pods                                            │         6        │       6       │          0%         │
+│    Low   │ Image pull policy on latest tag                       │         1        │       43      │         98%         │
+│    Low   │ Label usage for resources                             │        39        │       43      │          9%         │
+│    Low   │ K8s common labels usage                               │         8        │       43      │         81%         │
+│    Low   │ Ensure CPU requests are set                           │        13        │       43      │         70%         │
+│    Low   │ Ensure memory requests are set                        │        13        │       43      │         70%         │
+│    Low   │ Outdated Kubernetes version                           │         3        │       3       │          0%         │
+├──────────┼───────────────────────────────────────────────────────┼──────────────────┼───────────────┼─────────────────────┤
+│          │                    Resource Summary                   │        113       │      333      │        78.64%       │
+╰──────────┴───────────────────────────────────────────────────────┴──────────────────┴───────────────┴─────────────────────╯
+
+🚨 * Control type is manual-review
+🚨 ** Control configurations are empty (docs: https://kubescape.io/docs/frameworks-and-controls/configuring-controls)
+🚨 *** failed to get cloud provider, cluster: cluster
+{"level":"info","ts":"2026-04-09T00:14:08Z","msg":"Scan results saved","filename":"results/3e03bab4-8263-475c-9241-f80d1396a0c1.json"}
+
+Overall compliance-score (100- Excellent, 0- All failed): 79
+{"level":"info","ts":"2026-04-09T00:14:08Z","msg":"done scanning","ID":"3e03bab4-8263-475c-9241-f80d1396a0c1"}
+
+===== kubescape-exporter-29490630-6hd2p =====
+( 1/12) Installing brotli-libs (1.2.0-r0)
+( 2/12) Installing c-ares (1.34.6-r0)
+( 3/12) Installing libunistring (1.4.1-r0)
+( 4/12) Installing libidn2 (2.3.8-r0)
+( 5/12) Installing nghttp2-libs (1.68.0-r0)
+( 6/12) Installing nghttp3 (1.13.1-r0)
+( 7/12) Installing libpsl (0.21.5-r3)
+( 8/12) Installing zstd-libs (1.5.7-r2)
+( 9/12) Installing libcurl (8.17.0-r1)
+(10/12) Installing curl (8.17.0-r1)
+(11/12) Installing oniguruma (6.9.10-r0)
+(12/12) Installing jq (1.8.1-r0)
+Executing busybox-1.37.0-r30.trigger
+OK: 14.1 MiB in 28 packages
+Exporting Kubescape results to Elasticsearch...
+Pushing to Elasticsearch: kubescape-2026.01.26
+
+===== kubescape-exporter-29490630-7wlch =====
+( 1/12) Installing brotli-libs (1.2.0-r0)
+( 2/12) Installing c-ares (1.34.6-r0)
+( 3/12) Installing libunistring (1.4.1-r0)
+( 4/12) Installing libidn2 (2.3.8-r0)
+( 5/12) Installing nghttp2-libs (1.68.0-r0)
+( 6/12) Installing nghttp3 (1.13.1-r0)
+( 7/12) Installing libpsl (0.21.5-r3)
+( 8/12) Installing zstd-libs (1.5.7-r2)
+( 9/12) Installing libcurl (8.17.0-r1)
+(10/12) Installing curl (8.17.0-r1)
+(11/12) Installing oniguruma (6.9.10-r0)
+(12/12) Installing jq (1.8.1-r0)
+Executing busybox-1.37.0-r30.trigger
+OK: 14.1 MiB in 28 packages
+Exporting Kubescape results to Elasticsearch...
+Pushing to Elasticsearch: kubescape-2026.01.26
+
+===== kubescape-exporter-29490630-cmpjs =====
+( 1/12) Installing brotli-libs (1.2.0-r0)
+( 2/12) Installing c-ares (1.34.6-r0)
+( 3/12) Installing libunistring (1.4.1-r0)
+( 4/12) Installing libidn2 (2.3.8-r0)
+( 5/12) Installing nghttp2-libs (1.68.0-r0)
+( 6/12) Installing nghttp3 (1.13.1-r0)
+( 7/12) Installing libpsl (0.21.5-r3)
+( 8/12) Installing zstd-libs (1.5.7-r2)
+( 9/12) Installing libcurl (8.17.0-r1)
+(10/12) Installing curl (8.17.0-r1)
+(11/12) Installing oniguruma (6.9.10-r0)
+(12/12) Installing jq (1.8.1-r0)
+Executing busybox-1.37.0-r30.trigger
+OK: 14.1 MiB in 28 packages
+Exporting Kubescape results to Elasticsearch...
+Pushing to Elasticsearch: kubescape-2026.01.26
+
+===== kubescape-exporter-29490630-fwp94 =====
+( 1/12) Installing brotli-libs (1.2.0-r0)
+( 2/12) Installing c-ares (1.34.6-r0)
+( 3/12) Installing libunistring (1.4.1-r0)
+( 4/12) Installing libidn2 (2.3.8-r0)
+( 5/12) Installing nghttp2-libs (1.68.0-r0)
+( 6/12) Installing nghttp3 (1.13.1-r0)
+( 7/12) Installing libpsl (0.21.5-r3)
+( 8/12) Installing zstd-libs (1.5.7-r2)
+( 9/12) Installing libcurl (8.17.0-r1)
+(10/12) Installing curl (8.17.0-r1)
+(11/12) Installing oniguruma (6.9.10-r0)
+(12/12) Installing jq (1.8.1-r0)
+Executing busybox-1.37.0-r30.trigger
+OK: 14.1 MiB in 28 packages
+Exporting Kubescape results to Elasticsearch...
+Pushing to Elasticsearch: kubescape-2026.01.26
+
+===== kubescape-exporter-29490630-lqz9d =====
+( 1/12) Installing brotli-libs (1.2.0-r0)
+( 2/12) Installing c-ares (1.34.6-r0)
+( 3/12) Installing libunistring (1.4.1-r0)
+( 4/12) Installing libidn2 (2.3.8-r0)
+( 5/12) Installing nghttp2-libs (1.68.0-r0)
+( 6/12) Installing nghttp3 (1.13.1-r0)
+( 7/12) Installing libpsl (0.21.5-r3)
+( 8/12) Installing zstd-libs (1.5.7-r2)
+( 9/12) Installing libcurl (8.17.0-r1)
+(10/12) Installing curl (8.17.0-r1)
+(11/12) Installing oniguruma (6.9.10-r0)
+(12/12) Installing jq (1.8.1-r0)
+Executing busybox-1.37.0-r30.trigger
+OK: 14.1 MiB in 28 packages
+Exporting Kubescape results to Elasticsearch...
+Pushing to Elasticsearch: kubescape-2026.01.26
+
+===== kubescape-exporter-29594035-7hbxc =====
+( 1/12) Installing brotli-libs (1.2.0-r0)
+( 2/12) Installing c-ares (1.34.6-r0)
+( 3/12) Installing libunistring (1.4.1-r0)
+( 4/12) Installing libidn2 (2.3.8-r0)
+( 5/12) Installing nghttp2-libs (1.68.0-r0)
+( 6/12) Installing nghttp3 (1.13.1-r0)
+( 7/12) Installing libpsl (0.21.5-r3)
+( 8/12) Installing zstd-libs (1.5.7-r2)
+( 9/12) Installing libcurl (8.17.0-r1)
+(10/12) Installing curl (8.17.0-r1)
+(11/12) Installing oniguruma (6.9.10-r0)
+(12/12) Installing jq (1.8.1-r0)
+Executing busybox-1.37.0-r30.trigger
+OK: 14.1 MiB in 28 packages
+Exporting Kubescape results to Elasticsearch...
+Pushing to Elasticsearch: kubescape-2026.04.08
+Response code: 201
+{"_index":"kubescape-2026.04.08","_id":"hv-EbJ0BE5LxyqkflQ7n","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":119,"_primary_term":1}Successfully exported to Elasticsearch
+
+===== kubescape-exporter-29594040-pj4sz =====
+Error from server: Get "https://192.168.61.12:10250/containerLogs/kubescape/kubescape-exporter-29594040-pj4sz/exporter?tailLines=150": dial tcp 192.168.61.12:10250: connect: connection refused
+
+===== kubescape-exporter-29594040-q4ctc =====
+
+===== kubescape-exporter-29594045-bd2jc =====
+( 1/12) Installing brotli-libs (1.2.0-r0)
+( 2/12) Installing c-ares (1.34.6-r0)
+( 3/12) Installing libunistring (1.4.1-r0)
+( 4/12) Installing libidn2 (2.3.8-r0)
+( 5/12) Installing nghttp2-libs (1.68.0-r0)
+( 6/12) Installing nghttp3 (1.13.1-r0)
+( 7/12) Installing libpsl (0.21.5-r3)
+( 8/12) Installing zstd-libs (1.5.7-r2)
+( 9/12) Installing libcurl (8.17.0-r1)
+(10/12) Installing curl (8.17.0-r1)
+(11/12) Installing oniguruma (6.9.10-r0)
+(12/12) Installing jq (1.8.1-r0)
+Executing busybox-1.37.0-r30.trigger
+OK: 14.1 MiB in 28 packages
+Exporting Kubescape results to Elasticsearch...
+Pushing to Elasticsearch: kubescape-2026.04.08
+
+===== kubescape-exporter-29594045-dfzjq =====
+( 1/12) Installing brotli-libs (1.2.0-r0)
+( 2/12) Installing c-ares (1.34.6-r0)
+( 3/12) Installing libunistring (1.4.1-r0)
+( 4/12) Installing libidn2 (2.3.8-r0)
+( 5/12) Installing nghttp2-libs (1.68.0-r0)
+( 6/12) Installing nghttp3 (1.13.1-r0)
+( 7/12) Installing libpsl (0.21.5-r3)
+( 8/12) Installing zstd-libs (1.5.7-r2)
+( 9/12) Installing libcurl (8.17.0-r1)
+(10/12) Installing curl (8.17.0-r1)
+(11/12) Installing oniguruma (6.9.10-r0)
+(12/12) Installing jq (1.8.1-r0)
+Executing busybox-1.37.0-r30.trigger
+OK: 14.1 MiB in 28 packages
+Exporting Kubescape results to Elasticsearch...
+Pushing to Elasticsearch: kubescape-2026.04.08
+
+===== kubescape-exporter-29594045-ghnxs =====
+( 1/12) Installing brotli-libs (1.2.0-r0)
+( 2/12) Installing c-ares (1.34.6-r0)
+( 3/12) Installing libunistring (1.4.1-r0)
+( 4/12) Installing libidn2 (2.3.8-r0)
+( 5/12) Installing nghttp2-libs (1.68.0-r0)
+( 6/12) Installing nghttp3 (1.13.1-r0)
+( 7/12) Installing libpsl (0.21.5-r3)
+( 8/12) Installing zstd-libs (1.5.7-r2)
+( 9/12) Installing libcurl (8.17.0-r1)
+(10/12) Installing curl (8.17.0-r1)
+(11/12) Installing oniguruma (6.9.10-r0)
+(12/12) Installing jq (1.8.1-r0)
+Executing busybox-1.37.0-r30.trigger
+OK: 14.1 MiB in 28 packages
+Exporting Kubescape results to Elasticsearch...
+Pushing to Elasticsearch: kubescape-2026.04.08
+
+===== kubescape-exporter-29594045-nqxb6 =====
+( 1/12) Installing brotli-libs (1.2.0-r0)
+( 2/12) Installing c-ares (1.34.6-r0)
+( 3/12) Installing libunistring (1.4.1-r0)
+( 4/12) Installing libidn2 (2.3.8-r0)
+( 5/12) Installing nghttp2-libs (1.68.0-r0)
+( 6/12) Installing nghttp3 (1.13.1-r0)
+( 7/12) Installing libpsl (0.21.5-r3)
+( 8/12) Installing zstd-libs (1.5.7-r2)
+( 9/12) Installing libcurl (8.17.0-r1)
+(10/12) Installing curl (8.17.0-r1)
+(11/12) Installing oniguruma (6.9.10-r0)
+(12/12) Installing jq (1.8.1-r0)
+Executing busybox-1.37.0-r30.trigger
+OK: 14.1 MiB in 28 packages
+Exporting Kubescape results to Elasticsearch...
+Pushing to Elasticsearch: kubescape-2026.04.08
+
+===== kubescape-exporter-29594045-t5fnv =====
+( 1/12) Installing brotli-libs (1.2.0-r0)
+( 2/12) Installing c-ares (1.34.6-r0)
+( 3/12) Installing libunistring (1.4.1-r0)
+( 4/12) Installing libidn2 (2.3.8-r0)
+( 5/12) Installing nghttp2-libs (1.68.0-r0)
+( 6/12) Installing nghttp3 (1.13.1-r0)
+( 7/12) Installing libpsl (0.21.5-r3)
+( 8/12) Installing zstd-libs (1.5.7-r2)
+( 9/12) Installing libcurl (8.17.0-r1)
+(10/12) Installing curl (8.17.0-r1)
+(11/12) Installing oniguruma (6.9.10-r0)
+(12/12) Installing jq (1.8.1-r0)
+Executing busybox-1.37.0-r30.trigger
+OK: 14.1 MiB in 28 packages
+Exporting Kubescape results to Elasticsearch...
+Pushing to Elasticsearch: kubescape-2026.04.08
+
+===== kubescape-exporter-29594045-xtjts =====
+
+===== kubescape-exporter-29594050-8qmkn =====
+
+===== kubescape-exporter-29594055-4s6jf =====
+
+===== kubescape-exporter-29594060-b4gg9 =====
+
+===== kubescape-exporter-29594065-sc6nv =====
+
+===== kubescape-exporter-29594070-2gmqn =====
+
+===== kubescape-exporter-29594075-dwg5x =====
+
+===== kubescape-exporter-29594080-w78br =====
+
+===== kubescape-exporter-29594085-nxj9b =====
+
+===== kubescape-exporter-29594090-bk9xh =====
+
+===== kubescape-exporter-29594095-fznzb =====
+
+===== kubescape-exporter-29594100-r6dw6 =====
+
+===== kubescape-exporter-29594105-fxr8n =====
+
+===== kubescape-exporter-29594110-lth22 =====
+
+===== kubescape-exporter-29594115-2n8jq =====
+
+===== kubescape-exporter-29594120-kpskt =====
+
+===== kubescape-exporter-29594125-ssnch =====
+
+===== kubescape-exporter-29594130-kqz8z =====
+
+===== kubescape-exporter-29594135-rdsbp =====
+
+===== kubescape-exporter-29594140-6fn7x =====
+
+===== kubescape-exporter-29594145-x788r =====
+
+===== kubescape-exporter-29594150-q2nhz =====
+
+===== kubescape-exporter-29594155-cfvxq =====
+
+===== kubescape-exporter-29594160-h846t =====
+
+===== kubescape-exporter-29594165-tjk7m =====
+
+===== kubescape-exporter-29594170-9d8vb =====
+
+===== kubescape-exporter-29594175-c278l =====
+
+===== kubescape-exporter-29594180-rj6m4 =====
+
+===== kubescape-exporter-29594185-m54ld =====
+
+===== kubescape-exporter-29594190-7w9f5 =====
+
+===== kubescape-exporter-29594195-bw46p =====
+
+===== kubescape-exporter-29594200-nfll6 =====
+
+===== kubescape-exporter-29594205-jh9m7 =====
+
+===== kubescape-exporter-29594210-knnmb =====
+
+===== kubescape-exporter-29594215-kbcxr =====
+
+===== kubescape-exporter-29594220-8mk2w =====
+
+===== kubescape-exporter-29594225-w8wgp =====
+
+===== kubescape-exporter-29594230-wcw2x =====
+
+===== kubescape-exporter-29594235-tncvs =====
+
+===== kubescape-exporter-29594240-25bf7 =====
+
+===== kubescape-exporter-29594245-rhkls =====
+
+===== kubescape-exporter-29594250-p5k5d =====
+
+===== kubescape-exporter-29594255-b6b27 =====
+
+===== kubescape-exporter-29594260-wjkj4 =====
+
+===== kubescape-exporter-29594265-ljf2l =====
+
+===== kubescape-exporter-29594270-ngv26 =====
+
+===== kubescape-exporter-29594275-d928c =====
+
+===== kubescape-exporter-29594280-qn4hk =====
+
+===== kubescape-exporter-29594285-hcqcm =====
+
+===== kubescape-exporter-29594290-fm4wq =====
+
+===== kubescape-exporter-29594295-lnxrn =====
+
+===== kubescape-exporter-29594300-856f5 =====
+
+===== kubescape-exporter-29594305-p46mz =====
+
+===== kubescape-exporter-29594310-cz8s8 =====
+
+===== kubescape-exporter-29594315-pxr6d =====
+
+===== kubescape-exporter-29594320-xgq72 =====
+
+===== kubescape-exporter-29594325-cv8cg =====
+
+===== kubescape-exporter-29594330-p7gj9 =====
+
+===== kubescape-exporter-29594335-7qzj2 =====
+
+===== kubescape-exporter-29594340-l9r72 =====
+
+===== kubescape-exporter-29594345-7wwpc =====
+
+===== kubescape-exporter-29594350-n2lkk =====
+
+===== kubescape-exporter-29594355-d7ktq =====
+
+===== kubescape-exporter-29594360-jrgk6 =====
+
+===== kubescape-exporter-29594365-bm5cj =====
+
+===== kubescape-exporter-29594370-t7wgx =====
+
+===== kubescape-exporter-29594375-xpd2j =====
+
+===== kubescape-exporter-29594380-k9d68 =====
+
+===== kubescape-exporter-29594385-bkcl6 =====
+
+===== kubescape-exporter-29594390-v7vnc =====
+
+===== kubescape-exporter-29594395-4sgx6 =====
+
+===== kubescape-exporter-29594400-7t58j =====
+
+===== kubescape-exporter-29594405-4j7rm =====
+
+===== kubescape-exporter-29594410-kqz7s =====
+
+===== kubescape-exporter-29594415-tj8rd =====
+
+===== kubescape-exporter-29594420-mhkcx =====
+
+===== kubescape-exporter-29594425-bzvcn =====
+
+===== kubescape-exporter-29594430-8t6bb =====
+
+===== kubescape-exporter-29594435-g9lxc =====
+
+===== kubescape-exporter-29594440-cfxgr =====
+
+===== kubescape-exporter-29594445-2v7rq =====
+
+===== kubescape-exporter-29594450-7ns8b =====
+
+===== kubescape-exporter-29594455-tr5nf =====
+
+===== kubescape-exporter-29594460-z2gbs =====
+
+===== kubescape-exporter-29594465-flfw4 =====
+
+===== kubescape-exporter-29594470-pwzfg =====
+
+===== kubescape-exporter-29594475-kwhq7 =====
+
+===== kubescape-exporter-29594480-trtwt =====
+
+===== kubescape-exporter-29594485-cg25n =====
+
+===== kubescape-exporter-29594490-rrvl2 =====
+
+===== kubescape-exporter-29594495-zgctn =====
+
+===== kubescape-exporter-29594500-26q8x =====
+
+===== kubescape-exporter-29594505-t69vl =====
+
+===== kubescape-exporter-29594510-vdmcg =====
+
+===== kubescape-exporter-29594515-5dq9w =====
+
+===== kubescape-exporter-29594520-c98kn =====
+
+===== kubescape-exporter-29594525-rr2mt =====
+
+===== kubescape-exporter-29594530-r9562 =====
+
+===== kubescape-exporter-29594535-7zw89 =====
+
+===== kubescape-exporter-29594540-gslxl =====
+
+===== kubescape-exporter-29594545-9w27b =====
+
+===== kubescape-exporter-29594550-d7rr8 =====
+
+===== kubescape-exporter-29594555-ntwgk =====
+
+===== kubescape-exporter-29594560-lgw2w =====
+
+===== kubescape-exporter-29594565-zq9mr =====
+
+===== kubescape-exporter-29594570-25wcx =====
+
+===== kubescape-exporter-29594575-jsrsl =====
+
+===== kubescape-exporter-29594580-jz6xk =====
+
+===== kubescape-exporter-29594585-7nb85 =====
+
+===== kubescape-exporter-29594590-4zp44 =====
+
+===== kubescape-exporter-29594595-7lvsw =====
+
+===== kubescape-exporter-29594600-z45nj =====
+
+===== kubescape-exporter-29594605-zh7m6 =====
+
+===== kubescape-exporter-29594610-4wnkg =====
+
+===== kubescape-exporter-29594615-crbh9 =====
+
+===== kubescape-exporter-29594620-wl96j =====
+
+===== kubescape-exporter-29594625-27tmx =====
+
+===== kubescape-exporter-29594630-stnqr =====
+
+===== kubescape-exporter-29594635-z78m6 =====
+
+===== kubescape-exporter-29594640-rjbb2 =====
+
+===== kubescape-exporter-29594645-fc59c =====
+
+===== kubescape-exporter-29594650-lp7bj =====
+
+===== kubescape-exporter-29594655-tvlld =====
+
+===== kubescape-exporter-29594660-gm6g7 =====
+
+===== kubescape-exporter-29594665-r7rdb =====
+
+===== kubescape-exporter-29594670-kn9jt =====
+
+===== kubescape-exporter-29594675-2thz6 =====
+
+===== kubescape-exporter-29594680-dd8kt =====
+
+===== kubescape-exporter-29594685-k9s5j =====
+
+===== kubescape-exporter-29594690-tdrrb =====
+
+===== kubescape-exporter-29594695-ptsvf =====
+
+===== kubescape-exporter-29594700-tfttf =====
+
+===== kubescape-exporter-29594705-6l6s2 =====
+
+===== kubescape-exporter-29594710-jbq4d =====
+
+===== kubescape-exporter-29594715-7jpc2 =====
+
+===== kubescape-exporter-29594720-zbg9n =====
+
+===== kubescape-exporter-29594725-nx8tf =====
+
+===== kubescape-exporter-29594730-dwbcf =====
+
+===== kubescape-exporter-29594735-2ttgz =====
+
+===== kubescape-exporter-29594740-fhnmn =====
+
+===== kubescape-exporter-29594745-6xpq5 =====
+
+===== kubescape-exporter-29594750-fxnf4 =====
+
+===== kubescape-exporter-29594755-zsgmn =====
+
+===== kubescape-exporter-29594760-82r52 =====
+
+===== kubescape-exporter-29594765-ffv77 =====
+
+===== kubescape-exporter-29594770-l5g7q =====
+
+===== kubescape-exporter-29594775-l2wvd =====
+
+===== kubescape-exporter-29594780-x7w7h =====
+
+===== kubescape-exporter-29594785-t6mbp =====
+
+===== kubescape-exporter-29594790-rpk6x =====
+
+===== kubescape-exporter-29594795-j575k =====
+
+===== kubescape-exporter-29594800-kmkqj =====
+
+===== kubescape-exporter-29594805-v6kww =====
+
+===== kubescape-exporter-29594810-9nnvw =====
+
+===== kubescape-exporter-29594815-rs47l =====
+
+===== kubescape-exporter-29594820-d98nq =====
+
+===== kubescape-exporter-29594825-6mdnk =====
+
+===== kubescape-exporter-29594830-6rngv =====
+
+===== kubescape-exporter-29594835-xsnwt =====
+
+===== kubescape-exporter-29594840-qp2lk =====
+
+===== kubescape-exporter-29594845-hjm2k =====
+
+===== kubescape-exporter-29594850-w988f =====
+
+===== kubescape-exporter-29594855-nknnq =====
+
+===== kubescape-exporter-29594860-j5kmc =====
+
+===== kubescape-exporter-29594865-rtfzp =====
+
+===== kubescape-exporter-29594870-tft99 =====
+
+===== kubescape-exporter-29594875-8w9dv =====
+
+===== kubescape-exporter-29594880-xx85z =====
+
+===== kubescape-exporter-29594885-kzqd7 =====
+
+===== kubescape-exporter-29594890-cvvhw =====
+
+===== kubescape-exporter-29594895-thjbq =====
+
+===== kubescape-exporter-29594900-svbfz =====
+
+===== kubescape-exporter-29594905-rkzcf =====
+
+===== kubescape-exporter-29594910-gvctc =====
+
+===== kubescape-exporter-29594915-bx8fj =====
+
+===== kubescape-exporter-29594920-d8ng7 =====
+
+===== kubescape-exporter-29594925-tjct8 =====
+
+===== kubescape-exporter-29594930-4ps68 =====
+
+===== kubescape-exporter-29594935-dwzs6 =====
+
+===== kubescape-exporter-29594940-l925g =====
+
+===== kubescape-exporter-29594945-bt54p =====
+
+===== kubescape-exporter-29594950-s7dd5 =====
+
+===== kubescape-exporter-29594955-x9lrl =====
+
+===== kubescape-exporter-29594960-rwmfv =====
+
+===== kubescape-exporter-29594965-2f6fg =====
+
+===== kubescape-exporter-29594970-4tw26 =====
+
+===== kubescape-exporter-29594975-s5l6m =====
+
+===== kubescape-exporter-29594980-872hd =====
+
+===== kubescape-exporter-29594985-g4g8n =====
+
+===== kubescape-exporter-29594990-fc8mw =====
+
+===== kubescape-exporter-29594995-qbc7j =====
+
+===== kubescape-exporter-29595000-vnbg6 =====
+
+===== kubescape-exporter-29595005-v8ps7 =====
+
+===== kubescape-exporter-29595010-4nqk5 =====
+
+===== kubescape-exporter-29595015-vrjw5 =====
+
+===== kubescape-exporter-29595020-z966c =====
+
+===== kubescape-exporter-29595025-9hsfn =====
+
+===== kubescape-exporter-29595030-vlvf4 =====
+
+===== kubescape-exporter-29595035-s7gj5 =====

@@ -1,0 +1,60 @@
+% ════════════════════════════════════════════════════
+% Table 1: Per-attack detection performance
+% ════════════════════════════════════════════════════
+\begin{table}[t]
+\centering
+\caption{Per-Attack Detection Performance (mean $\pm$ std, $N=5$ seeds)}
+\label{tab:per_attack}
+\begin{tabular}{lccccc}
+\toprule
+Attack Type & Precision & Recall & F1 & AUC-ROC & MTTD (s) \\
+\midrule
+\texttt{data-exfil} & 0.92$\pm$0.02 & 0.84$\pm$0.02 & \textbf{0.87}$\pm$0.01 & 0.919$\pm$0.036 & 41$\pm$5 \\
+\texttt{dos-amf} & 0.93$\pm$0.03 & 0.82$\pm$0.02 & \textbf{0.87}$\pm$0.03 & 0.927$\pm$0.018 & 32$\pm$5 \\
+\texttt{lateral-mvmt} & 0.90$\pm$0.03 & 0.77$\pm$0.02 & \textbf{0.80}$\pm$0.02 & 0.858$\pm$0.021 & 67$\pm$1 \\
+\texttt{priv-esc} & 0.89$\pm$0.03 & 0.79$\pm$0.02 & \textbf{0.84}$\pm$0.03 & 0.895$\pm$0.022 & 53$\pm$3 \\
+\texttt{sig-storm} & 0.86$\pm$0.03 & 0.77$\pm$0.01 & \textbf{0.81}$\pm$0.01 & 0.876$\pm$0.013 & 24$\pm$4 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ════════════════════════════════════════════════════
+% Table 2: Source ablation
+% ════════════════════════════════════════════════════
+\begin{table}[t]
+\centering
+\caption{Source Ablation Study}
+\label{tab:ablation}
+\begin{tabular}{lcc}
+\toprule
+Configuration & F1 & AUC-ROC \\
+\midrule
+All sources & 0.844 & 0.889 \\
+Without 5gnf & 0.718 & 0.739 \\
+Without k8s & 0.772 & 0.804 \\
+Without netflow & 0.725 & 0.754 \\
+Without syslog & 0.800 & 0.837 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ════════════════════════════════════════════════════
+% Table 3: Baseline comparison with statistical tests
+% ════════════════════════════════════════════════════
+\begin{table}[t]
+\centering
+\caption{Comparison with Baselines (Wilcoxon $p<0.05$)}
+\label{tab:baselines}
+\begin{tabular}{lcccc}
+\toprule
+Method & F1 & AUC-ROC & $\Delta$F1 & $p$-val \\
+\midrule
+\textbf{MultiSource (Ours)} & \textbf{0.862} & \textbf{0.892} & -- & -- \\
+Single: 5gnf & 0.657 & 0.717 & +0.205$^*$ & 0.0312 \\
+Single: k8s & 0.575 & 0.640 & +0.287$^*$ & 0.0312 \\
+Single: syslog & 0.538 & 0.595 & +0.324$^*$ & 0.0312 \\
+Single: netflow & 0.619 & 0.678 & +0.243$^*$ & 0.0312 \\
+\bottomrule
+\end{tabular}
+\vspace{1pt}{\small $^*$ $p<0.05$, Wilcoxon signed-rank (one-tailed)}
+\end{table}

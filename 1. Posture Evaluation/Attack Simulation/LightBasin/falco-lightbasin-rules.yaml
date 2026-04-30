@@ -1,0 +1,42 @@
+rules:
+  - rule: LIGHTBASIN_K8s_ServiceAccount_Token_Access
+    desc: Detect reads under Kubernetes service account token path in containers
+    condition: evt.type in (open,openat,read) and fd.name startswith /var/run/secrets/kubernetes.io/serviceaccount
+    output: "LIGHTBASIN token access in container (pod=%k8s.pod.name ns=%k8s.ns.name proc=%proc.name file=%fd.name user=%user.name)"
+    priority: WARNING
+    tags: [lightbasin, credential-access, T1552]
+
+  - rule: LIGHTBASIN_Kubectl_Exec_In_5G_Pod
+    desc: Detect kubectl exec-like shell launches in free5gc pods
+    condition: spawned_process and k8s.ns.name=free5gc and proc.name in (sh,bash,ash)
+    output: "LIGHTBASIN interactive shell in 5G pod (pod=%k8s.pod.name proc=%proc.cmdline user=%user.name)"
+    priority: NOTICE
+    tags: [lightbasin, lateral-movement, T1059]
+
+  - rule: LIGHTBASIN_Archive_Staging_In_Tmp
+    desc: Detect archive creation in /tmp often used for collection staging
+    condition: spawned_process and proc.name in (tar,gzip,zip) and proc.cmdline contains /tmp
+    output: "LIGHTBASIN collection staging archive (pod=%k8s.pod.name cmd=%proc.cmdline)"
+    priority: WARNING
+    tags: [lightbasin, collection, T1560]
+
+  - rule: LIGHTBASIN_Unexpected_Curl_Wget_Egress
+    desc: Detect curl/wget execution in free5gc pods
+    condition: spawned_process and k8s.ns.name=free5gc and proc.name in (curl,wget)
+    output: "LIGHTBASIN outbound transfer tool in 5G pod (pod=%k8s.pod.name cmd=%proc.cmdline)"
+    priority: WARNING
+    tags: [lightbasin, exfiltration, T1048]
+
+  - rule: LIGHTBASIN_Network_Discovery_Tools
+    desc: Detect net discovery tools often used during discovery phase
+    condition: spawned_process and proc.name in (netstat,ss,ip,ifconfig,route)
+    output: "LIGHTBASIN network discovery command (pod=%k8s.pod.name cmd=%proc.cmdline)"
+    priority: INFO
+    tags: [lightbasin, discovery, T1049]
+
+  - rule: LIGHTBASIN_SSH_Key_Hunt
+    desc: Detect access to SSH key material from containers
+    condition: evt.type in (open,openat,read) and (fd.name contains /.ssh/id_rsa or fd.name contains /.ssh/authorized_keys)
+    output: "LIGHTBASIN SSH key access attempt (pod=%k8s.pod.name file=%fd.name proc=%proc.name)"
+    priority: WARNING
+    tags: [lightbasin, credential-access, T1552.004]

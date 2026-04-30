@@ -1,0 +1,4 @@
+# Optional requirements for evaluation script
+# The script uses only Python stdlib plus JSON; numpy/sklearn are NOT required.
+# If you prefer sklearn-based metrics, install scikit-learn.
+# pip install scikit-learn

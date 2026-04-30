@@ -1,0 +1,4 @@
+Defaulted container "falco" out of: falco, falcoctl-artifact-follow, falco-driver-loader (init), falcoctl-artifact-install (init)
+Defaulted container "falco" out of: falco, falcoctl-artifact-follow, falco-driver-loader (init), falcoctl-artifact-install (init)
+Defaulted container "falco" out of: falco, falcoctl-artifact-follow, falco-driver-loader (init), falcoctl-artifact-install (init)
+Error from server: Get "https://192.168.61.12:10250/containerLogs/falco/falco-fsr5w/falco?sinceSeconds=7200": dial tcp 192.168.61.12:10250: connect: connection refused

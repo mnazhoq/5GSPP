@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" version="21.0.0">
+<diagram name="R4 Transaction ID" id="r4-txn">
+<mxGraphModel dx="1400" dy="800" grid="0" pageWidth="1100" pageHeight="520">
+<root><mxCell id="0"/><mxCell id="1" parent="0"/>
+<mxCell id="hdr" value="R4 — Transaction ID Correlation  |  Running Example: SMF-UDM-UPF chain (txn_id=smf-pfcp-003)" style="text;html=1;align=center;fontStyle=1;fontSize=15;fillColor=#534AB7;fontColor=#ffffff;strokeColor=none;rounded=1;" vertex="1" parent="1"><mxGeometry x="20" y="10" width="1060" height="32" as="geometry"/></mxCell>
+<mxCell id="formula" value="conf = 1.0  if  A.txn_id = B.txn_id ≠ None   (no time constraint, no source constraint)" style="text;html=1;align=center;fontFamily=Courier New;fontSize=12;fillColor=#E8E4FE;strokeColor=#534AB7;strokeWidth=1.5;rounded=1;" vertex="1" parent="1"><mxGeometry x="20" y="50" width="1060" height="24" as="geometry"/></mxCell>
+<!-- 3 event boxes with highlighted txn_id -->
+<mxCell id="e5" value="E5 — free5GC SMF&#xa;T03:58:47  [SMF][PFCP]&#xa;PFCP Session Deletion" style="text;html=1;align=left;fontFamily=Courier New;fontSize=11;fillColor=#E8E4FE;strokeColor=#534AB7;strokeWidth=2;rounded=1;" vertex="1" parent="1"><mxGeometry x="40" y="92" width="280" height="66" as="geometry"/></mxCell>
+<mxCell id="e5txn" value="txn_id = smf-pfcp-003" style="text;html=1;align=center;fontFamily=Courier New;fontSize=12;fontStyle=1;fillColor=#534AB7;fontColor=#ffffff;strokeColor=none;rounded=1;" vertex="1" parent="1"><mxGeometry x="40" y="162" width="280" height="24" as="geometry"/></mxCell>
+<mxCell id="e8" value="E8 — free5GC UDM&#xa;T04:02:22  [UDM][Nudm_UEAU]&#xa;ConfirmAuthDataRequest" style="text;html=1;align=left;fontFamily=Courier New;fontSize=11;fillColor=#E8E4FE;strokeColor=#534AB7;strokeWidth=2;rounded=1;" vertex="1" parent="1"><mxGeometry x="400" y="92" width="280" height="66" as="geometry"/></mxCell>
+<mxCell id="e8txn" value="txn_id = smf-pfcp-003" style="text;html=1;align=center;fontFamily=Courier New;fontSize=12;fontStyle=1;fillColor=#534AB7;fontColor=#ffffff;strokeColor=none;rounded=1;" vertex="1" parent="1"><mxGeometry x="400" y="162" width="280" height="24" as="geometry"/></mxCell>
+<mxCell id="e9" value="E9 — free5GC SMF&#xa;T04:02:45  [SMF][PFCP]&#xa;Setup Association" style="text;html=1;align=left;fontFamily=Courier New;fontSize=11;fillColor=#E8E4FE;strokeColor=#534AB7;strokeWidth=2;rounded=1;" vertex="1" parent="1"><mxGeometry x="760" y="92" width="280" height="66" as="geometry"/></mxCell>
+<mxCell id="e9txn" value="txn_id = smf-pfcp-003" style="text;html=1;align=center;fontFamily=Courier New;fontSize=12;fontStyle=1;fillColor=#534AB7;fontColor=#ffffff;strokeColor=none;rounded=1;" vertex="1" parent="1"><mxGeometry x="760" y="162" width="280" height="24" as="geometry"/></mxCell>
+<!-- match line -->
+<mxCell id="matchline" value="txn_id match: smf-pfcp-003" style="text;html=1;align=center;fontStyle=1;fontSize=13;fillColor=#534AB7;fontColor=#ffffff;strokeColor=#3C3489;strokeWidth=2;rounded=1;" vertex="1" parent="1"><mxGeometry x="280" y="204" width="520" height="28" as="geometry"/></mxCell>
+<!-- time gaps note -->
+<mxCell id="gaps" value="Time gaps:  E5→E8 = 215 s  |  E8→E9 = 23 s  |  E5→E9 = 238 s    ALL exceed W=60 s — R1 would return 0 for all pairs" style="text;html=1;align=center;fontSize=11;fontColor=#A32D2D;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="1"><mxGeometry x="60" y="246" width="980" height="24" as="geometry"/></mxCell>
+<!-- result -->
+<mxCell id="res1" value="R4(E5,E8) = 1.0" style="text;html=1;align=center;fontStyle=1;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;rounded=1;" vertex="1" parent="1"><mxGeometry x="60" y="286" width="280" height="32" as="geometry"/></mxCell>
+<mxCell id="res2" value="R4(E5,E9) = 1.0" style="text;html=1;align=center;fontStyle=1;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;rounded=1;" vertex="1" parent="1"><mxGeometry x="400" y="286" width="280" height="32" as="geometry"/></mxCell>
+<mxCell id="res3" value="R4(E8,E9) = 1.0" style="text;html=1;align=center;fontStyle=1;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;rounded=1;" vertex="1" parent="1"><mxGeometry x="740" y="286" width="280" height="32" as="geometry"/></mxCell>
+<!-- union find -->
+<mxCell id="uf" value="Union-Find: {E5, E8, E9} → one correlated cluster via transitive closure" style="text;html=1;align=center;fontStyle=1;fontSize=13;fillColor=#1e4d78;fontColor=#ffffff;strokeColor=none;rounded=1;" vertex="1" parent="1"><mxGeometry x="100" y="334" width="900" height="32" as="geometry"/></mxCell>
+<!-- source note -->
+<mxCell id="srcnote" value="txn_id extraction:  free5GC logs embed transaction_id in structured fields.  Syslog: no txn_id → R4=0.  K8s: pod name used as proxy.  NetFlow: correlation via R2 (shared IP)." style="text;html=1;align=left;fontSize=11;fillColor=#f5f5f5;strokeColor=#aaa;rounded=1;" vertex="1" parent="1"><mxGeometry x="20" y="382" width="1060" height="30" as="geometry"/></mxCell>
+<mxCell id="strength" value="R4 is the strongest rule for free5GC logs: exact field match, no regex, no time dependency, no false positives from timestamp proximity." style="text;html=1;align=left;fontSize=11;fontColor=#534AB7;fontStyle=1;fillColor=#E8E4FE;strokeColor=#534AB7;strokeWidth=1.5;rounded=1;" vertex="1" parent="1"><mxGeometry x="20" y="424" width="1060" height="26" as="geometry"/></mxCell>
+</root></mxGraphModel></diagram></mxfile>

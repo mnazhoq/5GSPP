@@ -1,0 +1,20 @@
+{
+	"Authentication": [["Access_Server", "end"],[0.99, 0.01]],
+	"Logon_PB": [["Access_Server", "end"],[0.99, 0.01]],
+	"Access_Server": [["Deploy_malware", "Connect_NRF", "Portable_Execution", "Token_Impersonation", "Launch_Agent", "end"], [0.05,0.05,0.2,0.3, 0.39, 0.01]],
+	"Deploy_malware": [["Config_PB","end"], [0.99,0.01]],
+	"Config_PB": [["Token_Impersonation","end"], [0.99,0.01]],
+	"Portable_Execution": [["Agent_based_MPB", "end"], [0.99,0.01]],
+	"Agent_based_MPB": [["Launch_Agent", "end"], [0.99,0.01]],
+	"Token_Impersonation": [["Connect_NRF", "goal_node", "end"], [0.4, 0.4, 0.2]],
+	"Connect_NRF": [["Connect_UE", "Connect_C2", "end"],[0.45, 0.5, 0.05]],
+	"Connect_C2": [["Rule_based_MPB", "end"],[0.99, 0.01]],
+	"Rule_based_MPB": [["Exfiltrating_data", "end"],[0.99, 0.01]],
+	"Exfiltrating_data": [["goal_node", "end"], [0.7,0.3]],
+	"Launch_Agent": [["goal_node", "end"], [0.7,0.3]],
+	"Connect_UE": [["end"],[1]],
+	"goal_node": [["end"],[1]]
+}
+
+
+

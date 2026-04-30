@@ -1,0 +1,37 @@
+[
+  {
+    "breach_id": "B1",
+    "keywords": ["password", "user account", "compromise"],
+    "ttps": ["T1110"],
+    "preconditions": ["weak passwords enabled", "no MFA configured"],
+    "postconditions": ["user account compromised"]
+  },
+  {
+    "breach_id": "B2",
+    "keywords": ["malware", "email", "phishing"],
+    "ttps": ["T1566"],
+    "preconditions": ["user opened malicious attachment"],
+    "postconditions": ["malware persistence established"]
+  },
+  {
+    "breach_id": "B3",
+    "keywords": ["ssh", "exploit"],
+    "ttps": ["T1210"],
+    "preconditions": ["vulnerable SSH service exposed"],
+    "postconditions": ["remote shell obtained"]
+  },
+  {
+    "breach_id": "B4",
+    "keywords": ["session hijacking", "token"],
+    "ttps": ["T1531"],
+    "preconditions": ["stolen session token"],
+    "postconditions": ["unauthorized remote access"]
+  },
+  {
+    "breach_id": "B5",
+    "keywords": ["administrator", "lateral movement"],
+    "ttps": ["T1078"],
+    "preconditions": ["administrator credentials available"],
+    "postconditions": ["lateral movement observed"]
+  }
+]
