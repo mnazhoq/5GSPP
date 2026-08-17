@@ -15,8 +15,7 @@
 
 1. **Evaluate** security posture based on security monitoring and auditing tools results.
 2. **Predict** future security states using various machine learning and probabilistic models
-3. **Correlate** correlating security results from different tools
-4. **Identify** pre- and post-conditions for a security policy breach 
+3. **Identify** pre- and post-conditions for a security policy breach 
 
 ---
 
