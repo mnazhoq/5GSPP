@@ -1,0 +1,10 @@
+date_time,sequence,posturevalue,Predicted_value
+2018-01-01 5:00,"['Authentication', 'Access_Server', 'Portable_Execution', 'Agent_based_MPB', 'Launch_Agent']",0.673477485,0.61
+2018-01-01 6:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server']",0.673477485,0.61
+2018-01-01 7:00,"['Authentication', 'Access_Server', 'Query_SMF']",0.673477485,0.61
+2018-01-01 8:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Query_SMF']",0.673477485,0.62
+2018-01-01 9:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'Connect_NRF', 'Connect_SMF']",0.078165636,0.57
+2018-01-01 10:00,"['Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'goal_node']",0.008777158,0.59
+2018-01-01 11:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Query_SMF', 'Connect_NRF', 'Connect_PCF', 'Connect_UPF', 'Connect_C2', 'Rule_based_MPB', 'Exfiltrating_data']",0.768021112,0.71
+2018-01-01 12:00,"['Authentication', 'Access_Server', 'Query_SMF', 'Connect_NRF', 'Connect_SMF', 'Connect_UPF', 'Create_GTP']",0.768021112,0.69
+2018-01-01 13:00,"['Authentication', 'Access_Server', 'Deploy_malware']",0.018956179,0.61

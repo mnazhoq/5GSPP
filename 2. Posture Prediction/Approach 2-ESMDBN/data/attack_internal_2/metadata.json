@@ -1,0 +1,45 @@
+{
+  "num_nodes": 7,
+  "num_edges": 7,
+  "nodes": [
+    "SystemUseNotPB",
+    "Access_Server",
+    "Portable_Execution",
+    "Agent_based_MPB",
+    "Deploy_malware",
+    "Exfiltrating_data",
+    "goal_node"
+  ],
+  "edges": [
+    [
+      "SystemUseNotPB",
+      "Access_Server"
+    ],
+    [
+      "Access_Server",
+      "Portable_Execution"
+    ],
+    [
+      "Portable_Execution",
+      "Agent_based_MPB"
+    ],
+    [
+      "Agent_based_MPB",
+      "Deploy_malware"
+    ],
+    [
+      "Agent_based_MPB",
+      "goal_node"
+    ],
+    [
+      "Deploy_malware",
+      "Exfiltrating_data"
+    ],
+    [
+      "Exfiltrating_data",
+      "goal_node"
+    ]
+  ],
+  "num_samples": 1000,
+  "num_features": 7
+}

@@ -1,0 +1,45 @@
+{
+  "all_events": [
+    "Access_Server",
+    "Agent_based_MPB",
+    "Authentication",
+    "Config_PB",
+    "Connect_C2",
+    "Connect_NRF",
+    "Connect_UE",
+    "Deploy_malware",
+    "Exfiltrating_data",
+    "Launch_Agent",
+    "Logon_PB",
+    "Portable_Execution",
+    "Rule_based_MPB",
+    "Token_Impersonation",
+    "goal_node"
+  ],
+  "event_to_id": {
+    "Access_Server": 0,
+    "Agent_based_MPB": 1,
+    "Authentication": 2,
+    "Config_PB": 3,
+    "Connect_C2": 4,
+    "Connect_NRF": 5,
+    "Connect_UE": 6,
+    "Deploy_malware": 7,
+    "Exfiltrating_data": 8,
+    "Launch_Agent": 9,
+    "Logon_PB": 10,
+    "Portable_Execution": 11,
+    "Rule_based_MPB": 12,
+    "Token_Impersonation": 13,
+    "goal_node": 14
+  },
+  "config": {
+    "window_size": 2,
+    "prediction_steps": 1,
+    "lstm_units": 64,
+    "epochs": 30,
+    "batch_size": 32
+  },
+  "window_size": 2,
+  "prediction_steps": 1
+}

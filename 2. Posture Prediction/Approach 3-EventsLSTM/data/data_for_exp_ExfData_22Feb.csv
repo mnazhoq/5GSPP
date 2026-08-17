@@ -1,0 +1,109 @@
+date_time,sequence,posturevalue
+,,
+2018-01-01 0:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server']",0.982934315
+,,
+2018-01-01 1:00,"['Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'Token_Impersonation', 'Connect_NRF', 'Connect_SMF']",0.950969053
+,,
+2018-01-01 2:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'Token_Impersonation', 'Connect_NRF', 'Connect_SMF', 'Connect_UPF', 'Create_GTP']",0.935421687
+,,
+2018-01-01 3:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server']",0.982934315
+,,
+2018-01-01 4:00,"['Authentication', 'Access_Server', 'Query_SMF', 'Connect_NRF', 'Connect_SMF', 'Connect_UPF', 'Create_GTP']",0.935421687
+,,
+2018-01-01 5:00,"['Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'Token_Impersonation', 'Connect_NRF']",0.959253481
+,,
+2018-01-01 6:00,"['Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'Token_Impersonation']",0.980432808
+,,
+2018-01-01 7:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Query_SMF', 'Connect_NRF', 'Connect_PCF']",0.964207175
+,,
+2018-01-01 8:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Query_SMF', 'Connect_NRF', 'Connect_SMF', 'Connect_UPF', 'Create_GTP', 'Connect_UE']",0.935421687
+,,
+2018-01-01 9:00,"['Authentication', 'Access_Server', 'Query_SMF', 'Connect_NRF', 'Connect_SMF', 'Connect_UPF']",0.935421687
+,,
+2018-01-01 10:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Query_SMF']",0.971628164
+,,
+2018-01-01 11:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server']",0.982934315
+,,
+2018-01-01 12:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'Token_Impersonation']",0.980432808
+,,
+2018-01-01 13:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Portable_Execution', 'Agent_based_MPB', 'Launch_Agent']",0.982934315
+,,
+2018-01-01 14:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Query_SMF', 'Connect_NRF', 'Connect_SMF', 'Connect_UPF']",0.935421687
+,,
+2018-01-01 15:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'Token_Impersonation', 'Connect_NRF', 'Connect_SMF', 'Connect_UPF', 'Create_GTP', 'Connect_UE']",0.935421687
+,,
+2018-01-01 16:00,"['Authentication', 'Access_Server', 'Query_SMF', 'Connect_NRF', 'Connect_SMF']",0.950969053
+,,
+2018-01-01 17:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Portable_Execution', 'Agent_based_MPB', 'Launch_Agent']",0.982934315
+,,
+2018-01-01 18:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'Token_Impersonation', 'Connect_NRF', 'Connect_PCF', 'Connect_UPF', 'Create_GTP', 'Connect_UE']",0.935421687
+,,
+2018-01-01 19:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'Token_Impersonation', 'Connect_NRF', 'Connect_SMF', 'Connect_UPF']",0.935421687
+,,
+2018-01-01 20:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Query_SMF']",0.971628164
+,,
+2018-01-01 21:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'Token_Impersonation']",0.980432808
+,,
+2018-01-01 22:00,"['Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'Token_Impersonation']",0.980432808
+,,
+2018-01-01 23:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'Token_Impersonation', 'Connect_NRF', 'Connect_NEF']",0.963982062
+,,
+2018-01-02 0:00,"['Authentication', 'Access_Server', 'Query_SMF', 'Connect_NRF', 'Connect_SMF']",0.950969053
+,,
+2018-01-02 1:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Query_SMF']",0.971628164
+,,
+2018-01-02 2:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Query_SMF', 'Connect_NRF', 'Connect_SMF', 'Connect_UPF', 'Create_GTP', 'Connect_UE']",0.935421687
+,,
+2018-01-02 3:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Portable_Execution', 'Agent_based_MPB', 'Launch_Agent']",0.982934315
+,,
+2018-01-02 4:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Query_SMF', 'Connect_NRF', 'Connect_SMF', 'Connect_UPF', 'Create_GTP', 'Connect_UE']",0.935421687
+,,
+2018-01-02 5:00,"['Authentication', 'Access_Server', 'Deploy_malware']",0.981120933
+,,
+2018-01-02 6:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Query_SMF', 'Connect_NRF', 'Connect_SMF', 'Connect_UPF', 'Create_GTP', 'Connect_UE']",0.935421687
+,,
+2018-01-02 7:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Deploy_malware']",0.981120933
+,,
+2018-01-02 8:00,"['Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'Token_Impersonation']",0.980432808
+,,
+2018-01-02 9:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Query_SMF', 'Connect_NRF', 'Connect_SMF', 'Connect_UPF', 'Create_GTP', 'Connect_UE']",0.935421687
+,,
+2018-01-02 10:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'Token_Impersonation']",0.980432808
+,,
+2018-01-02 11:00,"['Authentication', 'Access_Server', 'Query_SMF', 'Connect_NRF', 'Connect_SMF', 'Connect_UPF', 'Create_GTP', 'Connect_UE']",0.935421687
+,,
+2018-01-02 12:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'Token_Impersonation', 'Connect_NRF', 'Connect_SMF', 'Connect_UPF', 'Create_GTP', 'Connect_UE']",0.935421687
+,,
+2018-01-02 13:00,['Logon_PB'],0.987194844
+,,
+2018-01-02 14:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Deploy_malware']",0.981120933
+,,
+2018-01-02 15:00,"['Authentication', 'Access_Server', 'Query_SMF']",0.971628164
+,,
+2018-01-02 16:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Query_SMF', 'Connect_NRF', 'Connect_SMF', 'Connect_UPF', 'Connect_C2', 'Rule_based_MPB']",0.1625
+,,
+2018-01-02 17:00,"['Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'Token_Impersonation']",0.980432808
+,,
+2018-01-02 18:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Query_SMF']",0.971628164
+,,
+2018-01-02 19:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'Token_Impersonation', 'Connect_NRF', 'Connect_SMF', 'Connect_UPF']",0.935421687
+,,
+2018-01-02 20:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Query_SMF', 'Connect_NRF', 'Connect_SMF']",0.950969053
+,,
+2018-01-02 21:00,"['Authentication', 'SystemUseNotPB', 'Access_Server', 'Deploy_malware', 'Config_PB']",0.980799361
+,,
+2018-01-02 22:00,"['Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'Token_Impersonation', 'Connect_NRF', 'Connect_NEF', 'Connect_UPF', 'Create_GTP', 'Connect_UE']",0.935421687
+,,
+2018-01-02 23:00,"['Authentication', 'Access_Server', 'Query_SMF', 'Connect_NRF', 'Connect_SMF', 'Connect_UPF', 'Create_GTP', 'Connect_UE']",0.935421687
+,,
+2018-01-03 0:00,['Logon_PB'],0.987194844
+,,
+2018-01-03 1:00,"['Authentication', 'SystemUseNotPB', 'Access_Server', 'Query_SMF', 'Connect_NRF', 'Connect_PCF', 'Connect_UPF', 'Create_GTP', 'Connect_UE']",0.935421687
+,,
+2018-01-03 2:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Deploy_malware', 'Config_PB', 'Token_Impersonation', 'Connect_NRF', 'Connect_SMF', 'Connect_UPF']",0.935421687
+,,
+2018-01-03 3:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server']",0.982934315
+,,
+2018-01-03 4:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Query_SMF', 'Connect_NRF', 'Connect_SMF']",0.950969053
+,,
+2018-01-03 5:00,"['Logon_PB', 'Bypass_Authentication', 'Access_Server', 'Query_SMF']",0.971628164

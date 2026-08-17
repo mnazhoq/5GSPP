@@ -1,0 +1,55 @@
+{
+  "num_nodes": 9,
+  "num_edges": 9,
+  "nodes": [
+    "Input_Credentials",
+    "Bypass_Authentication",
+    "Access_Server",
+    "Query_SMF",
+    "Connect_NRF",
+    "Connect_SMF",
+    "Connect_UPF",
+    "Create_GTP",
+    "goal_node"
+  ],
+  "edges": [
+    [
+      "Input_Credentials",
+      "Bypass_Authentication"
+    ],
+    [
+      "Bypass_Authentication",
+      "Access_Server"
+    ],
+    [
+      "Access_Server",
+      "Query_SMF"
+    ],
+    [
+      "Query_SMF",
+      "Connect_NRF"
+    ],
+    [
+      "Connect_NRF",
+      "Connect_SMF"
+    ],
+    [
+      "Connect_SMF",
+      "Connect_UPF"
+    ],
+    [
+      "Connect_SMF",
+      "goal_node"
+    ],
+    [
+      "Connect_UPF",
+      "Create_GTP"
+    ],
+    [
+      "Create_GTP",
+      "goal_node"
+    ]
+  ],
+  "num_samples": 1000,
+  "num_features": 9
+}

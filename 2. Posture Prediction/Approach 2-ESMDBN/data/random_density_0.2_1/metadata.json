@@ -1,0 +1,86 @@
+{
+  "num_nodes": 12,
+  "num_edges": 16,
+  "nodes": [
+    "Connect_SMF",
+    "Bypass_Authentication",
+    "Create_GTP",
+    "Logon_PB",
+    "Connect_C2",
+    "Connect_UE",
+    "Agent_based_MPB",
+    "goal_node",
+    "Connect_NEF",
+    "Config_PB",
+    "Connect_UPF",
+    "Portable_Execution"
+  ],
+  "edges": [
+    [
+      "Connect_SMF",
+      "Bypass_Authentication"
+    ],
+    [
+      "Create_GTP",
+      "Logon_PB"
+    ],
+    [
+      "Create_GTP",
+      "Bypass_Authentication"
+    ],
+    [
+      "Logon_PB",
+      "Connect_UE"
+    ],
+    [
+      "Connect_C2",
+      "Logon_PB"
+    ],
+    [
+      "Connect_C2",
+      "Connect_UE"
+    ],
+    [
+      "Connect_UE",
+      "Bypass_Authentication"
+    ],
+    [
+      "Connect_UE",
+      "Portable_Execution"
+    ],
+    [
+      "Agent_based_MPB",
+      "goal_node"
+    ],
+    [
+      "Agent_based_MPB",
+      "Connect_NEF"
+    ],
+    [
+      "goal_node",
+      "Connect_NEF"
+    ],
+    [
+      "goal_node",
+      "Bypass_Authentication"
+    ],
+    [
+      "goal_node",
+      "Portable_Execution"
+    ],
+    [
+      "Connect_NEF",
+      "Portable_Execution"
+    ],
+    [
+      "Config_PB",
+      "Connect_UPF"
+    ],
+    [
+      "Connect_UPF",
+      "Bypass_Authentication"
+    ]
+  ],
+  "num_samples": 1000,
+  "num_features": 15
+}

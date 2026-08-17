@@ -1,0 +1,5 @@
+attacker_capability,stage_name,node_seq,posture_value_goal_node,posture_value_exfiltrate,posture_value_Launch_Agent,posture_value_Token_Impersonation,prediction_time time,no_of_attacker_reach
+1,Stage 1,"Authentication,SystemUseNotPB",0.7202,0.8836,0.8717,0.8261,0.0039975643157958984,0
+1,Stage 1,Remote_access_PB,0.7267,0.8841,0.8759,0.8386,0.003999471664428711,0
+0,Stage 2,Portable_Execution,0.8112,0.9928,0.6075,0.9134,0.004004478454589844,0
+0,Stage 3,Connect_C2,0.8099,0.6119,0.9739,0.8955,0.004000663757324219,0

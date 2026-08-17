@@ -1,0 +1,30 @@
+[
+  [
+    "SystemUseNotPB",
+    "Access_Server"
+  ],
+  [
+    "Access_Server",
+    "Portable_Execution"
+  ],
+  [
+    "Access_Server",
+    "Exfiltrating_data"
+  ],
+  [
+    "Portable_Execution",
+    "Agent_based_MPB"
+  ],
+  [
+    "Agent_based_MPB",
+    "Deploy_malware"
+  ],
+  [
+    "Deploy_malware",
+    "Exfiltrating_data"
+  ],
+  [
+    "Exfiltrating_data",
+    "goal_node"
+  ]
+]

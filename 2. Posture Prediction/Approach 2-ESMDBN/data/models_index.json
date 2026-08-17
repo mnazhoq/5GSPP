@@ -1,0 +1,1726 @@
+{
+  "random_density_0.2_1": {
+    "path": "/home/ubuntu/5GSPP/2. Posture Prediction/Approach 2-ESMDBN/data/random_density_0.2_1",
+    "metadata": {
+      "num_nodes": 12,
+      "num_edges": 16,
+      "nodes": [
+        "Connect_SMF",
+        "Bypass_Authentication",
+        "Create_GTP",
+        "Logon_PB",
+        "Connect_C2",
+        "Connect_UE",
+        "Agent_based_MPB",
+        "goal_node",
+        "Connect_NEF",
+        "Config_PB",
+        "Connect_UPF",
+        "Portable_Execution"
+      ],
+      "edges": [
+        [
+          "Connect_SMF",
+          "Bypass_Authentication"
+        ],
+        [
+          "Create_GTP",
+          "Logon_PB"
+        ],
+        [
+          "Create_GTP",
+          "Bypass_Authentication"
+        ],
+        [
+          "Logon_PB",
+          "Connect_UE"
+        ],
+        [
+          "Connect_C2",
+          "Logon_PB"
+        ],
+        [
+          "Connect_C2",
+          "Connect_UE"
+        ],
+        [
+          "Connect_UE",
+          "Bypass_Authentication"
+        ],
+        [
+          "Connect_UE",
+          "Portable_Execution"
+        ],
+        [
+          "Agent_based_MPB",
+          "goal_node"
+        ],
+        [
+          "Agent_based_MPB",
+          "Connect_NEF"
+        ],
+        [
+          "goal_node",
+          "Connect_NEF"
+        ],
+        [
+          "goal_node",
+          "Bypass_Authentication"
+        ],
+        [
+          "goal_node",
+          "Portable_Execution"
+        ],
+        [
+          "Connect_NEF",
+          "Portable_Execution"
+        ],
+        [
+          "Config_PB",
+          "Connect_UPF"
+        ],
+        [
+          "Connect_UPF",
+          "Bypass_Authentication"
+        ]
+      ],
+      "num_samples": 1000,
+      "num_features": 15
+    },
+    "model_file": "model.pkl",
+    "metadata_file": "metadata.json"
+  },
+  "random_density_0.2_2": {
+    "path": "/home/ubuntu/5GSPP/2. Posture Prediction/Approach 2-ESMDBN/data/random_density_0.2_2",
+    "metadata": {
+      "num_nodes": 12,
+      "num_edges": 17,
+      "nodes": [
+        "Query_SMF",
+        "Connect_NRF",
+        "Launch_Agent",
+        "goal_node",
+        "Access_Server",
+        "Rule_based_MPB",
+        "Connect_SMF",
+        "Logon_PB",
+        "Connect_UPF",
+        "Create_GTP",
+        "Bypass_Authentication",
+        "Config_PB"
+      ],
+      "edges": [
+        [
+          "Query_SMF",
+          "Connect_NRF"
+        ],
+        [
+          "Query_SMF",
+          "Launch_Agent"
+        ],
+        [
+          "Query_SMF",
+          "goal_node"
+        ],
+        [
+          "Connect_NRF",
+          "Launch_Agent"
+        ],
+        [
+          "Connect_NRF",
+          "Logon_PB"
+        ],
+        [
+          "Launch_Agent",
+          "Connect_UPF"
+        ],
+        [
+          "Launch_Agent",
+          "Logon_PB"
+        ],
+        [
+          "Access_Server",
+          "Rule_based_MPB"
+        ],
+        [
+          "Access_Server",
+          "Connect_SMF"
+        ],
+        [
+          "Rule_based_MPB",
+          "Launch_Agent"
+        ],
+        [
+          "Connect_SMF",
+          "Config_PB"
+        ],
+        [
+          "Logon_PB",
+          "Config_PB"
+        ],
+        [
+          "Logon_PB",
+          "goal_node"
+        ],
+        [
+          "Create_GTP",
+          "Connect_UPF"
+        ],
+        [
+          "Create_GTP",
+          "Bypass_Authentication"
+        ],
+        [
+          "Bypass_Authentication",
+          "Logon_PB"
+        ],
+        [
+          "Config_PB",
+          "goal_node"
+        ]
+      ],
+      "num_samples": 1000,
+      "num_features": 13
+    },
+    "model_file": "model.pkl",
+    "metadata_file": "metadata.json"
+  },
+  "random_density_0.3_1": {
+    "path": "/home/ubuntu/5GSPP/2. Posture Prediction/Approach 2-ESMDBN/data/random_density_0.3_1",
+    "metadata": {
+      "num_nodes": 12,
+      "num_edges": 19,
+      "nodes": [
+        "Bypass_Authentication",
+        "Logon_PB",
+        "Connect_NEF",
+        "Create_GTP",
+        "Rule_based_MPB",
+        "Connect_SMF",
+        "Config_PB",
+        "SystemUseNotPB",
+        "Deploy_malware",
+        "Connect_NRF",
+        "goal_node",
+        "Agent_based_MPB"
+      ],
+      "edges": [
+        [
+          "Bypass_Authentication",
+          "Logon_PB"
+        ],
+        [
+          "Bypass_Authentication",
+          "Connect_NEF"
+        ],
+        [
+          "Bypass_Authentication",
+          "Create_GTP"
+        ],
+        [
+          "Logon_PB",
+          "Config_PB"
+        ],
+        [
+          "Logon_PB",
+          "SystemUseNotPB"
+        ],
+        [
+          "Logon_PB",
+          "Deploy_malware"
+        ],
+        [
+          "Connect_NEF",
+          "Connect_NRF"
+        ],
+        [
+          "Connect_NEF",
+          "goal_node"
+        ],
+        [
+          "Connect_NEF",
+          "Agent_based_MPB"
+        ],
+        [
+          "Create_GTP",
+          "SystemUseNotPB"
+        ],
+        [
+          "Rule_based_MPB",
+          "Connect_SMF"
+        ],
+        [
+          "Rule_based_MPB",
+          "Create_GTP"
+        ],
+        [
+          "Connect_SMF",
+          "Agent_based_MPB"
+        ],
+        [
+          "Config_PB",
+          "Create_GTP"
+        ],
+        [
+          "Config_PB",
+          "SystemUseNotPB"
+        ],
+        [
+          "Connect_NRF",
+          "goal_node"
+        ],
+        [
+          "goal_node",
+          "Create_GTP"
+        ],
+        [
+          "goal_node",
+          "SystemUseNotPB"
+        ],
+        [
+          "Agent_based_MPB",
+          "SystemUseNotPB"
+        ]
+      ],
+      "num_samples": 1000,
+      "num_features": 13
+    },
+    "model_file": "model.pkl",
+    "metadata_file": "metadata.json"
+  },
+  "random_density_0.3_2": {
+    "path": "/home/ubuntu/5GSPP/2. Posture Prediction/Approach 2-ESMDBN/data/random_density_0.3_2",
+    "metadata": {
+      "num_nodes": 14,
+      "num_edges": 30,
+      "nodes": [
+        "Create_GTP",
+        "Portable_Execution",
+        "Bypass_Authentication",
+        "Connect_SMF",
+        "goal_node",
+        "Launch_Agent",
+        "Authentication",
+        "Connect_UE",
+        "Deploy_malware",
+        "Connect_NEF",
+        "Access_Server",
+        "Exfiltrating_data",
+        "Logon_PB",
+        "Connect_C2"
+      ],
+      "edges": [
+        [
+          "Create_GTP",
+          "Portable_Execution"
+        ],
+        [
+          "Create_GTP",
+          "Bypass_Authentication"
+        ],
+        [
+          "Create_GTP",
+          "Connect_SMF"
+        ],
+        [
+          "Create_GTP",
+          "goal_node"
+        ],
+        [
+          "Bypass_Authentication",
+          "Connect_C2"
+        ],
+        [
+          "Connect_SMF",
+          "Connect_NEF"
+        ],
+        [
+          "Connect_SMF",
+          "Connect_C2"
+        ],
+        [
+          "Launch_Agent",
+          "Authentication"
+        ],
+        [
+          "Launch_Agent",
+          "Connect_UE"
+        ],
+        [
+          "Launch_Agent",
+          "Deploy_malware"
+        ],
+        [
+          "Launch_Agent",
+          "Connect_NEF"
+        ],
+        [
+          "Authentication",
+          "Portable_Execution"
+        ],
+        [
+          "Authentication",
+          "Access_Server"
+        ],
+        [
+          "Authentication",
+          "Bypass_Authentication"
+        ],
+        [
+          "Authentication",
+          "Connect_SMF"
+        ],
+        [
+          "Authentication",
+          "Connect_NEF"
+        ],
+        [
+          "Connect_UE",
+          "Exfiltrating_data"
+        ],
+        [
+          "Connect_UE",
+          "Logon_PB"
+        ],
+        [
+          "Connect_UE",
+          "Access_Server"
+        ],
+        [
+          "Connect_UE",
+          "Bypass_Authentication"
+        ],
+        [
+          "Connect_UE",
+          "Connect_SMF"
+        ],
+        [
+          "Connect_UE",
+          "Connect_NEF"
+        ],
+        [
+          "Deploy_malware",
+          "Bypass_Authentication"
+        ],
+        [
+          "Deploy_malware",
+          "Connect_NEF"
+        ],
+        [
+          "Access_Server",
+          "Connect_NEF"
+        ],
+        [
+          "Access_Server",
+          "goal_node"
+        ],
+        [
+          "Exfiltrating_data",
+          "Deploy_malware"
+        ],
+        [
+          "Exfiltrating_data",
+          "goal_node"
+        ],
+        [
+          "Logon_PB",
+          "Access_Server"
+        ],
+        [
+          "Logon_PB",
+          "Bypass_Authentication"
+        ]
+      ],
+      "num_samples": 1000,
+      "num_features": 14
+    },
+    "model_file": "model.pkl",
+    "metadata_file": "metadata.json"
+  },
+  "random_density_0.4_1": {
+    "path": "/home/ubuntu/5GSPP/2. Posture Prediction/Approach 2-ESMDBN/data/random_density_0.4_1",
+    "metadata": {
+      "num_nodes": 12,
+      "num_edges": 23,
+      "nodes": [
+        "Deploy_malware",
+        "Connect_PCF",
+        "Bypass_Authentication",
+        "SystemUseNotPB",
+        "Agent_based_MPB",
+        "Connect_C2",
+        "Connect_UE",
+        "Access_Server",
+        "Authentication",
+        "Connect_NEF",
+        "Launch_Agent",
+        "goal_node"
+      ],
+      "edges": [
+        [
+          "Deploy_malware",
+          "Connect_PCF"
+        ],
+        [
+          "Deploy_malware",
+          "Bypass_Authentication"
+        ],
+        [
+          "Deploy_malware",
+          "SystemUseNotPB"
+        ],
+        [
+          "Deploy_malware",
+          "Agent_based_MPB"
+        ],
+        [
+          "Connect_PCF",
+          "SystemUseNotPB"
+        ],
+        [
+          "Connect_PCF",
+          "Authentication"
+        ],
+        [
+          "Bypass_Authentication",
+          "Connect_NEF"
+        ],
+        [
+          "Bypass_Authentication",
+          "Connect_UE"
+        ],
+        [
+          "Bypass_Authentication",
+          "Launch_Agent"
+        ],
+        [
+          "SystemUseNotPB",
+          "goal_node"
+        ],
+        [
+          "SystemUseNotPB",
+          "Launch_Agent"
+        ],
+        [
+          "Agent_based_MPB",
+          "Launch_Agent"
+        ],
+        [
+          "Connect_C2",
+          "Bypass_Authentication"
+        ],
+        [
+          "Connect_C2",
+          "Connect_UE"
+        ],
+        [
+          "Connect_C2",
+          "Access_Server"
+        ],
+        [
+          "Connect_UE",
+          "Agent_based_MPB"
+        ],
+        [
+          "Connect_UE",
+          "Launch_Agent"
+        ],
+        [
+          "Access_Server",
+          "SystemUseNotPB"
+        ],
+        [
+          "Access_Server",
+          "Launch_Agent"
+        ],
+        [
+          "Connect_NEF",
+          "Connect_UE"
+        ],
+        [
+          "Connect_NEF",
+          "goal_node"
+        ],
+        [
+          "Connect_NEF",
+          "Authentication"
+        ],
+        [
+          "Connect_NEF",
+          "Launch_Agent"
+        ]
+      ],
+      "num_samples": 1000,
+      "num_features": 12
+    },
+    "model_file": "model.pkl",
+    "metadata_file": "metadata.json"
+  },
+  "random_density_0.4_2": {
+    "path": "/home/ubuntu/5GSPP/2. Posture Prediction/Approach 2-ESMDBN/data/random_density_0.4_2",
+    "metadata": {
+      "num_nodes": 12,
+      "num_edges": 28,
+      "nodes": [
+        "Connect_SMF",
+        "Exfiltrating_data",
+        "Agent_based_MPB",
+        "goal_node",
+        "Token_Impersonation",
+        "Connect_PCF",
+        "Launch_Agent",
+        "Deploy_malware",
+        "Authentication",
+        "Query_SMF",
+        "Connect_UE",
+        "Create_GTP"
+      ],
+      "edges": [
+        [
+          "Connect_SMF",
+          "Exfiltrating_data"
+        ],
+        [
+          "Connect_SMF",
+          "Agent_based_MPB"
+        ],
+        [
+          "Connect_SMF",
+          "goal_node"
+        ],
+        [
+          "Exfiltrating_data",
+          "Connect_PCF"
+        ],
+        [
+          "Exfiltrating_data",
+          "goal_node"
+        ],
+        [
+          "Exfiltrating_data",
+          "Authentication"
+        ],
+        [
+          "Agent_based_MPB",
+          "Query_SMF"
+        ],
+        [
+          "Agent_based_MPB",
+          "Connect_UE"
+        ],
+        [
+          "goal_node",
+          "Authentication"
+        ],
+        [
+          "Token_Impersonation",
+          "Exfiltrating_data"
+        ],
+        [
+          "Token_Impersonation",
+          "Connect_PCF"
+        ],
+        [
+          "Token_Impersonation",
+          "Agent_based_MPB"
+        ],
+        [
+          "Token_Impersonation",
+          "Launch_Agent"
+        ],
+        [
+          "Token_Impersonation",
+          "goal_node"
+        ],
+        [
+          "Token_Impersonation",
+          "Deploy_malware"
+        ],
+        [
+          "Connect_PCF",
+          "Agent_based_MPB"
+        ],
+        [
+          "Connect_PCF",
+          "Query_SMF"
+        ],
+        [
+          "Connect_PCF",
+          "Connect_UE"
+        ],
+        [
+          "Connect_PCF",
+          "goal_node"
+        ],
+        [
+          "Connect_PCF",
+          "Authentication"
+        ],
+        [
+          "Launch_Agent",
+          "Authentication"
+        ],
+        [
+          "Query_SMF",
+          "Launch_Agent"
+        ],
+        [
+          "Query_SMF",
+          "Create_GTP"
+        ],
+        [
+          "Query_SMF",
+          "Connect_UE"
+        ],
+        [
+          "Query_SMF",
+          "Authentication"
+        ],
+        [
+          "Connect_UE",
+          "goal_node"
+        ],
+        [
+          "Connect_UE",
+          "Authentication"
+        ],
+        [
+          "Connect_UE",
+          "Deploy_malware"
+        ]
+      ],
+      "num_samples": 1000,
+      "num_features": 12
+    },
+    "model_file": "model.pkl",
+    "metadata_file": "metadata.json"
+  },
+  "random_density_0.5_1": {
+    "path": "/home/ubuntu/5GSPP/2. Posture Prediction/Approach 2-ESMDBN/data/random_density_0.5_1",
+    "metadata": {
+      "num_nodes": 13,
+      "num_edges": 38,
+      "nodes": [
+        "Config_PB",
+        "Bypass_Authentication",
+        "SystemUseNotPB",
+        "Access_Server",
+        "Rule_based_MPB",
+        "Connect_UE",
+        "Connect_NRF",
+        "Agent_based_MPB",
+        "goal_node",
+        "Connect_UPF",
+        "Logon_PB",
+        "Portable_Execution",
+        "Connect_NEF"
+      ],
+      "edges": [
+        [
+          "Config_PB",
+          "Bypass_Authentication"
+        ],
+        [
+          "Config_PB",
+          "SystemUseNotPB"
+        ],
+        [
+          "Config_PB",
+          "Access_Server"
+        ],
+        [
+          "Config_PB",
+          "Rule_based_MPB"
+        ],
+        [
+          "Config_PB",
+          "Connect_UE"
+        ],
+        [
+          "Bypass_Authentication",
+          "SystemUseNotPB"
+        ],
+        [
+          "Bypass_Authentication",
+          "Access_Server"
+        ],
+        [
+          "Bypass_Authentication",
+          "Rule_based_MPB"
+        ],
+        [
+          "Bypass_Authentication",
+          "Connect_UE"
+        ],
+        [
+          "Bypass_Authentication",
+          "Connect_NRF"
+        ],
+        [
+          "Bypass_Authentication",
+          "Agent_based_MPB"
+        ],
+        [
+          "Bypass_Authentication",
+          "goal_node"
+        ],
+        [
+          "SystemUseNotPB",
+          "Connect_UPF"
+        ],
+        [
+          "SystemUseNotPB",
+          "Access_Server"
+        ],
+        [
+          "SystemUseNotPB",
+          "Connect_NRF"
+        ],
+        [
+          "SystemUseNotPB",
+          "Logon_PB"
+        ],
+        [
+          "SystemUseNotPB",
+          "Agent_based_MPB"
+        ],
+        [
+          "SystemUseNotPB",
+          "goal_node"
+        ],
+        [
+          "Access_Server",
+          "Connect_NRF"
+        ],
+        [
+          "Access_Server",
+          "Logon_PB"
+        ],
+        [
+          "Access_Server",
+          "Connect_NEF"
+        ],
+        [
+          "Access_Server",
+          "Agent_based_MPB"
+        ],
+        [
+          "Access_Server",
+          "goal_node"
+        ],
+        [
+          "Rule_based_MPB",
+          "Connect_NEF"
+        ],
+        [
+          "Rule_based_MPB",
+          "goal_node"
+        ],
+        [
+          "Connect_NRF",
+          "Connect_NEF"
+        ],
+        [
+          "Agent_based_MPB",
+          "goal_node"
+        ],
+        [
+          "Connect_UPF",
+          "Access_Server"
+        ],
+        [
+          "Connect_UPF",
+          "Rule_based_MPB"
+        ],
+        [
+          "Connect_UPF",
+          "Connect_UE"
+        ],
+        [
+          "Connect_UPF",
+          "Agent_based_MPB"
+        ],
+        [
+          "Logon_PB",
+          "Agent_based_MPB"
+        ],
+        [
+          "Logon_PB",
+          "goal_node"
+        ],
+        [
+          "Portable_Execution",
+          "Connect_UPF"
+        ],
+        [
+          "Portable_Execution",
+          "Access_Server"
+        ],
+        [
+          "Portable_Execution",
+          "Agent_based_MPB"
+        ],
+        [
+          "Connect_NEF",
+          "Agent_based_MPB"
+        ],
+        [
+          "Connect_NEF",
+          "goal_node"
+        ]
+      ],
+      "num_samples": 1000,
+      "num_features": 13
+    },
+    "model_file": "model.pkl",
+    "metadata_file": "metadata.json"
+  },
+  "random_density_0.5_2": {
+    "path": "/home/ubuntu/5GSPP/2. Posture Prediction/Approach 2-ESMDBN/data/random_density_0.5_2",
+    "metadata": {
+      "num_nodes": 11,
+      "num_edges": 27,
+      "nodes": [
+        "SystemUseNotPB",
+        "Connect_UPF",
+        "Logon_PB",
+        "Deploy_malware",
+        "Config_PB",
+        "Agent_based_MPB",
+        "goal_node",
+        "Remote_access_PB",
+        "Connect_PCF",
+        "Connect_NEF",
+        "Connect_SMF"
+      ],
+      "edges": [
+        [
+          "SystemUseNotPB",
+          "Connect_UPF"
+        ],
+        [
+          "SystemUseNotPB",
+          "Logon_PB"
+        ],
+        [
+          "SystemUseNotPB",
+          "Deploy_malware"
+        ],
+        [
+          "SystemUseNotPB",
+          "Config_PB"
+        ],
+        [
+          "SystemUseNotPB",
+          "Agent_based_MPB"
+        ],
+        [
+          "SystemUseNotPB",
+          "goal_node"
+        ],
+        [
+          "SystemUseNotPB",
+          "Remote_access_PB"
+        ],
+        [
+          "Connect_UPF",
+          "Logon_PB"
+        ],
+        [
+          "Connect_UPF",
+          "Deploy_malware"
+        ],
+        [
+          "Connect_UPF",
+          "Connect_PCF"
+        ],
+        [
+          "Logon_PB",
+          "Deploy_malware"
+        ],
+        [
+          "Logon_PB",
+          "Connect_PCF"
+        ],
+        [
+          "Logon_PB",
+          "Connect_NEF"
+        ],
+        [
+          "Logon_PB",
+          "Connect_SMF"
+        ],
+        [
+          "Deploy_malware",
+          "Agent_based_MPB"
+        ],
+        [
+          "Deploy_malware",
+          "Connect_NEF"
+        ],
+        [
+          "Deploy_malware",
+          "Remote_access_PB"
+        ],
+        [
+          "Config_PB",
+          "Connect_NEF"
+        ],
+        [
+          "Agent_based_MPB",
+          "Connect_NEF"
+        ],
+        [
+          "goal_node",
+          "Remote_access_PB"
+        ],
+        [
+          "goal_node",
+          "Connect_SMF"
+        ],
+        [
+          "Connect_PCF",
+          "Agent_based_MPB"
+        ],
+        [
+          "Connect_PCF",
+          "Connect_NEF"
+        ],
+        [
+          "Connect_PCF",
+          "goal_node"
+        ],
+        [
+          "Connect_PCF",
+          "Connect_SMF"
+        ],
+        [
+          "Connect_NEF",
+          "goal_node"
+        ],
+        [
+          "Connect_NEF",
+          "Remote_access_PB"
+        ]
+      ],
+      "num_samples": 1000,
+      "num_features": 11
+    },
+    "model_file": "model.pkl",
+    "metadata_file": "metadata.json"
+  },
+  "attack_logon_1": {
+    "path": "/home/ubuntu/5GSPP/2. Posture Prediction/Approach 2-ESMDBN/data/attack_logon_1",
+    "metadata": {
+      "num_nodes": 10,
+      "num_edges": 9,
+      "nodes": [
+        "Logon_PB",
+        "Authentication",
+        "Access_Server",
+        "Token_Impersonation",
+        "Deploy_malware",
+        "Config_PB",
+        "Connect_NRF",
+        "Connect_SMF",
+        "Exfiltrating_data",
+        "goal_node"
+      ],
+      "edges": [
+        [
+          "Logon_PB",
+          "Authentication"
+        ],
+        [
+          "Authentication",
+          "Access_Server"
+        ],
+        [
+          "Access_Server",
+          "Token_Impersonation"
+        ],
+        [
+          "Token_Impersonation",
+          "Deploy_malware"
+        ],
+        [
+          "Deploy_malware",
+          "Config_PB"
+        ],
+        [
+          "Config_PB",
+          "Connect_NRF"
+        ],
+        [
+          "Connect_NRF",
+          "Connect_SMF"
+        ],
+        [
+          "Connect_SMF",
+          "Exfiltrating_data"
+        ],
+        [
+          "Exfiltrating_data",
+          "goal_node"
+        ]
+      ],
+      "num_samples": 1000,
+      "num_features": 10
+    },
+    "model_file": "model.pkl",
+    "metadata_file": "metadata.json"
+  },
+  "attack_logon_2": {
+    "path": "/home/ubuntu/5GSPP/2. Posture Prediction/Approach 2-ESMDBN/data/attack_logon_2",
+    "metadata": {
+      "num_nodes": 10,
+      "num_edges": 9,
+      "nodes": [
+        "Logon_PB",
+        "Authentication",
+        "Access_Server",
+        "Token_Impersonation",
+        "Deploy_malware",
+        "Config_PB",
+        "Connect_NRF",
+        "Connect_SMF",
+        "Exfiltrating_data",
+        "goal_node"
+      ],
+      "edges": [
+        [
+          "Logon_PB",
+          "Authentication"
+        ],
+        [
+          "Authentication",
+          "Access_Server"
+        ],
+        [
+          "Access_Server",
+          "Token_Impersonation"
+        ],
+        [
+          "Token_Impersonation",
+          "Deploy_malware"
+        ],
+        [
+          "Deploy_malware",
+          "Config_PB"
+        ],
+        [
+          "Config_PB",
+          "Connect_NRF"
+        ],
+        [
+          "Connect_NRF",
+          "Connect_SMF"
+        ],
+        [
+          "Connect_SMF",
+          "Exfiltrating_data"
+        ],
+        [
+          "Exfiltrating_data",
+          "goal_node"
+        ]
+      ],
+      "num_samples": 1000,
+      "num_features": 10
+    },
+    "model_file": "model.pkl",
+    "metadata_file": "metadata.json"
+  },
+  "attack_remote_1": {
+    "path": "/home/ubuntu/5GSPP/2. Posture Prediction/Approach 2-ESMDBN/data/attack_remote_1",
+    "metadata": {
+      "num_nodes": 7,
+      "num_edges": 6,
+      "nodes": [
+        "Remote_access_PB",
+        "Access_Server",
+        "Agent_based_MPB",
+        "Launch_Agent",
+        "Token_Impersonation",
+        "Exfiltrating_data",
+        "goal_node"
+      ],
+      "edges": [
+        [
+          "Remote_access_PB",
+          "Access_Server"
+        ],
+        [
+          "Access_Server",
+          "Agent_based_MPB"
+        ],
+        [
+          "Agent_based_MPB",
+          "Launch_Agent"
+        ],
+        [
+          "Launch_Agent",
+          "Token_Impersonation"
+        ],
+        [
+          "Token_Impersonation",
+          "Exfiltrating_data"
+        ],
+        [
+          "Exfiltrating_data",
+          "goal_node"
+        ]
+      ],
+      "num_samples": 1000,
+      "num_features": 7
+    },
+    "model_file": "model.pkl",
+    "metadata_file": "metadata.json"
+  },
+  "attack_remote_2": {
+    "path": "/home/ubuntu/5GSPP/2. Posture Prediction/Approach 2-ESMDBN/data/attack_remote_2",
+    "metadata": {
+      "num_nodes": 7,
+      "num_edges": 7,
+      "nodes": [
+        "Remote_access_PB",
+        "Access_Server",
+        "Agent_based_MPB",
+        "Launch_Agent",
+        "Token_Impersonation",
+        "Exfiltrating_data",
+        "goal_node"
+      ],
+      "edges": [
+        [
+          "Remote_access_PB",
+          "Access_Server"
+        ],
+        [
+          "Access_Server",
+          "Agent_based_MPB"
+        ],
+        [
+          "Agent_based_MPB",
+          "Launch_Agent"
+        ],
+        [
+          "Launch_Agent",
+          "Token_Impersonation"
+        ],
+        [
+          "Token_Impersonation",
+          "Exfiltrating_data"
+        ],
+        [
+          "Token_Impersonation",
+          "goal_node"
+        ],
+        [
+          "Exfiltrating_data",
+          "goal_node"
+        ]
+      ],
+      "num_samples": 1000,
+      "num_features": 7
+    },
+    "model_file": "model.pkl",
+    "metadata_file": "metadata.json"
+  },
+  "attack_internal_1": {
+    "path": "/home/ubuntu/5GSPP/2. Posture Prediction/Approach 2-ESMDBN/data/attack_internal_1",
+    "metadata": {
+      "num_nodes": 7,
+      "num_edges": 7,
+      "nodes": [
+        "SystemUseNotPB",
+        "Access_Server",
+        "Portable_Execution",
+        "Agent_based_MPB",
+        "Deploy_malware",
+        "Exfiltrating_data",
+        "goal_node"
+      ],
+      "edges": [
+        [
+          "SystemUseNotPB",
+          "Access_Server"
+        ],
+        [
+          "Access_Server",
+          "Portable_Execution"
+        ],
+        [
+          "Access_Server",
+          "Exfiltrating_data"
+        ],
+        [
+          "Portable_Execution",
+          "Agent_based_MPB"
+        ],
+        [
+          "Agent_based_MPB",
+          "Deploy_malware"
+        ],
+        [
+          "Deploy_malware",
+          "Exfiltrating_data"
+        ],
+        [
+          "Exfiltrating_data",
+          "goal_node"
+        ]
+      ],
+      "num_samples": 1000,
+      "num_features": 7
+    },
+    "model_file": "model.pkl",
+    "metadata_file": "metadata.json"
+  },
+  "attack_internal_2": {
+    "path": "/home/ubuntu/5GSPP/2. Posture Prediction/Approach 2-ESMDBN/data/attack_internal_2",
+    "metadata": {
+      "num_nodes": 7,
+      "num_edges": 7,
+      "nodes": [
+        "SystemUseNotPB",
+        "Access_Server",
+        "Portable_Execution",
+        "Agent_based_MPB",
+        "Deploy_malware",
+        "Exfiltrating_data",
+        "goal_node"
+      ],
+      "edges": [
+        [
+          "SystemUseNotPB",
+          "Access_Server"
+        ],
+        [
+          "Access_Server",
+          "Portable_Execution"
+        ],
+        [
+          "Portable_Execution",
+          "Agent_based_MPB"
+        ],
+        [
+          "Agent_based_MPB",
+          "Deploy_malware"
+        ],
+        [
+          "Agent_based_MPB",
+          "goal_node"
+        ],
+        [
+          "Deploy_malware",
+          "Exfiltrating_data"
+        ],
+        [
+          "Exfiltrating_data",
+          "goal_node"
+        ]
+      ],
+      "num_samples": 1000,
+      "num_features": 7
+    },
+    "model_file": "model.pkl",
+    "metadata_file": "metadata.json"
+  },
+  "attack_bypass_1": {
+    "path": "/home/ubuntu/5GSPP/2. Posture Prediction/Approach 2-ESMDBN/data/attack_bypass_1",
+    "metadata": {
+      "num_nodes": 9,
+      "num_edges": 8,
+      "nodes": [
+        "Input_Credentials",
+        "Bypass_Authentication",
+        "Access_Server",
+        "Query_SMF",
+        "Connect_NRF",
+        "Connect_SMF",
+        "Connect_UPF",
+        "Create_GTP",
+        "goal_node"
+      ],
+      "edges": [
+        [
+          "Input_Credentials",
+          "Bypass_Authentication"
+        ],
+        [
+          "Bypass_Authentication",
+          "Access_Server"
+        ],
+        [
+          "Access_Server",
+          "Query_SMF"
+        ],
+        [
+          "Query_SMF",
+          "Connect_NRF"
+        ],
+        [
+          "Connect_NRF",
+          "Connect_SMF"
+        ],
+        [
+          "Connect_SMF",
+          "Connect_UPF"
+        ],
+        [
+          "Connect_UPF",
+          "Create_GTP"
+        ],
+        [
+          "Create_GTP",
+          "goal_node"
+        ]
+      ],
+      "num_samples": 1000,
+      "num_features": 9
+    },
+    "model_file": "model.pkl",
+    "metadata_file": "metadata.json"
+  },
+  "attack_bypass_2": {
+    "path": "/home/ubuntu/5GSPP/2. Posture Prediction/Approach 2-ESMDBN/data/attack_bypass_2",
+    "metadata": {
+      "num_nodes": 9,
+      "num_edges": 9,
+      "nodes": [
+        "Input_Credentials",
+        "Bypass_Authentication",
+        "Access_Server",
+        "Query_SMF",
+        "Connect_NRF",
+        "Connect_SMF",
+        "Connect_UPF",
+        "Create_GTP",
+        "goal_node"
+      ],
+      "edges": [
+        [
+          "Input_Credentials",
+          "Bypass_Authentication"
+        ],
+        [
+          "Bypass_Authentication",
+          "Access_Server"
+        ],
+        [
+          "Access_Server",
+          "Query_SMF"
+        ],
+        [
+          "Query_SMF",
+          "Connect_NRF"
+        ],
+        [
+          "Connect_NRF",
+          "Connect_SMF"
+        ],
+        [
+          "Connect_SMF",
+          "Connect_UPF"
+        ],
+        [
+          "Connect_SMF",
+          "goal_node"
+        ],
+        [
+          "Connect_UPF",
+          "Create_GTP"
+        ],
+        [
+          "Create_GTP",
+          "goal_node"
+        ]
+      ],
+      "num_samples": 1000,
+      "num_features": 9
+    },
+    "model_file": "model.pkl",
+    "metadata_file": "metadata.json"
+  },
+  "mixed_variation_1": {
+    "path": "/home/ubuntu/5GSPP/2. Posture Prediction/Approach 2-ESMDBN/data/mixed_variation_1",
+    "metadata": {
+      "num_nodes": 12,
+      "num_edges": 23,
+      "nodes": [
+        "Input_Credentials",
+        "Config_PB",
+        "Remote_access_PB",
+        "Logon_PB",
+        "Connect_UPF",
+        "Access_Server",
+        "Connect_NRF",
+        "Connect_UE",
+        "goal_node",
+        "Agent_based_MPB",
+        "Connect_NEF",
+        "Exfiltrating_data"
+      ],
+      "edges": [
+        [
+          "Input_Credentials",
+          "Config_PB"
+        ],
+        [
+          "Input_Credentials",
+          "Remote_access_PB"
+        ],
+        [
+          "Config_PB",
+          "Access_Server"
+        ],
+        [
+          "Config_PB",
+          "Agent_based_MPB"
+        ],
+        [
+          "Remote_access_PB",
+          "Connect_UE"
+        ],
+        [
+          "Logon_PB",
+          "Connect_UPF"
+        ],
+        [
+          "Logon_PB",
+          "Access_Server"
+        ],
+        [
+          "Logon_PB",
+          "Connect_NRF"
+        ],
+        [
+          "Logon_PB",
+          "Remote_access_PB"
+        ],
+        [
+          "Logon_PB",
+          "Connect_UE"
+        ],
+        [
+          "Connect_UPF",
+          "Access_Server"
+        ],
+        [
+          "Connect_UPF",
+          "Connect_NRF"
+        ],
+        [
+          "Connect_UPF",
+          "goal_node"
+        ],
+        [
+          "Connect_UPF",
+          "Connect_UE"
+        ],
+        [
+          "Connect_UPF",
+          "Agent_based_MPB"
+        ],
+        [
+          "Access_Server",
+          "Exfiltrating_data"
+        ],
+        [
+          "Connect_NRF",
+          "goal_node"
+        ],
+        [
+          "Connect_UE",
+          "Agent_based_MPB"
+        ],
+        [
+          "goal_node",
+          "Connect_UE"
+        ],
+        [
+          "Connect_NEF",
+          "Access_Server"
+        ],
+        [
+          "Connect_NEF",
+          "goal_node"
+        ],
+        [
+          "Connect_NEF",
+          "Exfiltrating_data"
+        ],
+        [
+          "Connect_NEF",
+          "Connect_UE"
+        ]
+      ],
+      "num_samples": 1000,
+      "num_features": 12
+    },
+    "model_file": "model.pkl",
+    "metadata_file": "metadata.json"
+  },
+  "mixed_variation_2": {
+    "path": "/home/ubuntu/5GSPP/2. Posture Prediction/Approach 2-ESMDBN/data/mixed_variation_2",
+    "metadata": {
+      "num_nodes": 7,
+      "num_edges": 6,
+      "nodes": [
+        "Remote_access_PB",
+        "Access_Server",
+        "Agent_based_MPB",
+        "Launch_Agent",
+        "Token_Impersonation",
+        "Exfiltrating_data",
+        "goal_node"
+      ],
+      "edges": [
+        [
+          "Remote_access_PB",
+          "Access_Server"
+        ],
+        [
+          "Access_Server",
+          "Agent_based_MPB"
+        ],
+        [
+          "Agent_based_MPB",
+          "Launch_Agent"
+        ],
+        [
+          "Launch_Agent",
+          "Token_Impersonation"
+        ],
+        [
+          "Token_Impersonation",
+          "Exfiltrating_data"
+        ],
+        [
+          "Exfiltrating_data",
+          "goal_node"
+        ]
+      ],
+      "num_samples": 1000,
+      "num_features": 7
+    },
+    "model_file": "model.pkl",
+    "metadata_file": "metadata.json"
+  },
+  "mixed_variation_3": {
+    "path": "/home/ubuntu/5GSPP/2. Posture Prediction/Approach 2-ESMDBN/data/mixed_variation_3",
+    "metadata": {
+      "num_nodes": 12,
+      "num_edges": 22,
+      "nodes": [
+        "Create_GTP",
+        "Remote_access_PB",
+        "Input_Credentials",
+        "Connect_PCF",
+        "Connect_NRF",
+        "Connect_UE",
+        "Token_Impersonation",
+        "Portable_Execution",
+        "goal_node",
+        "Deploy_malware",
+        "Query_SMF",
+        "Agent_based_MPB"
+      ],
+      "edges": [
+        [
+          "Create_GTP",
+          "Remote_access_PB"
+        ],
+        [
+          "Remote_access_PB",
+          "Connect_UE"
+        ],
+        [
+          "Remote_access_PB",
+          "Token_Impersonation"
+        ],
+        [
+          "Remote_access_PB",
+          "Connect_PCF"
+        ],
+        [
+          "Remote_access_PB",
+          "Portable_Execution"
+        ],
+        [
+          "Remote_access_PB",
+          "Connect_NRF"
+        ],
+        [
+          "Remote_access_PB",
+          "goal_node"
+        ],
+        [
+          "Input_Credentials",
+          "Connect_PCF"
+        ],
+        [
+          "Input_Credentials",
+          "Connect_NRF"
+        ],
+        [
+          "Connect_PCF",
+          "Connect_NRF"
+        ],
+        [
+          "Connect_UE",
+          "Deploy_malware"
+        ],
+        [
+          "Connect_UE",
+          "Token_Impersonation"
+        ],
+        [
+          "Connect_UE",
+          "Portable_Execution"
+        ],
+        [
+          "Token_Impersonation",
+          "Connect_PCF"
+        ],
+        [
+          "Token_Impersonation",
+          "Connect_NRF"
+        ],
+        [
+          "Portable_Execution",
+          "goal_node"
+        ],
+        [
+          "Deploy_malware",
+          "Portable_Execution"
+        ],
+        [
+          "Deploy_malware",
+          "goal_node"
+        ],
+        [
+          "Query_SMF",
+          "Connect_PCF"
+        ],
+        [
+          "Query_SMF",
+          "Agent_based_MPB"
+        ],
+        [
+          "Query_SMF",
+          "goal_node"
+        ],
+        [
+          "Agent_based_MPB",
+          "goal_node"
+        ]
+      ],
+      "num_samples": 1000,
+      "num_features": 12
+    },
+    "model_file": "model.pkl",
+    "metadata_file": "metadata.json"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "num_nodes": 12,
+  "num_edges": 17,
+  "nodes": [
+    "Query_SMF",
+    "Connect_NRF",
+    "Launch_Agent",
+    "goal_node",
+    "Access_Server",
+    "Rule_based_MPB",
+    "Connect_SMF",
+    "Logon_PB",
+    "Connect_UPF",
+    "Create_GTP",
+    "Bypass_Authentication",
+    "Config_PB"
+  ],
+  "edges": [
+    [
+      "Query_SMF",
+      "Connect_NRF"
+    ],
+    [
+      "Query_SMF",
+      "Launch_Agent"
+    ],
+    [
+      "Query_SMF",
+      "goal_node"
+    ],
+    [
+      "Connect_NRF",
+      "Launch_Agent"
+    ],
+    [
+      "Connect_NRF",
+      "Logon_PB"
+    ],
+    [
+      "Launch_Agent",
+      "Connect_UPF"
+    ],
+    [
+      "Launch_Agent",
+      "Logon_PB"
+    ],
+    [
+      "Access_Server",
+      "Rule_based_MPB"
+    ],
+    [
+      "Access_Server",
+      "Connect_SMF"
+    ],
+    [
+      "Rule_based_MPB",
+      "Launch_Agent"
+    ],
+    [
+      "Connect_SMF",
+      "Config_PB"
+    ],
+    [
+      "Logon_PB",
+      "Config_PB"
+    ],
+    [
+      "Logon_PB",
+      "goal_node"
+    ],
+    [
+      "Create_GTP",
+      "Connect_UPF"
+    ],
+    [
+      "Create_GTP",
+      "Bypass_Authentication"
+    ],
+    [
+      "Bypass_Authentication",
+      "Logon_PB"
+    ],
+    [
+      "Config_PB",
+      "goal_node"
+    ]
+  ],
+  "num_samples": 1000,
+  "num_features": 13
+}

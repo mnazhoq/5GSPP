@@ -13,13 +13,6 @@ Architecture (inspired by provenance-graph + temporal correlation literature):
   7. Anomaly Detection – Isolation Forest (unsupervised) + optional GNN embedding
   8. Alert Correlation – group related alerts into incidents via DBSCAN
 
-References / inspiration:
-  - Holmes (NDSS 2019): provenance graph APT detection
-  - UNICORN (NDSS 2020): sketch-based provenance for APT
-  - DeepTraLog (ICSE 2022): trace+log → GNN anomaly detection
-  - Logs2Graphs (2023): unsupervised GNN log anomaly detection
-  - ADSeq-5GCN (HPSR 2023): Bi-LSTM NF interaction modeling
-  - LogMS (Frontiers 2024): multi-source log fusion
 """
 
 import re

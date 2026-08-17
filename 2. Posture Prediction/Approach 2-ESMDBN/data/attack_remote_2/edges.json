@@ -1,0 +1,30 @@
+[
+  [
+    "Remote_access_PB",
+    "Access_Server"
+  ],
+  [
+    "Access_Server",
+    "Agent_based_MPB"
+  ],
+  [
+    "Agent_based_MPB",
+    "Launch_Agent"
+  ],
+  [
+    "Launch_Agent",
+    "Token_Impersonation"
+  ],
+  [
+    "Token_Impersonation",
+    "Exfiltrating_data"
+  ],
+  [
+    "Token_Impersonation",
+    "goal_node"
+  ],
+  [
+    "Exfiltrating_data",
+    "goal_node"
+  ]
+]

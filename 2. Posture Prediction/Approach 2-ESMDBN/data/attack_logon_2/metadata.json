@@ -1,0 +1,56 @@
+{
+  "num_nodes": 10,
+  "num_edges": 9,
+  "nodes": [
+    "Logon_PB",
+    "Authentication",
+    "Access_Server",
+    "Token_Impersonation",
+    "Deploy_malware",
+    "Config_PB",
+    "Connect_NRF",
+    "Connect_SMF",
+    "Exfiltrating_data",
+    "goal_node"
+  ],
+  "edges": [
+    [
+      "Logon_PB",
+      "Authentication"
+    ],
+    [
+      "Authentication",
+      "Access_Server"
+    ],
+    [
+      "Access_Server",
+      "Token_Impersonation"
+    ],
+    [
+      "Token_Impersonation",
+      "Deploy_malware"
+    ],
+    [
+      "Deploy_malware",
+      "Config_PB"
+    ],
+    [
+      "Config_PB",
+      "Connect_NRF"
+    ],
+    [
+      "Connect_NRF",
+      "Connect_SMF"
+    ],
+    [
+      "Connect_SMF",
+      "Exfiltrating_data"
+    ],
+    [
+      "Exfiltrating_data",
+      "goal_node"
+    ]
+  ],
+  "num_samples": 1000,
+  "num_features": 10
+}

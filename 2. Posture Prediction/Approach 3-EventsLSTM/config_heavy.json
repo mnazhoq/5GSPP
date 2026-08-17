@@ -1,0 +1,9 @@
+{
+  "window_size": 5,
+  "prediction_steps": 3,
+  "lstm_units": 128,
+  "dropout_rate": 0.3,
+  "epochs": 100,
+  "batch_size": 16,
+  "validation_split": 0.2
+}
