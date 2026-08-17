@@ -91,53 +91,7 @@ cd Approach\ 1-PostureValueLSTM
 python posture_rate_of_change_experiment.py
 ```
 
-**Output:**
-- Figure: `results/Fig25_experimental_results.png` (4-subplot visualization)
-- Report: `results/Fig25_EXPERIMENT_REPORT.md` (detailed results table)
 
-### Expected Runtime
-- Total: ~8-12 minutes
-- Per pattern: ~2-4 minutes (3 patterns × 5 ROC configurations)
-- Per configuration: ~30-60 seconds
-
-## 📊 Experimental Results (Figure 25)
-
-### Results Summary Table
-
-#### NO PATTERN
-| ROC | RMSE | MAE |
-|-----|------|-----|
-| 0.1 | 0.055464 | 0.051590 |
-| 0.3 | 0.136550 | 0.127011 |
-| 0.5 | 0.243551 | 0.237983 |
-| 0.7 | 0.299564 | 0.298792 |
-| 0.9 | 0.298661 | 0.298263 |
-
-#### FIXED-LENGTH PATTERN ⭐
-| ROC | RMSE | MAE |
-|-----|------|-----|
-| 0.1 | 0.043531 | 0.032042 |
-| 0.3 | 0.145208 | 0.095940 |
-| 0.5 | 0.163417 | 0.115099 |
-| 0.7 | 0.186821 | 0.139654 |
-| 0.9 | 0.215269 | 0.134792 |
-
-#### VARIABLE-LENGTH PATTERN
-| ROC | RMSE | MAE |
-|-----|------|-----|
-| 0.1 | 0.049915 | 0.038341 |
-| 0.3 | 0.224386 | 0.175195 |
-| 0.5 | 0.223157 | 0.167889 |
-| 0.7 | 0.191949 | 0.155362 |
-| 0.9 | 0.229949 | 0.174586 |
-
-### Key Findings
-
-1. **Best Performance**: Fixed-length patterns achieve lowest errors across all ROC values
-2. **Pattern Effect**: Structured patterns (fixed/variable) outperform random patterns
-3. **ROC Sensitivity**: Error increases with ROC (faster changes = harder prediction)
-4. **MAE vs RMSE**: MAE consistently lower, indicating few extreme outliers
-5. **Stability**: Fixed-length pattern shows most stable scaling
 
 ## 📁 Directory Structure
 
