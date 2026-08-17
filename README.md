@@ -12,7 +12,7 @@
 
 5GSPP is a comprehensive framework for evaluating and predicting security posture in 5G networks. The project implements multiple approaches to:
 
-1. **Evaluate** security posture based on attack patterns and event sequences
+1. **Evaluate** security posture based on security monitoring and auditing tools results.
 2. **Predict** future security states using various machine learning and probabilistic models
 3. **Correlate** security events in logs to identify attack patterns
 4. **Identify** pre- and post-conditions for attack scenarios
@@ -27,7 +27,7 @@ Builds and analyzes Bayesian Networks from security event sequences to evaluate 
 #### Key Components:
 - **Model Builder**: Constructs Bayesian Network models from attack sequences
 - **Sequence Generation**: Generates synthetic attack sequences with varying patterns
-- **Attack Simulation**: Simulates different attack scenarios
+- **Attack Simulation**: Simulated attack data
 - **Data Sequences**: Contains sample sequence data for evaluation
 
 #### Key Files:
@@ -88,7 +88,6 @@ Correlates and analyzes security logs to identify event patterns and attack beha
 **Key Features**:
 - Log parsing and event extraction
 - Temporal correlation of security events
-- Attack pattern detection
 - Rule-based event correlation
 
 ---
@@ -165,15 +164,7 @@ python events_lstm_experiment.py
 
 ## 📊 Experimental Results
 
-The framework includes comprehensive experiments:
-
-- **E1**: Per-attack performance evaluation
-- **E2**: Ablation studies on model components
-- **E3**: Temporal window sensitivity analysis
-- **E5**: Scalability testing across dataset sizes
-- **E6**: Baseline comparison studies
-
-Results are stored in CSV format in respective experiment folders.
+Check the paper for detail resutl and explanation.
 
 ---
 
@@ -194,16 +185,6 @@ Results are stored in CSV format in respective experiment folders.
 
 ---
 
-## 🔗 References
-
-For detailed information on each component, see:
-
-1. **Posture Evaluation**: See [1. Posture Evaluation/modeBuilderReadMe.md](1.%20Posture%20Evaluation/modeBuilderReadMe.md)
-2. **Approach 1**: See [2. Posture Prediction/Approach 1-PostureValueLSTM/README.md](2.%20Posture%20Prediction/Approach%201-PostureValueLSTM/README.md)
-3. **Approach 2**: See [2. Posture Prediction/Approach 2-ESMDBN/README.md](2.%20Posture%20Prediction/Approach%202-ESMDBN/README.md)
-
----
-
 ## 📝 Important Notes
 
 ### Compatibility
@@ -221,27 +202,3 @@ Always activate the project's virtual environment before running scripts:
 ```bash
 source /home/ubuntu/5GSPP/venv_5gspp/bin/activate
 ```
-
----
-
-## 🤝 Contributors
-
-- Md Nazmul Hoq
-- Suryadipta Majumdar
-- Luis Suarez
-- Lingyu Wang
-- Amine Boukhtouta
-- Makan Pourzandi
-- Mourad Debbabi
-
----
-
-## 📄 License
-
-See LICENSE file in the repository for details.
-
----
-
-## 📞 Support
-
-For issues or questions about specific components, refer to the individual README files in each subdirectory.
