@@ -11,11 +11,12 @@
 ## 📋 Overview
 
 5GSPP is a comprehensive framework for evaluating and predicting security posture in 5G networks. The project implements multiple approaches to:
+![alt text](image.png)
 
 1. **Evaluate** security posture based on security monitoring and auditing tools results.
 2. **Predict** future security states using various machine learning and probabilistic models
-3. **Correlate** security events in logs to identify attack patterns
-4. **Identify** pre- and post-conditions for attack scenarios
+3. **Correlate** correlating security results from different tools
+4. **Identify** pre- and post-conditions for a security policy breach 
 
 ---
 
@@ -79,11 +80,11 @@ Key features:
 - Event embeddings and sequence modeling
 - Multiple time-window configurations
 - Scalability testing across different dataset sizes
-
+- use model builder to infer posture value using the predicted events
 ---
 
 ### 3. **Log Analysis** (`2. Posture Prediction/Log parser/`)
-Correlates and analyzes security logs to identify event patterns and attack behaviors.
+Correlates and analyzes security tool results 
 
 **Key Features**:
 - Log parsing and event extraction
@@ -164,7 +165,7 @@ python events_lstm_experiment.py
 
 ## 📊 Experimental Results
 
-Check the paper for detail resutl and explanation.
+Results are documented in the paper and stored in CSV files within respective experiment folders. See the paper for detailed analysis and interpretation.
 
 ---
 
