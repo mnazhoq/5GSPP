@@ -18,18 +18,15 @@ The approach tests three distinct pattern types to evaluate LSTM robustness:
 1. **No Pattern** (Random Direction Changes)
    - Each step independently chooses direction (up/down)
    - Baseline for random posture fluctuations
-   - Performance: RMSE 0.055 (ROC 0.1) → 0.299 (ROC 0.9)
 
 2. **Fixed-Length Pattern** (Consistent Trends)
    - Maintains direction for 5-8 consecutive steps
    - Then switches direction
    - Simulates security posture drift periods
-   - Performance: RMSE 0.044 (ROC 0.1) → 0.215 (ROC 0.9) ⭐ **Best Overall**
 
 3. **Variable-Length Pattern** (Probabilistic Changes)
    - Changes direction with 15% probability at each step
    - Realistic security event behavior
-   - Performance: RMSE 0.050 (ROC 0.1) → 0.230 (ROC 0.9)
 
 ### Rate of Change (ROC)
 
